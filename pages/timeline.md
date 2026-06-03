@@ -6,37 +6,47 @@ permalink: /timeline/
 
 <h2>Placement Timeline</h2>
 
-<ol class="list-group list-group-horizontal">
-{% for home in site.data.placement %}
-<li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto">
-      <div class="fw-bold">{{ home.home }} {{ home.date-start }} {{ home.date-end }}</div>
-      <div>{{ home.about }}</div>
-    </div>
-  </li>
-  {% endfor %}
-</ol>
+<table>
+  <thead>
+    <tr>
+      <th>Placement</th>
+      <th>Dates</th>
+      <th>Type</th>
+      <th>Funding</th>
+      <th>Council rate</th>
+      <th>Billed to family</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for home in site.data.placement %}
+    <tr>
+      <td><strong style="color:#1F4E79">{{ home.home }}</strong></td>
+      <td style="white-space:nowrap">{{ home.date-start }}<br>to {{ home.date-end }}</td>
+      <td>{{ home.type }}</td>
+      <td>{{ home.funding }}</td>
+      <td>{{ home.weekly-fee-council }}</td>
+      <td>{{ home.weekly-fee-billed }}</td>
+      <td>{{ home.about }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 <hr>
 <h2>General Timeline</h2>
 
-<p class="lead">Private evidential record supporting the LGSCO investigation into Southend-on-Sea City Council's Adult Social Care handling of Mrs Bridget Penelope Walker's care, funding, and assessment.</p>
-
-<ol class="list-group list-group-horizontal">
-{% for date in site.data.timeline %}
-<li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto">
-      <div class="fw-bold">{{ date.date }}</div>
-      {{ date.event }}
-    </div>
+<ul class="timeline">
+  {% for entry in site.data.timeline %}
+  <li{% if entry.key %} class="key"{% endif %}>
+    <span class="date">{{ entry.date }}</span>
+    <span class="event">{{ entry.event }}</span>
   </li>
   {% endfor %}
-</ol>
+</ul>
 
-
-<h2>Navigate</h2>
 <div class="cat-jump">
-  <a href="{{ '/timeline/' | relative_url }}">Timeline</a>
+  <a href="{{ '/' | relative_url }}">Summary</a>
   <a href="{{ '/issues/' | relative_url }}">Issue Register</a>
   <a href="{{ '/document-integrity/' | relative_url }}">Document Integrity</a>
   <a href="{{ '/dst/' | relative_url }}">DST Analysis</a>
