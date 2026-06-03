@@ -4,17 +4,35 @@ title: "Timeline"
 permalink: /timeline/
 ---
 
+<h2>Placement Timeline</h2>
+
+<ol class="list-group list-group-horizontal">
+{% for home in site.data.placement %}
+<li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">{{ home.home }} {{ home.date-start }} {{ home.date-end }}</div>
+      <div>{{ home.about }}</div>
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+
+<hr>
+<h2>General Timeline</h2>
+
 <p class="lead">Private evidential record supporting the LGSCO investigation into Southend-on-Sea City Council's Adult Social Care handling of Mrs Bridget Penelope Walker's care, funding, and assessment.</p>
 
-<h2>Timeline</h2>
-
-<ul class="list-group list-group-horizontal">
+<ol class="list-group list-group-horizontal">
 {% for date in site.data.timeline %}
-  <li class="list-group-item">{{ timeline.date }}</li>
-  <li class="list-group-item">{{ timeline.event }}</li>
-  <li class="list-group-item">A third item</li>
+<li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">{{ date.date }}</div>
+      {{ date.event }}
+    </div>
+  </li>
   {% endfor %}
-</ul>
+</ol>
+
 
 <h2>Navigate</h2>
 <div class="cat-jump">

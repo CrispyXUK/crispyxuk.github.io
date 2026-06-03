@@ -1,0 +1,10 @@
+# Chronological timeline. Each entry: date, event, key (true = highlight)
+- home: "Westcliff Lodge"
+  date-start: "27/09/2022"
+  date-end: "11/04/2023"
+  about: "Westcliff Lodge is described as a Residential Care Home for the Elderly. The contract was signed on behalf of Westcliff Lodge on 28 September 2022 (one day after the 27 September 2022 admission). The fee fields in the template are blank in this copy. This confirms the Westcliff Lodge placement and its residential character."
+
+- home: "Palmerston Care Home"
+  date-start: "11/04/2022"
+  date-end: "present"
+  about: "The address is 23-25 Palmerston Road — not 21 The Council's own placement contract names Palmerston House at 23-25 Palmerston Road. The CQC registration and the ICB letter give the address as 21 Palmerston Road. The Land Registry shows 23-25 Palmerston Road is owned by Higgins Property Investments, while 21 Palmerston Road (the CQC-registered Palmerston House Care Home) is owned by Tekin and Gulhan. There is an address inconsistency in the Council's own documents about which building Bridget is actually in."
