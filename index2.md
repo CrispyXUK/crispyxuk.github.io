@@ -12,7 +12,7 @@ permalink: /
   <div class="card"><span class="n">11</span><span class="l">DST domains analysed</span></div>
 </div>
 
-<h2>Background</h2>
+<h2>Background2</h2>
 <p>Mrs Bridget Penelope Walker (born 08 October 1950) resides at Palmerston House, Palmerston Road, Westcliff-on-Sea. She has advanced dementia, lacks capacity, and has been subject to DoLS authorisation since November 2020. She is bedbound, non-verbal, doubly incontinent, requires 2-staff hoist transfers, has a Waterlow score of 27, covert medication, and a DNACPR.</p>
 <p>Mark Walker and Kira Walker hold joint Lasting Power of Attorney across both domains. A third sibling, Donna Walker, is in Australia.</p>
 <p>Bridget entered Admiral Court (a registered nursing home) in September 2020, initially as respite, becoming permanent due to Covid-19. The family self-funded £1,450/week for two years with no FNC and no CHC referral, depleting capital from above £23,250 to below £14,250. She moved to Westcliff Lodge (residential) in September 2022 and to Palmerston House (residential, CQC-prohibited from providing nursing care) in April 2023.</p>
