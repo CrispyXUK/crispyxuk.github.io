@@ -15,11 +15,9 @@ permalink: /timeline/
 <h2>Timeline</h2>
 
 <ul>
-{% for date in site.data.timeline %}
+{% for date in data.timeline %}
   <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
-    </a>
+      <b>{{ timeline.date }}</b>
   </li>
 {% endfor %}
 </ul>
