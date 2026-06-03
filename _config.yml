@@ -6,19 +6,23 @@ case_ref_icb: "BC70014"
 investigator: "Paul Gyan-Apenteng"
 version: "5"
 last_updated: "June 2026"
- 
+
 # GitHub Pages / build
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
- 
+
 # Exclude build/source files from the site output
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
   - vendor
- 
+
+# Tell Jekyll to process the pages folder
+include:
+  - pages
+
 # Navigation order
 nav:
   - title: "Summary"
