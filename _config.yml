@@ -1,5 +1,39 @@
-title: Time Machine theme
-description: Time Machine is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-time-machine
+title: "Bridget Walker — Evidential Record"
+description: "Private case record for LGSCO Ref 25 019 572 / Council Ref 30000912"
+case_ref_lgsco: "25 019 572"
+case_ref_council: "30000912"
+case_ref_icb: "BC70014"
+investigator: "Paul Gyan-Apenteng"
+version: "5"
+last_updated: "June 2026"
+ 
+# GitHub Pages / build
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+ 
+# Exclude build/source files from the site output
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+ 
+# Navigation order
+nav:
+  - title: "Summary"
+    url: "/"
+  - title: "Timeline"
+    url: "/timeline/"
+  - title: "Issue Register"
+    url: "/issues/"
+  - title: "Document Integrity"
+    url: "/document-integrity/"
+  - title: "DST Analysis"
+    url: "/dst/"
+  - title: "Key Parties"
+    url: "/parties/"
+  - title: "Evidence"
+    url: "/evidence/"
+  - title: "Status"
+    url: "/status/"
