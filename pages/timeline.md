@@ -14,6 +14,12 @@ permalink: /timeline/
 
 <h2>Timeline</h2>
 
+<div class="summary-grid">
+  <div class="card"><span class="n">{{ site.data.timeline | size }}</span><span class="l">issues catalogued across seven categories</span></div>
+  <div class="card"><span class="n">{{ site.data.timeline | size }}</span><span class="l">timeline events (Apr 2020 – May 2026)</span></div>
+  <div class="card"><span class="n">11</span><span class="l">DST domains analysed</span></div>
+</div>
+
 <h2>Navigate</h2>
 <div class="cat-jump">
   <a href="{{ '/timeline/' | relative_url }}">Timeline</a>
