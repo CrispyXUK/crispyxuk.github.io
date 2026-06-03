@@ -14,11 +14,22 @@ permalink: /timeline/
 
 <h2>Timeline</h2>
 
-<div class="summary-grid">
-  <div class="card"><span class="n">{{ site.data.timeline | size }}</span><span class="l">issues catalogued across seven categories</span></div>
-  <div class="card"><span class="n">{{ site.data.timeline | size }}</span><span class="l">timeline events (Apr 2020 – May 2026)</span></div>
-  <div class="card"><span class="n">11</span><span class="l">DST domains analysed</span></div>
-</div>
+<ul>
+{% for date in site.data.timeline %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+<ul class="list-group list-group-horizontal">
+{% for date in site.data.timeline %}
+  <li class="list-group-item">{{ timeline.date }}</li>
+  <li class="list-group-item">{{ timeline.event }}</li>
+  <li class="list-group-item">A third item</li>
+</ul>
 
 <h2>Navigate</h2>
 <div class="cat-jump">
