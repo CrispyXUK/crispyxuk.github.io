@@ -27,6 +27,7 @@ permalink: /timeline/
   <li class="list-group-item">{{ timeline.date }}</li>
   <li class="list-group-item">{{ timeline.event }}</li>
   <li class="list-group-item">A third item</li>
+  {% endfor %}
 </ul>
 
 <h2>Navigate</h2>
