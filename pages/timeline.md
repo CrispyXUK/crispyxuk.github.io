@@ -6,21 +6,7 @@ permalink: /timeline/
 
 <p class="lead">Private evidential record supporting the LGSCO investigation into Southend-on-Sea City Council's Adult Social Care handling of Mrs Bridget Penelope Walker's care, funding, and assessment.</p>
 
-<div class="summary-grid">
-  <div class="card"><span class="n">{{ site.data.issues | size }}</span><span class="l">issues catalogued across seven categories</span></div>
-  <div class="card"><span class="n">{{ site.data.timeline | size }}</span><span class="l">timeline events (Apr 2020 – May 2026)</span></div>
-  <div class="card"><span class="n">11</span><span class="l">DST domains analysed</span></div>
-</div>
-
 <h2>Timeline</h2>
-
-<ul>
-{% for date in data.timeline %}
-  <li>
-      <b>{{ timeline.date }}</b>
-  </li>
-{% endfor %}
-</ul>
 
 <ul class="list-group list-group-horizontal">
 {% for date in site.data.timeline %}
