@@ -38,3 +38,4 @@ Icon?
 *.env
 *.key
 *.secret
+.DS_Store
