@@ -1,35 +1,83 @@
 ---
 layout: default
-title: "List of Issues"
+title: "Issue Register"
 permalink: /issues/
 ---
 
-<div class="summary-grid">
-  <div class="card"><span class="n">{{ site.data.issues | size }}</span><span class="l">issues catalogued across seven categories</span></div>
-  <div class="card"><span class="n">{{ site.data.timeline | size }}</span><span class="l">timeline events (Apr 2020 – May 2026)</span></div>
-  <div class="card"><span class="n">11</span><span class="l">DST domains analysed</span></div>
+{% assign category_labels = "chc-fnc:CHC / FNC|dst-challenge:DST Challenge|financial-dpa:Financial / DPA|care-act:Care Act|dols-mca:DoLS / MCA|doc-integrity:Document Integrity|complaint-handling:Complaint Handling|regulatory:Regulatory" | split: "|" %}
+
+{% assign high_count = site.data.issues | where: "severity", "high" | size %}
+{% assign med_count  = site.data.issues | where: "severity", "medium" | size %}
+{% assign low_count  = site.data.issues | where: "severity", "low" | size %}
+
+<p class="lead">{{ site.data.issues | size }} issues across eight categories. <span class="sev-high">&#9679;</span> {{ high_count }} high &nbsp;<span class="sev-medium">&#9679;</span> {{ med_count }} medium &nbsp;<span class="sev-low">&#9679;</span> {{ low_count }} lower priority.</p>
+
+<div class="cat-jump">
+  <a href="#chc-fnc">CHC / FNC</a>
+  <a href="#dst-challenge">DST Challenge</a>
+  <a href="#financial-dpa">Financial / DPA</a>
+  <a href="#care-act">Care Act</a>
+  <a href="#dols-mca">DoLS / MCA</a>
+  <a href="#doc-integrity">Document Integrity</a>
+  <a href="#complaint-handling">Complaint Handling</a>
+  <a href="#regulatory">Regulatory</a>
 </div>
 
-<ol class="list-group list-group-horizontal">
-{% for num in site.data.issues %}
-<li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto"></div>
-      <div class="fw-bold">{{ num.category }}</div>
-      <div>{{ num.issue }}</div>
-      <div><b>Evidence</b> {{ num.evidence }}</div>
-  </li>
-  <hr>
+{% assign grouped = site.data.issues | group_by: "category" %}
+{% assign category_order = "chc-fnc,dst-challenge,financial-dpa,care-act,dols-mca,doc-integrity,complaint-handling,regulatory" | split: "," %}
+
+{% for cat_slug in category_order %}
+  {% assign group = grouped | where: "name", cat_slug | first %}
+  {% if group %}
+
+  {% assign label = "" %}
+  {% for pair in category_labels %}
+    {% assign parts = pair | split: ":" %}
+    {% if parts[0] == cat_slug %}
+      {% assign label = parts[1] %}
+    {% endif %}
   {% endfor %}
-</ol>
 
+<h2 id="{{ cat_slug }}">{{ label }}</h2>
 
-<h2>Navigate</h2>
+<table>
+  <thead>
+    <tr>
+      <th style="width:38px">#</th>
+      <th style="width:28px"></th>
+      <th>Issue</th>
+      <th style="width:220px">Key evidence</th>
+      <th style="width:110px">Timeline</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for issue in group.items %}
+    <tr id="issue-{{ issue.num }}"{% if issue.severity == "high" %} class="sev-high-row"{% endif %}>
+      <td class="num">{{ issue.num }}</td>
+      <td style="text-align:center"><span class="sev-dot sev-{{ issue.severity }}" title="{{ issue.severity }} priority">&#9679;</span></td>
+      <td>{{ issue.issue }}</td>
+      <td><small>{{ issue.evidence }}</small></td>
+      <td>
+        {% if issue.timeline-refs %}
+          {% for ref in issue.timeline-refs %}
+            <a class="tl-ref" href="{{ '/timeline/' | relative_url }}#tl-{{ ref }}">{{ ref }}</a>
+          {% endfor %}
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+  {% endif %}
+{% endfor %}
+
 <div class="cat-jump">
+  <a href="{{ '/' | relative_url }}">Summary</a>
   <a href="{{ '/timeline/' | relative_url }}">Timeline</a>
-  <a href="{{ '/issues/' | relative_url }}">Issue Register</a>
   <a href="{{ '/document-integrity/' | relative_url }}">Document Integrity</a>
   <a href="{{ '/dst/' | relative_url }}">DST Analysis</a>
-  <a href="{{ '/parties/' | relative_url }}">Key Parties</a>
+  <a href="{{ '/emails/' | relative_url }}">Emails</a>
   <a href="{{ '/evidence/' | relative_url }}">Evidence</a>
-  <a href="{{ '/status/' | relative_url }}">Status</a>
+  <a href="{{ '/clinical/' | relative_url }}#status">Status</a>
 </div>

@@ -6,6 +6,8 @@ permalink: /document-integrity/
 
 <p class="lead">Each document below records Palmerston House as Bridget's current address. The placement data confirms when she actually moved there. A current-address field cannot contain a future address — each document marked <strong style="background:#FCE4D6;padding:2px 5px;">impossible</strong> was either created after the move and backdated, or populated from a future-dated system entry.</p>
 
+<div class="strand-note"><strong>Issues evidenced here:</strong> Issues <a href="{{ '/issues/' | relative_url }}#issue-36">36</a>–<a href="{{ '/issues/' | relative_url }}#issue-39">39</a>, <a href="{{ '/issues/' | relative_url }}#issue-46">46</a> — the strongest single evidential strand. Future addresses on past documents, PDF creation dates post-dating stated execution, and documents withheld until after the LGSCO referral. Directly supports a finding of deliberate backdating.</div>
+
 <table>
   <thead>
     <tr>
@@ -73,5 +75,5 @@ permalink: /document-integrity/
   <a href="{{ '/dst/' | relative_url }}">DST Analysis</a>
   <a href="{{ '/parties/' | relative_url }}">Key Parties</a>
   <a href="{{ '/evidence/' | relative_url }}">Evidence</a>
-  <a href="{{ '/status/' | relative_url }}">Status</a>
+  <a href="{{ '/clinical/' | relative_url }}#status">Status</a>
 </div>

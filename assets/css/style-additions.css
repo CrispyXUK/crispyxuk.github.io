@@ -1,0 +1,116 @@
+/* ── Post / email layout ─────────────────────────────── */
+.post-meta{
+  background:var(--grey);border:1px solid var(--mid);
+  border-radius:6px;padding:16px 20px;margin-bottom:2em
+}
+.post-meta-grid{display:flex;flex-direction:column;gap:6px}
+.post-meta-row{display:flex;gap:12px;align-items:baseline}
+.post-meta-label{
+  flex:0 0 130px;font-weight:600;font-size:.85rem;
+  color:var(--blue);text-transform:uppercase;letter-spacing:.03em
+}
+.post-meta-value{flex:1;font-size:.9rem}
+
+/* Issue badge */
+.issue-badge{
+  display:inline-block;background:var(--header-blue);color:#fff;
+  border-radius:12px;padding:2px 8px;font-size:.78rem;
+  font-weight:600;text-decoration:none;margin:0 2px
+}
+.issue-badge:hover{background:var(--blue);color:#fff}
+
+/* Email body formatting */
+.post-content hr{border:none;border-top:1px solid var(--mid);margin:1.5em 0}
+.post-content blockquote{
+  border-left:4px solid var(--header-blue);margin:1em 0;
+  padding:.5em 1em;background:var(--grey);font-style:normal
+}
+
+/* Significance sections */
+.post-content h2{
+  margin-top:2em;padding-top:.5em;
+  border-top:2px solid var(--light-blue)
+}
+
+/* Post navigation */
+.post-nav{
+  margin-top:3em;padding-top:1em;
+  border-top:1px solid var(--mid);
+  display:flex;justify-content:space-between;
+  align-items:center;flex-wrap:wrap;gap:8px
+}
+.post-nav-links{display:flex;gap:16px;flex-wrap:wrap}
+.post-nav-prev,.post-nav-next,.post-nav-index{
+  color:var(--header-blue);text-decoration:none;font-size:.9rem
+}
+.post-nav-prev:hover,.post-nav-next:hover,.post-nav-index:hover{
+  text-decoration:underline
+}
+.post-nav-index{font-weight:600}
+
+@media(max-width:720px){
+  .post-meta-row{flex-direction:column;gap:2px}
+  .post-meta-label{flex:none}
+  .post-nav{flex-direction:column;align-items:flex-start}
+}
+
+/* ── Severity indicators ──────────────────────────────── */
+.sev-dot{font-size:.7rem;line-height:1}
+.sev-high{color:#C00000}
+.sev-medium{color:#C55A11}
+.sev-low{color:#888}
+.sev-high-row{border-left:3px solid #C00000}
+.tl-ref{
+  display:inline-block;background:#D6E4F0;color:#1F4E79;
+  border-radius:4px;padding:1px 5px;font-size:.72rem;
+  font-weight:600;text-decoration:none;margin:1px 1px 1px 0;
+  white-space:nowrap
+}
+.tl-ref:hover{background:#2E75B6;color:#fff}
+
+/* Issue number badges on timeline entries */
+.tl-issue-refs{display:inline-flex;flex-wrap:wrap;gap:3px;margin-left:8px;vertical-align:middle}
+.issue-badge{
+  display:inline-block;background:var(--header-blue);color:#fff;
+  border-radius:10px;padding:1px 7px;font-size:.72rem;
+  font-weight:700;text-decoration:none
+}
+.issue-badge:hover{opacity:.8;color:#fff}
+.issue-badge-high{background:#C00000}
+.issue-badge-med{background:#C55A11}
+
+/* ── Key-strands callout ──────────────────────────────── */
+.strand-note{
+  background:#D6E4F0;border-left:4px solid #1F4E79;
+  padding:10px 14px;border-radius:0 6px 6px 0;
+  font-size:.88rem;margin-bottom:1.5em
+}
+.strand-note strong{color:#1F4E79}
+
+/* ── Print ────────────────────────────────────────────── */
+@media print{
+  .site-header,.site-nav,.nav-toggle,.cat-jump,.post-nav{display:none!important}
+  .site-footer{display:none!important}
+  body{font-size:11pt;color:#000;background:#fff}
+  .wrap{max-width:100%;padding:0}
+  main{padding:0}
+  .confidential{
+    border:1px solid #000;background:#fff;color:#000;
+    font-size:9pt;margin-bottom:12pt
+  }
+  .page-title{border-bottom:2pt solid #000;font-size:16pt;margin-bottom:12pt}
+  h2{font-size:13pt;border-bottom:1pt solid #ccc;page-break-after:avoid}
+  h3{font-size:11pt;page-break-after:avoid}
+  table{font-size:9pt;page-break-inside:auto}
+  tr{page-break-inside:avoid}
+  thead{display:table-header-group}
+  th{background:#1F4E79!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  a{color:#000;text-decoration:none}
+  a[href]:after{content:" (" attr(href) ")";font-size:8pt;color:#555}
+  a.tl-ref:after,.issue-badge:after{content:none}
+  .tl-ref{background:#eee;color:#000;border:1px solid #ccc}
+  .timeline li.key{background:#f5f5f5!important;border:1pt solid #ccc;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .sev-high-row{border-left:3pt solid #C00000!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .summary-grid{display:block}
+  .summary-grid .card{display:inline-block;width:48%;margin:.5em 0}
+}

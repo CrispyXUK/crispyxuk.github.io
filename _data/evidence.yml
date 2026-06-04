@@ -1,0 +1,258 @@
+# Evidence register
+# type: documentary | public | contemporaneous | forensic
+# obtained: true = in hand; false = outstanding
+
+- item: "Kira Walker email to Council Dementia Community Support Team"
+  date: "2 Apr 2020"
+  type: documentary
+  obtained: true
+
+- item: "Supported Self-Assessment confirmation (Service Request 6614531)"
+  date: "27 Jul 2020"
+  type: documentary
+  obtained: true
+
+- item: "Sweyne Court / Hayley Gibbs email (1:1 care liability; Jo Allen notified)"
+  date: "10 Sep 2020"
+  type: documentary
+  obtained: true
+
+- item: "Champions Recruitment Invoice SI-32 — £4,460.65 (1:1 care)"
+  date: "Sep 2020"
+  type: documentary
+  obtained: true
+
+- item: "Hallmark Healthcare (Admiral Court) admission correspondence and monthly invoices"
+  date: "Sep 2020 – Oct 2022"
+  type: documentary
+  obtained: true
+  note: "£1,450/week; final account 5 Oct 2022"
+
+- item: "DoLS Standard Authorisation and appointment of Kira Walker as RPR"
+  date: "20 Nov 2020"
+  type: documentary
+  obtained: true
+
+- item: "Westcliff Lodge resident contract"
+  date: "28 Sep 2022"
+  type: documentary
+  obtained: true
+  note: "Signed; confirms residential care home status"
+
+- item: "Westcliff Lodge manager letter (Nicky Bourouisa) — high-dependency warning"
+  date: "15 Nov 2022"
+  type: documentary
+  obtained: true
+  note: "Same month as CHC Checklist #1 finding threshold not met"
+
+- item: "Council Individual Placement Contract — Palmerston House"
+  date: "11 Apr 2023"
+  type: documentary
+  obtained: true
+  note: "Word metadata: created 13 Apr 2023; shows £750/wk fully Council-funded, £0 from resident"
+
+- item: "5 × Council CHC Checklists (Oct 2022, Feb 2023, Sep 2023, May 2024, Jun 2025)"
+  date: "Oct 2022 – Jun 2025"
+  type: documentary
+  obtained: true
+  note: "All withheld until 11 Mar 2026; all carry incorrect age and Palmerston address"
+
+- item: "2 × ASC Assessments (Nov 2022, Feb 2023)"
+  date: "Nov 2022 – Feb 2023"
+  type: documentary
+  obtained: true
+  note: "Both carry incorrect age and Palmerston address"
+
+- item: "NHS ICB CHC Checklist (Mid & South Essex ICB, Ref BC70014)"
+  date: "23 Jul 2025"
+  type: documentary
+  obtained: true
+
+- item: "NHS DST Section 2 — domain scoring only"
+  date: "29 Aug 2025"
+  type: documentary
+  obtained: true
+  note: "Section 1 and MDT narrative reasoning not yet disclosed"
+
+- item: "Lynne Gardiner email — FNC denial and reference to undisclosed 'Mercy' meeting"
+  date: "2 Sep 2025"
+  type: documentary
+  obtained: true
+
+- item: "ICB outcome letter — no Primary Health Need (Ref BC70014)"
+  date: "11 Sep 2025"
+  type: documentary
+  obtained: true
+  note: "Sent c/o Mark only, not both attorneys"
+
+- item: "Long Term Care & Support Plan Review (correctly records age 74)"
+  date: "9 Jul 2025"
+  type: documentary
+  obtained: true
+
+- item: "Palmerston House care plan"
+  date: "Aug 2025"
+  type: documentary
+  obtained: true
+  note: "Waterlow 27; bedbound; non-verbal; DNACPR; covert medication confirmed"
+
+- item: "GP Subject Access Request — Pall Mall Surgery"
+  date: "Jan 2020 – Sep 2025"
+  type: documentary
+  obtained: true
+  note: "242 pages"
+
+- item: "DPA Application Form — declares dependent occupants at 84 Bellhouse Road"
+  date: "16 Feb 2023"
+  type: documentary
+  obtained: true
+  note: "Section 3c names Alex James Walker (dependent child); property value £425,000"
+
+- item: "Deferred Payment Agreement"
+  date: "19 May 2023"
+  type: documentary
+  obtained: true
+  note: "Names Westcliff Lodge despite move to Palmerston 38 days earlier; PDF metadata: scanned 17 May 2023"
+
+- item: "CH1 legal charge (Land Registry) and HMLR correspondence"
+  date: "12 Jun 2023 / Jan 2026"
+  type: documentary
+  obtained: true
+
+- item: "Lynn Hyam emails — rates, move date, property disregard refusal, £24,265.63 demand"
+  date: "28 Aug 2025 / 13 Nov 2025"
+  type: documentary
+  obtained: true
+
+- item: "Financial assessment letters"
+  date: "2022, 2024, 2025"
+  type: documentary
+  obtained: true
+
+- item: "Pearl Adams email chain — recovery action and intelligence-seeking post-LGSCO"
+  date: "Mar – May 2026"
+  type: documentary
+  obtained: true
+
+- item: "Council complaint responses — first and final"
+  date: "30 Oct 2025 / 11 Mar 2026"
+  type: documentary
+  obtained: true
+
+- item: "First disclosure email — bundle of all withheld checklists and assessments"
+  date: "11 Mar 2026"
+  type: documentary
+  obtained: true
+
+- item: "LGSCO submission confirmation and acceptance letter"
+  date: "13 May 2026 / 18 May 2026"
+  type: documentary
+  obtained: true
+
+- item: "CQC location registration — Palmerston House Care Home (loc 1-156343233)"
+  date: ""
+  type: public
+  obtained: true
+  note: "Residential home; express condition prohibiting nursing care; Requires Improvement; two warning notices 18 Dec 2025"
+
+- item: "CQC provider registration — E&F Enterprises Ltd (1-128034129)"
+  date: ""
+  type: public
+  obtained: true
+
+- item: "Land Registry title EX240310 — 21 Palmerston Road"
+  date: ""
+  type: public
+  obtained: true
+  note: "Interchurch Care Centre; sold 18 Sep 2023"
+
+- item: "Land Registry title EX298329 — 23-25 Palmerston Road"
+  date: ""
+  type: public
+  obtained: true
+  note: "Higgins Property Investments Ltd"
+
+- item: "Council Tax exemption for Severe Mental Impairment — granted Sep 2019"
+  date: "Sep 2019"
+  type: public
+  obtained: true
+
+- item: "Westcliff Lodge WhatsApp — invoices, double-payment, refund"
+  date: "Sep 2022 – Apr 2023"
+  type: contemporaneous
+  obtained: true
+
+- item: "Walker family WhatsApp — Palmerston move, hip fracture"
+  date: "Apr – May 2023"
+  type: contemporaneous
+  obtained: true
+
+- item: "Walker family WhatsApp 'Mum' group — hospital attendances, cancer diagnosis"
+  date: "Oct – Dec 2023"
+  type: contemporaneous
+  obtained: true
+
+- item: "Voicemail evidence — Council contact patterns"
+  date: ""
+  type: contemporaneous
+  obtained: true
+  note: "To be transcribed"
+
+- item: "DPA PDF creation metadata (CreationDate D:20230517140747Z)"
+  date: "19 May 2023"
+  type: forensic
+  obtained: true
+
+- item: "June 2025 CHC checklist PDF — creation metadata 5 March 2026"
+  date: "5 Mar 2026"
+  type: forensic
+  obtained: true
+
+- item: "Council IPC (Word) — created 13 Apr 2023 against stated 11 Apr commencement"
+  date: "13 Apr 2023"
+  type: forensic
+  obtained: true
+
+- item: "LiquidLogic session token in disclosed document URLs"
+  date: ""
+  type: forensic
+  obtained: true
+  note: "Audit trail avenue identified"
+
+- item: "JPEG quantization analysis — LiquidLogic documents share identical libjpeg quality=90 pipeline"
+  date: ""
+  type: forensic
+  obtained: true
+
+- item: "Full DST — Section 1 and MDT narrative reasoning"
+  date: "29 Aug 2025"
+  type: documentary
+  obtained: false
+  note: "Requested; not yet disclosed"
+
+- item: "Records of the undisclosed 'Mercy' CHC consideration meeting"
+  date: ""
+  type: documentary
+  obtained: false
+  note: "Referenced in Gardiner email 2 Sep 2025; never disclosed"
+
+- item: "FNC assessment records for the Admiral Court period (or confirmation none exist)"
+  date: "Sep 2020 – Sep 2022"
+  type: documentary
+  obtained: false
+
+- item: "LiquidLogic server audit and HTTP access logs tied to the session token"
+  date: ""
+  type: forensic
+  obtained: false
+
+- item: "DoLS renewal documentation and MCA records 2021–2025"
+  date: "2021 – 2025"
+  type: documentary
+  obtained: false
+
+- item: "Signed DPA variation extending coverage to Palmerston House (or confirmation none exists)"
+  date: ""
+  type: documentary
+  obtained: false
+  note: "Required under DPA clause 15.1"

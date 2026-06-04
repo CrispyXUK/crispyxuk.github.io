@@ -1,0 +1,237 @@
+# Clinical data extracted from GP Subject Access Request records
+# Source: GP SAR Jan 2020 – Sep 2025 (242 pages, Pall Mall Surgery)
+
+# ── MEDICATIONS ──────────────────────────────────────────────────────────────
+
+medications:
+
+  allergy:
+    drug: "Dosulepin"
+    reaction: "Drowsiness"
+
+  final-list:
+    date: "September 2025"
+    note: "All listed as Repeat Medication (Past) — record closed at this point"
+    items:
+      - drug: "Memantine 10mg/ml oral solution"
+        dose: "20mg (2ml) nightly"
+        route: "Oral — covert"
+        indication: "Alzheimer's dementia"
+      - drug: "Promethazine hydrochloride 10mg tablets"
+        dose: "20mg at midday, 10mg at 4pm"
+        route: "Crushed — covert"
+        indication: "Agitated behaviour (dementia)"
+      - drug: "Buprenorphine 15mcg/hour transdermal patches"
+        dose: "1 patch weekly"
+        route: "Transdermal"
+        indication: "Chronic pain"
+      - drug: "Adcal-D3 1500mg/400 units effervescent tablets"
+        dose: "1 twice daily"
+        route: "Oral"
+        indication: "Bone protection (post NOF fracture)"
+      - drug: "Medroxyprogesterone 10mg tablets"
+        dose: "1 daily"
+        route: "Oral"
+        indication: "Endometrial hyperplasia (gynaecology)"
+      - drug: "Lactulose 3.1–3.7g/5ml oral solution"
+        dose: "10–15ml once daily PRN"
+        route: "Oral"
+        indication: "Constipation"
+      - drug: "Senna 7.5mg/5ml oral solution"
+        dose: "2×5ml at night PRN"
+        route: "Oral"
+        indication: "Constipation"
+      - drug: "Ensure Compact liquid"
+        dose: "1 bottle twice daily"
+        route: "Oral"
+        indication: "Nutritional supplementation"
+
+  history:
+    - date: "Sep 2022 – Apr 2023"
+      event: "Donepezil 10mg — in place at Westcliff Lodge"
+      detail: "On transfer to Palmerston House in April 2023, records document Bridget had previously been on Donepezil 10mg (cholinesterase inhibitor for Alzheimer's dementia) and Promethazine. No clear documentation of when Donepezil was initiated or by whom. Not present on the September 2025 final medication list — discontinued at an undocumented point, likely under palliative care guidance."
+      significance: "CHC Checklists #1 (Oct 2022) and #2 (Feb 2023) both record 'no medication' despite Donepezil and Promethazine being in place. Both descriptions are factually incorrect."
+
+    - date: "Oct 2020"
+      event: "Promethazine query on arrival at care home"
+      detail: "GP at Pall Mall Surgery could not find where Promethazine 10mg TDS had been initiated. Dementia Intensive Support Team had previously recommended 25mg BD at Sweyne Court. GP refused to prescribe without review or correspondence. Advised home to contact DIS team."
+      significance: "Medication history gap on admission — no continuity of prescribing record"
+
+    - date: "May 2023"
+      event: "Post-NOF fracture discharge medications"
+      detail: "Adcal-D3 1500mg/400 units BD (bone protection, 5 years to ~May 2028). Single dose Zoledronic acid given as inpatient. Co-codamol for 4 weeks post-surgery then stopped. Paracetamol liquid QDS PRN. Memantine 10mg/ml oral solution initiated by dementia team — titrated from 5mg up by 5mg/week to target 20mg."
+      significance: "Memantine initiated post hip fracture. Care home initially not informed of nighttime dosing requirement."
+
+    - date: "May 2023"
+      event: "Promethazine initiated by dementia team"
+      detail: "Promethazine 25mg TDS for agitated behaviour. Later revised to 20mg midday, 10mg 4pm, 20mg 8pm. July 2024: nighttime 20mg stopped (bedbound, excessively drowsy). Final dose: 20mg midday, 10mg 4pm — crushed, covert."
+      significance: "Anti-psychotic initiated for dementia behaviour. Covert administration required — MCA compliance not formally obtained until July 2024, over a year later."
+
+    - date: "30 May 2023"
+      event: "First request for covert medication administration"
+      detail: "Care home manager emailed GP requesting permission to crush medications — Bridget was spitting out tablets. First documented request for covert administration."
+      significance: "Covert administration began May 2023. Formal MCA Best Interest meeting not held until July 2024 — a gap of over 13 months. Medications were crushed and administered covertly throughout this period without a completed MCA process."
+
+    - date: "Sep 2023"
+      event: "Lactulose PRN prescribed"
+      detail: "Following care home visit for constipation. Patient had difficulty with tablets and tendency to pour drinks on floor."
+      significance: ""
+
+    - date: "Oct 2023"
+      event: "Buprenorphine patch initiated — 5mcg, increased to 10mcg"
+      detail: "Palliative care documented 5mcg Butec patch for hip pain for 6 weeks. GP increased to 10mcg at October ward round. Paracetamol liquid also prescribed QDS."
+      significance: "Ongoing chronic pain from hip fracture — palliative care involvement from Oct 2023."
+
+    - date: "Jan 2024"
+      event: "Medroxyprogesterone and Cefalexin prescribed"
+      detail: "Medroxyprogesterone 10mg OD from 10 Jan 2024 for endometrial hyperplasia following gynaecology review. Cefalexin liquid prescribed — care home flagged inability to swallow capsules, liquid requested."
+      significance: "Endometrial hyperplasia diagnosis January 2024. Cancer of cells of cervix diagnosed December 2023. These diagnoses are not reflected in the May 2024 CHC Checklist."
+
+    - date: "Feb 2024"
+      event: "Buprenorphine increased to 15mcg/hour"
+      detail: "Palliative care increased patch to 15mcg/hour weekly due to ongoing hip pain and pain on movement. LFTs slightly elevated (ALT) but otherwise within range."
+      significance: "Escalating analgesic requirement — pain not adequately controlled at lower dose."
+
+    - date: "Feb 2024"
+      event: "Laxido commenced"
+      detail: "Macrogol commenced by palliative care as lactulose inadequate for constipation. Care home manager confirmed near-daily use. Added to repeat prescription."
+      significance: ""
+
+    - date: "Mar 2025"
+      event: "Permethrin 5% cream — scabies outbreak"
+      detail: "Permethrin 5% cream 60g prescribed. To be applied over whole body including face, neck, scalp and ears, washed off after 8–12 hours, repeated after 7 days."
+      significance: "Scabies outbreak at Palmerston House in March 2025 — relevant to CQC Regulation 12 (Safe Care and Treatment) concerns."
+
+    - date: "Jul 2024"
+      event: "Full structured medication review (PCN pharmacist)"
+      detail: "Most comprehensive review documented. Full list: Memantine 20mg nightly (dose corrected to nighttime), Medroxyprogesterone 10mg OD, Lactulose PRN, Ensure Compact BD, Buprenorphine 15mcg/hour weekly, Adcal-D3 BD, Promethazine (nighttime dose stopped — bedbound/drowsy), Paracetamol reduced to 1g TDS from QDS due to weight 44.9kg (below 50kg threshold). Laxido added PRN. Anticholinergic Cognitive Burden Scale: 3."
+      significance: "Paracetamol dose reduced due to low weight (44.9kg). Anticholinergic burden score 3 — moderate to high, associated with increased confusion and sedation in existing dementia."
+
+    - date: "Jul 2025"
+      event: "Laxido replaced by Senna liquid"
+      detail: "Laxido stopped. Senna 7.5mg/5ml oral solution started PRN (2×5ml at night as needed). PRN protocol signed by pharmacist and GP."
+      significance: ""
+
+# ── MCA ASSESSMENTS ──────────────────────────────────────────────────────────
+
+mca-history:
+
+  - date: "10 Nov 2020"
+    event: "DoLS Standard Authorisation granted — Admiral Court"
+    detail: "Confirms Bridget lacked capacity. Kira Walker appointed RPR."
+    significance: "Capacity lacked from at least this date. All subsequent decisions should have had MCA compliance."
+
+  - date: "30 May 2023"
+    event: "Covert medication first requested — no MCA in place"
+    detail: "Care home manager emailed GP requesting permission to crush medications. No MCA Best Interest meeting held at this point."
+    significance: "Covert medication administered from May 2023 without a completed MCA process. Formal MCA Best Interest meeting not held until July 2024 — gap of over 13 months."
+
+  - date: "Jul 2024"
+    event: "First formal MCA assessment for covert medication"
+    detail: "GP home visit to complete formal MCA for covert administration. Found Bridget unable to understand, retain, weigh up or decide. Best Interest meeting held: doctor, pharmacist, care home manager, daughter (LPA) by telephone. All agreed to crush medications in food/drink. MCA1 form completed. However — GP left the practice and care home did not receive a copy. Caused a finding at subsequent CQC inspection."
+    significance: "Covert medication had been administered for over 13 months before this formal MCA was completed. GP left without ensuring care home received the paperwork — CQC inspection finding resulted."
+
+  - date: "Aug 2024"
+    event: "Surgery reminded care home to collect covert administration paperwork"
+    detail: "Telephone call from surgery to care home to remind them to collect unsigned MCA paperwork."
+    significance: "Forms still unsigned at this point, months after the July 2024 MCA meeting."
+
+  - date: "29 Jul 2025"
+    event: "Second formal MCA assessment"
+    detail: "New GP visited home following CQC inspection finding. Fresh MCA completed. Bridget non-verbal, did not respond to GP or carer during assessment. Daughter (LPA) agreed by telephone. MCA form completed. DNACPR form attached to records. Mental health attachment sent internally."
+    significance: "DNACPR formalised at this point. Second MCA required because of failures with the first (GP leaving, paperwork not received by care home)."
+
+mca-significance: >
+  The DPA was executed on 19 May 2023. Bridget lacked capacity from at least 10 November 2020.
+  No MCA Best Interest meeting was conducted before the DPA was executed. The first MCA for
+  covert medication was not completed until July 2024 — 14 months after covert administration began.
+  The DPA itself therefore lacked MCA compliance from the outset. See Issue 26.
+
+# ── HEALTH SCORES ─────────────────────────────────────────────────────────────
+
+weight:
+  - date: "Sep 2020"
+    kg: 47.3
+    bmi: 20.0
+    notes: ""
+  - date: "Oct 2020"
+    kg: 46.2
+    bmi: ""
+    notes: "Waterlow 11 at this visit"
+  - date: "Aug 2022"
+    kg: 46.8
+    bmi: 20.3
+    notes: "Dementia review"
+  - date: "Aug 2023"
+    kg: 49.1
+    bmi: ""
+    notes: "Reported by care home manager"
+  - date: "Jan 2024"
+    kg: 65.0
+    bmi: 28.1
+    notes: "Likely recording error — possibly different scales or transcription error. Recorded by DN during wound/bowel visits."
+  - date: "Feb 2024"
+    kg: 47.1
+    bmi: 20.4
+    notes: "Palliative care"
+  - date: "Jun 2024"
+    kg: 44.9
+    bmi: 19.4
+    notes: "Palliative care — paracetamol dose reduced due to weight below 50kg"
+  - date: "Jul 2024"
+    kg: 44.9
+    bmi: ""
+    notes: "Paracetamol dose reduced to 1g TDS — weight below 50kg threshold"
+  - date: "Aug 2024"
+    kg: 44.9
+    bmi: ""
+    notes: "Palliative care"
+  - date: "Aug 2025"
+    kg: 48.3
+    bmi: ""
+    notes: "SMR — slight increase, possibly fluid retention or scale variation"
+
+waterlow:
+  - date: "Oct 2020"
+    score: 11
+    category: "At risk"
+  - date: "Mar 2021"
+    score: 10
+    category: "At risk"
+  - date: "Jan 2024"
+    score: 13
+    category: "At risk"
+  - date: "Jan/Feb 2024"
+    score: 17
+    category: "High risk"
+    notes: "Wound care period"
+  - date: "Jun 2024"
+    score: 19
+    category: "High risk"
+  - date: "Aug 2024"
+    score: 24
+    category: "Very high risk"
+  - date: "2025 (multiple)"
+    score: 27
+    category: "Very high risk"
+
+anticholinergic-burden:
+  scale: "Anticholinergic Cognitive Burden Scale"
+  scores:
+    - date: "Aug 2023"
+      score: 3
+      category: "Moderate to high burden"
+    - date: "Jul 2024"
+      score: 3
+      category: "Moderate to high burden"
+  significance: "Score of 3 indicates moderate to high anticholinergic burden. Associated with increased confusion, cognitive impairment and sedation — particularly significant given existing advanced dementia."
+
+gsf-staging:
+  - date: "Feb 2024"
+    stage: "Stage A (Blue)"
+    description: "Year-plus prognosis — advancing disease but not in final months"
+    recorded-by: "Palliative care team"
+  - date: "Jun 2025"
+    stage: "Stage 1 — Advancing disease"
+    description: "Preferred place of death recorded as the care home"
+    recorded-by: "Palliative care team"

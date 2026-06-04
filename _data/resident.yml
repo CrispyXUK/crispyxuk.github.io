@@ -1,0 +1,93 @@
+# Bridget Penelope Walker — personal and case details
+name:
+  title: "Mrs"
+  first: "Bridget"
+  middle: "Penelope"
+  last: "Walker"
+  full: "Bridget Penelope Walker"
+
+dob: "08/10/1950"
+gender: "Female"
+nationality: "British"
+ethnicity: "White British"
+religion: "Christian"
+
+nhs-number: "4883762742"
+person-id: "30000912"
+
+address:
+  home: "Palmerston House Care Home"
+  road: "Palmerston Road"
+  town: "Westcliff-on-Sea"
+  county: "Essex"
+  postcode: "SS0 7TA"
+
+property:
+  address: "84 Bellhouse Road, Eastwood, Leigh-on-Sea, Essex, SS9 5NH"
+  type: "Semi-detached house"
+  value: "£425,000"
+  mortgage: "None"
+  charge: "CH1 legal charge registered 12 Jun 2023 by Southend-on-Sea City Council"
+  land-registry-title: "To be confirmed"
+
+diagnosis:
+  primary: "Dementia (diagnosed May 2015)"
+  secondary: "Cancer of cells of cervix (diagnosed 21 December 2023)"
+
+capacity: "Lacks mental capacity — confirmed by DoLS Standard Authorisation 10 November 2020"
+
+dols:
+  first-granted: "10/11/2020"
+  location: "Admiral Court"
+  authorising-body: "Southend-on-Sea Borough Council"
+  last-known-authorisation: "29/05/2024"
+  expiry: "29/05/2025"
+  status: "Expired May 2025 — no documented renewal"
+
+current-condition:
+  mobility: "Bedbound — requires 2-staff hoist for all transfers"
+  communication: "Non-verbal"
+  continence: "Doubly incontinent"
+  nutrition: "Pureed diet — requires full assistance"
+  skin: "Waterlow score 27 (extreme pressure risk)"
+  medication: "Covert medication in place"
+  resuscitation: "DNACPR in place"
+
+attorneys:
+  - name: "Mark James Walker"
+    relationship: "Son"
+    dob: "20/10/1980"
+    lpa: "Both domains — property/finances and health/welfare"
+    address: "84 Bellhouse Road, Eastwood, Leigh-on-Sea, Essex, SS9 5NH"
+    email: "crispybaconx@icloud.com"
+    role: "Primary complainant and financial attorney"
+
+  - name: "Kira Walker"
+    relationship: "Daughter"
+    lpa: "Both domains — property/finances and health/welfare"
+    email: "kiraw31@gmail.com"
+    role: "Joint complainant and primary health contact"
+
+  - name: "Donna Walker"
+    relationship: "Daughter"
+    location: "Australia"
+    email: "donnainaussie@hotmail.com"
+    role: "Sibling — no LPA"
+
+case-references:
+  council: "30000912"
+  lgsco: "25 019 572"
+  icb: "BC70014"
+  lgsco-investigator: "Paul Gyan-Apenteng"
+  lgsco-accepted: "18/05/2026"
+
+council-tax:
+  exemption: "Class U — Severe Mental Impairment"
+  granted: "27/09/2019"
+  granted-by: "Southend-on-Sea City Council"
+  significance: "Predates all CHC checklists by over 3 years — Council granted SMI exemption while later producing negative CHC checklist outcomes"
+
+will:
+  made: true
+  executors: "Alan John Simpson, Karl George Barnes"
+  firm: "Alan Simpson & Co, Mill Court, 19 Londhil, Rayleigh, Essex SS6 7HW"

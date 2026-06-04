@@ -14,28 +14,36 @@
 - date: "27–28 Sep 2022"
   event: "Transfer to Westcliff Lodge (residential care home). Westcliff Lodge resident contract signed 28 Sep 2022. Council formally involved under Care Act 2014. 12-week property disregard begins."
 - date: "26 Oct 2022"
+  id: checklist-1
   event: "CHC Checklist #1 (Jacquie Deacon). Threshold not met. Incorrect age (75) and wrong address (Palmerston House — a home Bridget would not move to for nearly 6 months). Family never notified."
   key: true
 - date: "7 Nov 2022"
+  id: asc-1
   event: "ASC Assessment #1. Incorrect age (75) and Palmerston address — impossible at this date."
   key: true
 - date: "15 Nov 2022"
+  id: westcliff-letter
   event: "Westcliff Lodge manager (Nicky Bourouisa) warns in writing of high-dependency behaviours requiring specialist placement. Same month as CHC Checklist #1."
 - date: "Dec 2022"
   event: "DPA purportedly commences 19/20 Dec 2022. Council charges £800/wk contributions AND defers £389.77/wk simultaneously — combined £1,189.77/wk against actual fee of £738.46/wk."
 - date: "1 Feb 2023"
+  id: checklist-2
   event: "CHC Checklist #2. Threshold not met. Incorrect age and Palmerston address — impossible at this date. Family never notified."
   key: true
 - date: "16 Feb 2023"
+  id: dpa-application
   event: "DPA Application Form signed by Mark Walker. Section 3c declares dependent occupants of 84 Bellhouse Road: Mark Walker, Victoria Walker, and Alex James Walker (dependent child). Property value £425,000."
 - date: "22 Feb 2023"
+  id: asc-2
   event: "ASC Assessment #2. Incorrect age and Palmerston address — impossible at this date."
   key: true
 - date: "11 Apr 2023"
+  id: palmerston-transfer
   event: "Transfer to Palmerston House. Council Individual Placement Contract created (Word metadata: created 13 Apr 2023) showing Council fully funding £750/week, £0 from resident. Care Manager: Jacquie Deacon. Address stated as 23-25 Palmerston Road. No needs assessment, care plan or review at transfer."
 - date: "15 May 2023"
   event: "Unwitnessed fall — hip fracture. Hospital admission and surgery. No CHC assessment at discharge."
 - date: "19 May 2023"
+  id: dpa-signed
   event: "DPA signed — naming Westcliff Lodge despite Bridget having moved to Palmerston House 38 days earlier. PDF metadata shows scanned 17 May 2023, two days before stated execution date."
   key: true
 - date: "12 Jun 2023"
@@ -43,6 +51,7 @@
 - date: "Jun 2023"
   event: "Westcliff Lodge refunds £9,496.79 — double-payment of invoices, recovered only after bailiff threat."
 - date: "11 Sep 2023"
+  id: checklist-3
   event: "CHC Checklist #3. Threshold not met. Incorrect age/address. Family never notified."
   key: true
 - date: "18 Sep 2023"
@@ -54,6 +63,7 @@
 - date: "11 Dec 2023"
   event: "CHC Checklist #4 assigned to Jacquie Deacon — not completed for 5 months; cancer diagnosis occurs in the gap."
 - date: "22 May 2024"
+  id: checklist-4
   event: "CHC Checklist #4 completed. Threshold not met. Cancer and hospital attendances not referenced. Incorrect age/address. Family never notified."
   key: true
 - date: "29 May 2024"
@@ -69,8 +79,10 @@
 - date: "11 Aug 2025"
   event: "Mark Walker emails Lynne Gardiner raising FNC, absconding records, transfer care plan error, cancer, skin integrity, and funding position."
 - date: "29 Aug 2025"
+  id: dst-meeting
   event: "NHS DST meeting (MDT). Scores: Severe (Cognition), High ×3 (Nutrition, Mobility, Behaviour), Moderate ×4. No Primary Health Need concluded. Communication and Skin scores challenged."
 - date: "2 Sep 2025"
+  id: gardiner-email
   event: "Lynne Gardiner email: confirms FNC denied on basis Palmerston is a 'residential home not a nursing home'; references undisclosed CHC meeting attended by colleague 'Mercy' with an NHS colleague."
 - date: "11 Sep 2025"
   event: "ICB outcome letter (Ref BC70014) — no Primary Health Need. Sent c/o Mark only, not both attorneys."
@@ -87,6 +99,7 @@
 - date: "17 Feb 2026"
   event: "Mark Walker emails Michael Barrett setting out the central Care Act complaint (no s.9 assessment, s.13 determination or s.25 plan before the April 2023 hip fracture). Confirms NHS/EPUT hold no records prior to 2025."
 - date: "11 Mar 2026"
+  id: first-disclosure
   event: "FIRST DISCLOSURE: family first receive ALL five CHC checklists, both ASC assessments and the ICB CHC letters — as attachments to the Council's second complaint response (email 11 Mar 2026, 14:02). The June 2025 checklist PDF carries creation metadata of 5 Mar 2026 — six days before this disclosure. Documents withheld until after both complaint responses and the LGSCO referral."
   key: true
 - date: "11 Mar 2026"

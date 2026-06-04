@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<div class="post-meta">
+  <div class="post-meta-grid">
+    <div class="post-meta-row">
+      <span class="post-meta-label">Date</span>
+      <span class="post-meta-value">{{ page.email-date }}</span>
+    </div>
+    <div class="post-meta-row">
+      <span class="post-meta-label">From</span>
+      <span class="post-meta-value">{{ page.from }}</span>
+    </div>
+    <div class="post-meta-row">
+      <span class="post-meta-label">To</span>
+      <span class="post-meta-value">{{ page.to }}</span>
+    </div>
+    <div class="post-meta-row">
+      <span class="post-meta-label">Subject</span>
+      <span class="post-meta-value">{{ page.subject }}</span>
+    </div>
+    <div class="post-meta-row">
+      <span class="post-meta-label">Category</span>
+      <span class="post-meta-value">{{ page.category }}</span>
+    </div>
+    {% if page.related-issues %}
+    <div class="post-meta-row">
+      <span class="post-meta-label">Related issues</span>
+      <span class="post-meta-value">
+        {% for issue_num in page.related-issues %}
+          <a href="{{ '/issues/' | relative_url }}#issue-{{ issue_num }}" class="issue-badge">#{{ issue_num }}</a>
+        {% endfor %}
+      </span>
+    </div>
+    {% endif %}
+    {% if page.related-timeline %}
+    <div class="post-meta-row">
+      <span class="post-meta-label">Timeline</span>
+      <span class="post-meta-value"><a href="{{ '/timeline/' | relative_url }}">{{ page.related-timeline }}</a></span>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="post-content">
+{{ content }}
+</div>
+
+<div class="post-nav">
+  <div class="post-nav-links">
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url | relative_url }}" class="post-nav-prev">&larr; {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a href="{{ page.next.url | relative_url }}" class="post-nav-next">{{ page.next.title }} &rarr;</a>
+    {% endif %}
+  </div>
+  <a href="{{ '/emails/' | relative_url }}" class="post-nav-index">All emails &uarr;</a>
+</div>

@@ -1,189 +1,259 @@
-# Issue register. num, category, issue, evidence
+# Issue register. num, category, severity, timeline-refs (optional), issue, evidence
 - num: 1
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: high
+  timeline-refs: [checklist-1, checklist-2]
   issue: "No CHC referral for nearly two years (2020–2022) despite active DoLS, placement in a registered nursing home (Admiral Court), and complex needs."
   evidence: "Service Request 6614531; DoLS Nov 2020; Hallmark records"
 - num: 2
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: high
   issue: "Admiral Court is a registered nursing home. No FNC assessment or payment at any point during placement (Sep 2020–Sep 2022), despite FNC being a mandatory non-means-tested NHS contribution for eligible nursing home residents."
   evidence: "Hallmark invoices 2020–2022; NF for CHC; no FNC records disclosed"
 - num: 3
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: medium
   issue: "Respite placement became permanent due to Covid-19 with no care needs assessment, CHC screening or FNC consideration at the point of transition."
   evidence: "Family account; Hallmark correspondence; DoLS Nov 2020"
 - num: 4
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: medium
+  timeline-refs: [gardiner-email]
   issue: "FNC denied in writing (Lynne Gardiner, 2 Sep 2025) on the basis Palmerston House is a 'residential home not a nursing home'. While Palmerston is CQC-registered as residential (with an express condition prohibiting nursing care), this raises a more serious placement-appropriateness question — see Issue 5."
   evidence: "Lynne Gardiner email 2 Sep 2025; CQC registration (loc 1-156343233)"
 - num: 5
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: high
+  timeline-refs: [dst-meeting, gardiner-email]
   issue: "Placement appropriateness: Palmerston House is CQC-registered as a residential home with an express condition that the provider 'must not provide nursing care'. Bridget's documented needs (2-staff hoist, covert medication, DNACPR, Waterlow 27, pureed diet) are nursing-level. Neither Council nor ICB has addressed whether the placement is appropriate or whether a nursing placement / CHC is required."
   evidence: "CQC registration (loc 1-156343233); Aug 2025 care plan; DST 29 Aug 2025"
 - num: 6
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: high
+  timeline-refs: [gardiner-email]
   issue: "Undisclosed CHC consideration meeting: a Council officer ('Mercy') attended a continuing healthcare funding meeting with an NHS colleague (referenced in Gardiner's 2 Sep 2025 email). No record, invitation or outcome of this meeting has ever been disclosed to the family."
   evidence: "Lynne Gardiner email 2 Sep 2025"
 - num: 7
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: high
+  timeline-refs: [checklist-1, asc-1, checklist-2, asc-2, checklist-3, checklist-4]
   issue: "All five Council CHC checklists carry incorrect age (75) and wrong address (Palmerston House) regardless of actual assessment date."
   evidence: "All 5 checklists; Jul 2025 review (same assessor) shows correct age 74"
 - num: 8
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: medium
   issue: "CHC scores not supported by contemporaneous care home and GP records across multiple domains."
   evidence: "Palmerston care plan Aug 2025; GP SAR; Westcliff Lodge Nov 2022 letter"
 - num: 9
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: medium
+  timeline-refs: [palmerston-transfer]
   issue: "No CHC assessment at hospital discharge after hip fracture (May 2023), contrary to National Framework paras 63–64."
   evidence: "WhatsApp; Council review; National Framework"
 - num: 10
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: medium
+  timeline-refs: [checklist-4]
   issue: "Cancer of Cells of Cervix (Dec 2023) not reflected in May 2024 checklist despite 5-month delay between assignment and completion."
   evidence: "GP SAR 21 Dec 2023; checklist metadata"
 - num: 11
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: low
   issue: "Ward round entry (10 Nov 2023) states no hospital admissions in preceding 7 days — factually wrong per WhatsApp."
   evidence: "GP SAR; family WhatsApp"
 - num: 12
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: medium
   issue: "Sweyne Court transfer care plan to Admiral Court (16 Sep 2020) recorded Bridget 'at low risk of leaving the home unnoticed' — 10 days after the absconding incident. Incorrect risk recording that fed into later care planning and funding assessments."
   evidence: "Mark Walker email 11 Aug 2025; Sweyne Court transfer plan"
 - num: 13
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: low
   issue: "Herbert Protocol entry (Jul 2025) records 'no wandering risk' despite documented absconding history."
   evidence: "Sweyne Court letters; Westcliff Lodge WhatsApp; Admiral Court care plan"
 - num: 14
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: high
+  timeline-refs: [westcliff-letter, checklist-1]
   issue: "Westcliff Lodge manager's letter (15 Nov 2022) contemporaneously documents high-dependency behaviours in the same month CHC Checklist #1 found threshold not met — direct contradiction."
   evidence: "Westcliff Lodge letter 15 Nov 2022; CHC Checklist #1"
 - num: 15
-  category: "DST Challenge"
+  category: dst-challenge
+  severity: high
+  timeline-refs: [dst-meeting]
   issue: "DST Communication scored Moderate (29 Aug 2025). Bridget is documented non-verbal in the Aug 2025 care plan. The High descriptor ('unable to communicate at any time and in any way, even when all practicable steps taken') is a precise match. Moderate is directly contradicted by the care plan."
   evidence: "Aug 2025 care plan; DST domain 6; NF para 37"
 - num: 16
-  category: "DST Challenge"
+  category: dst-challenge
+  severity: high
+  timeline-refs: [dst-meeting]
   issue: "DST Skin scored Moderate. Waterlow 27 indicates extreme pressure risk requiring multiple daily intervention. High (or Severe if breakdown present) is more appropriate."
   evidence: "Waterlow 27; GP SAR; DST domain 4"
 - num: 17
-  category: "DST Challenge"
+  category: dst-challenge
+  severity: high
+  timeline-refs: [dst-meeting]
   issue: "DST overall profile (Severe ×1, High ×3, Moderate ×4) is a strong CHC indicator. The no-Primary-Health-Need conclusion is unexplained; MDT narrative reasoning has not been disclosed. Full DST (Section 1 and reasoning) must be obtained."
   evidence: "DST Section 2; ICB letter 11 Sep 2025; NF paras 35–37"
 - num: 18
-  category: "DST Challenge"
+  category: dst-challenge
+  severity: low
   issue: "ICB outcome letter (11 Sep 2025) sent c/o Mark only. Both hold joint LPA. Continues selective communication pattern."
   evidence: "ICB letter 11 Sep 2025; LPA documents"
 - num: 19
-  category: "Financial / DPA"
+  category: financial-dpa
+  severity: high
+  timeline-refs: [palmerston-transfer]
   issue: "Council's own Individual Placement Contract (11 Apr 2023) shows it contracted to pay Palmerston House £750/week, fully funded by the Council with £0 from the resident — yet it invoiced the family £877.59/week. Overcharge of £127.59/week (£6,600+/year) proven from the Council's own contract."
   evidence: "Council IPC 11 Apr 2023; FA letter 27 Mar 2023; Lynn Hyam email 28 Aug 2025"
 - num: 20
-  category: "Financial / DPA"
+  category: financial-dpa
+  severity: high
   issue: "Capital above £23,250 (Jul 2020) was depleted through private nursing home fees at Admiral Court (£1,450/wk). By Sep 2022 capital was below £14,250 — Council funding obligations should have applied from the outset; the DPA was issued against a person already below the lower threshold."
   evidence: "Hallmark invoices; self-assessment Jul 2020; FA letter 2022"
 - num: 21
-  category: "Financial / DPA"
+  category: financial-dpa
+  severity: high
+  timeline-refs: [dpa-application]
   issue: "Mandatory property disregard not applied. The DPA Application Form (signed 16 Feb 2023) expressly declares dependent occupants of 84 Bellhouse Road including Alex James Walker (dependent child). The Council's own form records the dependent occupant it later denied existed."
   evidence: "DPA Application Form 16 Feb 2023 Section 3c; CSSG Annex B"
 - num: 22
-  category: "Financial / DPA"
+  category: financial-dpa
+  severity: high
+  timeline-refs: [dpa-application]
   issue: "Council's property disregard refusal (Lynn Hyam, 13 Nov 2025) asserts family moved into 84 Bellhouse Road on 2 Mar 2021 — directly contradicted by the DPA Application Form declaring occupants in Feb 2023 and by family records."
   evidence: "Lynn Hyam email 13 Nov 2025; DPA Application Form Section 3c"
 - num: 23
-  category: "Financial / DPA"
+  category: financial-dpa
+  severity: high
+  timeline-refs: [dpa-signed, palmerston-transfer]
   issue: "DPA signed 19 May 2023 naming Westcliff Lodge despite Bridget having moved to Palmerston House on 11 Apr 2023. Council finance team confirms move date in writing."
   evidence: "DPA clause 1.1; Lynn Hyam email 28 Aug 2025; Council IPC"
 - num: 24
-  category: "Financial / DPA"
+  category: financial-dpa
+  severity: high
+  timeline-refs: [dpa-signed]
   issue: "DPA PDF metadata shows document scanned 17 May 2023 — two days before stated execution date of 19 May 2023."
   evidence: "PDF metadata CreationDate D:20230517140747Z"
 - num: 25
-  category: "Financial / DPA"
+  category: financial-dpa
+  severity: high
   issue: "No signed written variation to DPA after the move from Westcliff Lodge, in breach of clause 15.1. Charges accrued at Palmerston House lack contractual authority."
   evidence: "DPA clause 15.1; HMLR letter Jan 2026"
 - num: 26
-  category: "Financial / DPA"
+  category: financial-dpa
+  severity: high
   issue: "DPA entered without MCA compliance — no Best Interests decision, IMCA referral or RPR meeting before execution."
   evidence: "Capacity lacked from Nov 2020; no MCA records disclosed"
 - num: 27
-  category: "Financial / DPA"
+  category: financial-dpa
+  severity: medium
   issue: "Overcharging during DPA commencement (Dec 2022–Mar 2023): combined contributions and deferred charges exceeded actual fee (£738.46/wk) by approx. £5,000."
   evidence: "Mark Walker analysis 29 Aug 2025; Lynn Hyam email"
 - num: 28
-  category: "Financial / DPA"
+  category: financial-dpa
+  severity: medium
   issue: "Double-payment of Westcliff Lodge invoices; £9,496.79 refunded only after bailiff threat."
   evidence: "Westcliff Lodge WhatsApp; refund confirmation Jun 2023"
 - num: 29
-  category: "Financial / DPA"
+  category: financial-dpa
+  severity: medium
   issue: "Council continued recovery action after LGSCO referral and later sought intelligence on the investigation (Pearl Adams email 26 May 2026)."
   evidence: "Pearl Adams email chain Mar–May 2026"
 - num: 30
-  category: "Care Act"
+  category: care-act
+  severity: high
+  timeline-refs: [palmerston-transfer]
   issue: "No needs assessment, care plan or review at transfer to Palmerston House (Apr 2023) — mandatory under s.27 Care Act 2014."
   evidence: "Council disclosures; absence of documents"
 - num: 31
-  category: "Care Act"
+  category: care-act
+  severity: medium
   issue: "Council failed to provide statutory Care Act documents: needs assessment, eligibility determination, care plan, financial assessment outcome, best interests records."
   evidence: "Council complaint responses; absence from disclosure"
 - num: 32
-  category: "Care Act"
+  category: care-act
+  severity: medium
   issue: "Social worker misrepresented DPA as covering a top-up only rather than full cost of care."
   evidence: "ASC Assessment 07 Nov 2022"
 - num: 33
-  category: "DoLS / MCA"
+  category: dols-mca
+  severity: medium
   issue: "Last recorded DoLS authorisation expired May 2025 with no documented renewal. 2024 renewal MCA unsigned and invalid."
   evidence: "DoLS records; MCA documents"
 - num: 34
-  category: "DoLS / MCA"
+  category: dols-mca
+  severity: medium
   issue: "RPR changed from Kira Walker to a care home staff member without family knowledge or consent."
   evidence: "DoLS documents; family accounts"
 - num: 35
-  category: "DoLS / MCA"
+  category: dols-mca
+  severity: low
   issue: "Family received only one DoLS document (2020 Form 5) across the entire period."
   evidence: "Disclosed documents"
 - num: 36
-  category: "Doc Integrity"
+  category: doc-integrity
+  severity: high
+  timeline-refs: [checklist-1, asc-1, checklist-2, asc-2]
   issue: "CHC checklists and ASC assessments (Oct 2022–May 2024) record Palmerston House as the current address — a home Bridget did not move to until 11 Apr 2023. A current-address field cannot contain a future address unless created after the move and dated earlier."
   evidence: "All checklists/ASC assessments; Council IPC 11 Apr 2023"
 - num: 37
-  category: "Doc Integrity"
+  category: doc-integrity
+  severity: high
+  timeline-refs: [checklist-1, asc-1, checklist-2, asc-2, checklist-3, checklist-4]
   issue: "Same documents record age 75; Bridget's correct age was 71–73 across the period. Age 75 corresponds to late-2025/2026. The Jul 2025 review (same assessor) shows correct age 74."
   evidence: "All checklists; Jul 2025 review"
 - num: 38
-  category: "Doc Integrity"
+  category: doc-integrity
+  severity: high
+  timeline-refs: [dpa-signed, first-disclosure]
   issue: "June 2025 CHC checklist PDF carries creation metadata of 5 March 2026. DPA scanned 17 May 2023 (pre-dating stated execution). Council IPC created 13 Apr 2023 (post-dating stated 11 Apr commencement)."
   evidence: "PDF/file metadata across documents"
 - num: 39
-  category: "Doc Integrity"
+  category: doc-integrity
+  severity: high
+  timeline-refs: [dpa-signed]
   issue: "Council unilaterally inserted DPA execution date after receiving signed copies; signature page blank in post-complaint disclosed version; only Land Registry version shows full execution."
   evidence: "PDF metadata; Council disclosure; Land Registry CH1"
 - num: 40
-  category: "Doc Integrity"
+  category: doc-integrity
+  severity: medium
+  timeline-refs: [checklist-1]
   issue: "Council Tax exemption for Severe Mental Impairment granted Sep 2019 — predates all CHC checklists by 3+ years, undermining negative checklist outcomes."
   evidence: "Council Tax exemption records"
 - num: 41
-  category: "Doc Integrity"
+  category: doc-integrity
+  severity: low
   issue: "Address inconsistency in Council's own records: IPC names Palmerston House at 23-25 Palmerston Road; CQC/ICB give 21 Palmerston Road. Land Registry shows these are separately-owned titles."
   evidence: "Council IPC; CQC registration; ICB letter; Land Registry EX240310/EX298329"
 - num: 42
-  category: "Complaint Handling"
+  category: complaint-handling
+  severity: medium
   issue: "Council's first final response (Oct 2025) fails to address Care Act failures, financial assessment, property disregard or MCA issues."
   evidence: "Response 30 Oct 2025"
 - num: 43
-  category: "Complaint Handling"
+  category: complaint-handling
+  severity: medium
   issue: "Consistent pattern of directing health/welfare communications to Kira and financial communications to Mark — despite identical joint LPA. ICB outcome letter continues this."
   evidence: "Email correspondence; ICB letter; Apr 2020 Council email to Kira only"
 - num: 44
-  category: "Complaint Handling"
+  category: complaint-handling
+  severity: low
   issue: "DoLS Best Interests Assessment notified to Mark indirectly via Kira forwarding a Council email — no direct contact with Mark as joint attorney."
   evidence: "Email chain; WhatsApp records"
 - num: 45
-  category: "Regulatory"
+  category: regulatory
+  severity: medium
   issue: "CQC served two warning notices on Palmerston House operator (E&F Enterprises Ltd) on 18 Dec 2025 for breaches of Reg 12 (Safe Care and Treatment) and Reg 17 (Good Governance). Home rated Requires Improvement. Relevant to the safety and appropriateness of Bridget's placement and to the reliability of the care setting during the CHC/DST period."
   evidence: "CQC location report 1-156343233 (published 10 Feb 2026)"
 - num: 46
-  category: "Doc Integrity"
-  issue: "All CHC checklists and ASC assessments were withheld from the family until 11 March 2026, when disclosed together as attachments to the second complaint response. The June 2025 checklist PDF was created on 5 March 2026 — six days before disclosure — indicating the documents were rendered or assembled at the point of disclosure rather than produced contemporaneously."
+  category: doc-integrity
+  severity: high
+  timeline-refs: [first-disclosure]
+  issue: "All CHC checklists and ASC assessments were withheld from the family until 11 March 2026, when disclosed together as attachments to the second complaint response (email 11 Mar 2026, 14:02). The June 2025 checklist PDF was created on 5 March 2026 — six days before disclosure — indicating the documents were rendered or assembled at the point of disclosure rather than produced contemporaneously."
   evidence: "Disclosure email 11 Mar 2026; PDF creation metadata 5 Mar 2026"
 - num: 47
-  category: "CHC / FNC"
+  category: chc-fnc
+  severity: medium
   issue: "NHS and EPUT confirmed to Mark Walker that they hold no records relating to Bridget prior to 2025, despite documented Dementia Crisis Team involvement in 2020 — corroborating a systemic failure to assess and document from 2020 and contradicting the suggestion that 2020 crisis involvement was properly recorded."
   evidence: "Mark Walker email 17 Feb 2026; NHS/EPUT enquiries"
