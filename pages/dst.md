@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "DST Analysis & CHC Checklists"
 permalink: /dst/
 ---
@@ -30,7 +30,7 @@ permalink: /dst/
   </thead>
   <tbody>
     {% for d in site.data.dst %}
-    <tr{% if d.flag == 'red' %} style="background:#FCE4D6"{% elsif d.flag == 'amber' %} style="background:#FFF2CC"{% endif %}>
+    <tr{% if d.flag == 'red' %} class="red"{% elsif d.flag == 'amber' %} class="amber"{% endif %}>
       <td><strong>{{ d.domain }}</strong></td>
       <td>{{ d.awarded }}</td>
       <td>{{ d.correct }}</td>
@@ -70,9 +70,9 @@ permalink: /dst/
 <table>
   <thead>
     <tr>
-      <th style="width:150px">Domain</th>
-      <th style="width:55px;text-align:center">Scored</th>
-      <th style="width:55px;text-align:center">Should be</th>
+      <th class="col-domain">Domain</th>
+      <th class="col-score tc">Scored</th>
+      <th class="col-score tc">Should be</th>
       <th>Assessor's recorded description</th>
       <th>Challenge / significance</th>
     </tr>
@@ -83,14 +83,14 @@ permalink: /dst/
     {% if domain.score-based-on-description != domain.score and domain.score-based-on-description != "" %}
       {% assign mismatch = true %}
     {% endif %}
-    <tr{% if mismatch %} style="background:#FCE4D6"{% elsif domain.challenge != "" %} style="background:#FFF8F0"{% endif %}>
+    <tr{% if mismatch %} class="red"{% elsif domain.challenge != "" %} class="row-note"{% endif %}>
       <td><strong>{{ domain.name }}</strong></td>
-      <td style="text-align:center;font-weight:700;font-size:1.1rem;{% if domain.score == 'A*' %}color:#7030A0{% elsif domain.score == 'A' %}color:#C00000{% elsif domain.score == 'B' %}color:#C55A11{% else %}color:#2e7d32{% endif %}">{{ domain.score }}</td>
-      <td style="text-align:center;font-weight:700;font-size:1.1rem;{% if domain.score-based-on-description == 'A*' %}color:#7030A0{% elsif domain.score-based-on-description == 'A' %}color:#C00000{% elsif domain.score-based-on-description == 'B' %}color:#C55A11{% else %}color:#2e7d32{% endif %}">
+      <td class="score-cell {% if domain.score == 'A*' %}score-Priority{% elsif domain.score == 'A' %}score-Severe{% elsif domain.score == 'B' %}score-Moderate{% else %}score-Low{% endif %}">{{ domain.score }}</td>
+      <td class="score-cell{% if domain.score-based-on-description != domain.score and domain.score-based-on-description != '' %} {% if domain.score-based-on-description == 'A*' %}score-Priority{% elsif domain.score-based-on-description == 'A' %}score-Severe{% elsif domain.score-based-on-description == 'B' %}score-Moderate{% else %}score-Low{% endif %}{% endif %}">
         {% if domain.score-based-on-description != domain.score %}{{ domain.score-based-on-description }}{% else %}&mdash;{% endif %}
       </td>
       <td><small>{{ domain.recorded }}</small></td>
-      <td><small style="color:#C00000">{{ domain.challenge }}</small></td>
+      <td><small class="sev-high">{{ domain.challenge }}</small></td>
     </tr>
     {% endfor %}
   </tbody>
@@ -112,10 +112,10 @@ permalink: /dst/
       <th>Checklist</th>
       <th>Date</th>
       <th>Assessor</th>
-      <th style="text-align:center">A*</th>
-      <th style="text-align:center">A</th>
-      <th style="text-align:center">B</th>
-      <th style="text-align:center">C</th>
+      <th class="tc">A*</th>
+      <th class="tc">A</th>
+      <th class="tc">B</th>
+      <th class="tc">C</th>
       <th>Outcome</th>
       <th>Integrity</th>
     </tr>
@@ -123,16 +123,16 @@ permalink: /dst/
   <tbody>
     {% for doc in site.data.integrity %}
     {% unless doc.document contains "Review" or doc.document contains "ICB" %}
-    <tr{% if doc.impossible == 'yes' %} style="background:#FCE4D6"{% elsif doc.impossible == 'partial' %} style="background:#FFF2CC"{% elsif doc.impossible == 'confirm' %} style="background:#EBF3FB"{% endif %}>
+    <tr{% if doc.impossible == 'yes' %} class="red"{% elsif doc.impossible == 'partial' %} class="amber"{% elsif doc.impossible == 'confirm' %} class="row-confirm"{% endif %}>
       <td><strong>{{ doc.document }}</strong></td>
-      <td style="white-space:nowrap">{{ doc.stated }}</td>
+      <td class="nowrap">{{ doc.stated }}</td>
       <td><small>{{ doc.assessor }}</small></td>
-      <td style="text-align:center">{{ doc.totals.a-star }}</td>
-      <td style="text-align:center">{{ doc.totals.a }}</td>
-      <td style="text-align:center">{{ doc.totals.b }}</td>
-      <td style="text-align:center">{{ doc.totals.c }}</td>
-      <td>{% if doc.outcome contains "MET" %}<span style="color:#2e7d32;font-weight:700">{{ doc.outcome }}</span>{% else %}<span style="color:#C00000;font-weight:600">{{ doc.outcome }}</span>{% endif %}</td>
-      <td style="text-align:center;font-weight:bold">{% if doc.impossible == 'yes' %}<span style="color:#C00000">Impossible</span>{% elsif doc.impossible == 'partial' %}<span style="color:#C55A11">Age error</span>{% elsif doc.impossible == 'confirm' %}<span style="color:#1F4E79">Confirm</span>{% else %}<span style="color:#2e7d32">OK</span>{% endif %}</td>
+      <td class="tc">{{ doc.totals.a-star }}</td>
+      <td class="tc">{{ doc.totals.a }}</td>
+      <td class="tc">{{ doc.totals.b }}</td>
+      <td class="tc">{{ doc.totals.c }}</td>
+      <td>{% if doc.outcome contains "MET" %}<span class="outcome-met">{{ doc.outcome }}</span>{% else %}<span class="outcome-fail">{{ doc.outcome }}</span>{% endif %}</td>
+      <td class="tc-bold">{% if doc.impossible == 'yes' %}<span class="flag-yes">Impossible</span>{% elsif doc.impossible == 'partial' %}<span class="flag-partial">Age error</span>{% elsif doc.impossible == 'confirm' %}<span class="text-navy">Confirm</span>{% else %}<span class="flag-no">OK</span>{% endif %}</td>
     </tr>
     {% endunless %}
     {% endfor %}

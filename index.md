@@ -1,80 +1,56 @@
 ---
-layout: default
+layout: page
 title: "Executive Summary"
 permalink: /
 ---
 
 <p class="lead">Private evidential record supporting the LGSCO investigation into Southend-on-Sea City Council's Adult Social Care handling of {{ site.data.resident.name.full }}'s care, funding, and assessment.</p>
 
-<div class="summary-grid">
-  <div class="card"><span class="n">{{ site.data.issues | size }}</span><span class="l">issues catalogued across seven categories</span></div>
-  <div class="card"><span class="n">{{ site.data.timeline | size }}</span><span class="l">timeline events (Apr 2020 – May 2026)</span></div>
-  <div class="card"><span class="n">{{ site.data.placement | size }}</span><span class="l">placements recorded</span></div>
-  <div class="card"><span class="n">11</span><span class="l">DST domains analysed</span></div>
+
+<div class="row">
+  <article class="col">
+    <a href="/issues/" class="post-preview card h-100">
+        <div class="card-body">
+            <h4 class="pt-0 my-2">{{ site.data.issues | size }}</h4>
+            <div class="text-muted">
+                <p>issues catalogued across eight categories</p>
+            </div>
+        </div>
+    </a>
+  </article>
+  <article class="col">
+    <a href="/timeline/" class="post-preview card h-100">
+        <div class="card-body">
+            <h4 class="pt-0 my-2">{{ site.data.timeline | size }}</h4>
+            <div class="text-muted">
+                <p>timeline events (Apr 2020 – May 2026)</p>
+            </div>
+        </div>
+    </a>
+  </article>
+  <article class="col">
+    <a href="/timeline/" class="post-preview card h-100">
+        <div class="card-body">
+            <h4 class="pt-0 my-2">{{ site.data.placement | size }}</h4>
+            <div class="text-muted">
+                <p>placements recorded</p>
+            </div>
+        </div>
+    </a>
+  </article>
 </div>
 
-<h2>Resident</h2>
+<h2>{{ site.data.resident.name.title }} {{ site.data.resident.name.full }}</h2>
 
 <table>
   <tbody>
-    <tr>
-      <td><strong>Full name</strong></td>
-      <td>{{ site.data.resident.name.title }} {{ site.data.resident.name.full }}</td>
-    </tr>
-    <tr>
-      <td><strong>Date of birth</strong></td>
-      <td>{{ site.data.resident.dob }}</td>
-    </tr>
-    <tr>
-      <td><strong>NHS number</strong></td>
-      <td>{{ site.data.resident.nhs-number }}</td>
-    </tr>
-    <tr>
-      <td><strong>Person ID</strong></td>
-      <td>{{ site.data.resident.person-id }}</td>
-    </tr>
-    <tr>
-      <td><strong>Current address</strong></td>
-      <td>{{ site.data.resident.address.home }}, {{ site.data.resident.address.road }}, {{ site.data.resident.address.town }}, {{ site.data.resident.address.postcode }}</td>
-    </tr>
-    <tr>
-      <td><strong>Diagnosis</strong></td>
-      <td>{{ site.data.resident.diagnosis.primary }}<br>{{ site.data.resident.diagnosis.secondary }}</td>
-    </tr>
-    <tr>
-      <td><strong>Capacity</strong></td>
-      <td>{{ site.data.resident.capacity }}</td>
-    </tr>
-    <tr>
-      <td><strong>DoLS status</strong></td>
-      <td>{{ site.data.resident.dols.status }}</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2>Current condition</h2>
-
-<table>
-  <tbody>
-    <tr><td><strong>Mobility</strong></td><td>{{ site.data.resident.current-condition.mobility }}</td></tr>
-    <tr><td><strong>Communication</strong></td><td>{{ site.data.resident.current-condition.communication }}</td></tr>
-    <tr><td><strong>Continence</strong></td><td>{{ site.data.resident.current-condition.continence }}</td></tr>
-    <tr><td><strong>Nutrition</strong></td><td>{{ site.data.resident.current-condition.nutrition }}</td></tr>
-    <tr><td><strong>Skin</strong></td><td>{{ site.data.resident.current-condition.skin }}</td></tr>
-    <tr><td><strong>Medication</strong></td><td>{{ site.data.resident.current-condition.medication }}</td></tr>
-    <tr><td><strong>Resuscitation</strong></td><td>{{ site.data.resident.current-condition.resuscitation }}</td></tr>
-  </tbody>
-</table>
-
-<h2>Case references</h2>
-
-<table>
-  <tbody>
-    <tr><td><strong>Council ref</strong></td><td>{{ site.data.resident.case-references.council }}</td></tr>
-    <tr><td><strong>LGSCO ref</strong></td><td>{{ site.data.resident.case-references.lgsco }}</td></tr>
-    <tr><td><strong>ICB ref</strong></td><td>{{ site.data.resident.case-references.icb }}</td></tr>
-    <tr><td><strong>LGSCO investigator</strong></td><td>{{ site.data.resident.case-references.lgsco-investigator }}</td></tr>
-    <tr><td><strong>LGSCO accepted</strong></td><td>{{ site.data.resident.case-references.lgsco-accepted }}</td></tr>
+    <tr><td><strong>Date of birth</strong></td><td>{{ site.data.resident.dob }}</td></tr>
+    <tr><td><strong>NHS number</strong></td><td>{{ site.data.resident.nhs-number }}</td></tr>
+    <tr><td><strong>Person ID</strong></td><td>{{ site.data.resident.person-id }}</td></tr>
+    <tr><td><strong>Current address</strong></td><td>{{ site.data.resident.address.home }}, {{ site.data.resident.address.road }}, {{ site.data.resident.address.town }}, {{ site.data.resident.address.postcode }}</td></tr>
+    <tr><td><strong>Diagnosis</strong></td><td>{{ site.data.resident.diagnosis.primary }}<br>{{ site.data.resident.diagnosis.secondary }}</td></tr>
+    <tr><td><strong>Capacity</strong></td><td>{{ site.data.resident.capacity }}</td></tr>
+    <tr><td><strong>DoLS status</strong></td><td>{{ site.data.resident.dols.status }}</td></tr>
   </tbody>
 </table>
 
@@ -93,6 +69,31 @@ permalink: /
       <td>{{ attorney.role }}</td>
     </tr>
     {% endfor %}
+  </tbody>
+</table>
+<h2>Current condition</h2>
+
+<table>
+  <tbody>
+    <tr><td><strong>Mobility</strong></td><td>{{ site.data.resident.current-condition.mobility }}</td></tr>
+    <tr><td><strong>Communication</strong></td><td>{{ site.data.resident.current-condition.communication }}</td></tr>
+    <tr><td><strong>Continence</strong></td><td>{{ site.data.resident.current-condition.continence }}</td></tr>
+    <tr><td><strong>Nutrition</strong></td><td>{{ site.data.resident.current-condition.nutrition }}</td></tr>
+    <tr><td><strong>Skin</strong></td><td>{{ site.data.resident.current-condition.skin }}</td></tr>
+    <tr><td><strong>Medication</strong></td><td>{{ site.data.resident.current-condition.medication }}</td></tr>
+    <tr><td><strong>Resuscitation</strong></td><td>{{ site.data.resident.current-condition.resuscitation }}</td></tr>
+      </tbody>
+</table>
+
+<h2>Case references</h2>
+
+<table>
+  <tbody>
+    <tr><td><strong>Council ref</strong></td><td>{{ site.data.resident.case-references.council }}</td></tr>
+    <tr><td><strong>LGSCO ref</strong></td><td>{{ site.data.resident.case-references.lgsco }}</td></tr>
+    <tr><td><strong>ICB ref</strong></td><td>{{ site.data.resident.case-references.icb }}</td></tr>
+    <tr><td><strong>LGSCO investigator</strong></td><td>{{ site.data.resident.case-references.lgsco-investigator }}</td></tr>
+    <tr><td><strong>LGSCO accepted</strong></td><td>{{ site.data.resident.case-references.lgsco-accepted }}</td></tr>
   </tbody>
 </table>
 

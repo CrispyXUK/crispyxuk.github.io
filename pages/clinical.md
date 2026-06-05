@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Clinical Record & Status"
 permalink: /clinical/
 ---
@@ -59,7 +59,7 @@ permalink: /clinical/
   </thead>
   <tbody>
     {% for item in site.data.clinical.medications.final-list.items %}
-    <tr{% if item.route contains "covert" %} style="background:#FFF2CC"{% endif %}>
+    <tr{% if item.route contains "covert" %} class="amber"{% endif %}>
       <td><strong>{{ item.drug }}</strong></td>
       <td>{{ item.dose }}</td>
       <td>{{ item.route }}</td>
@@ -120,19 +120,16 @@ permalink: /clinical/
   <thead>
     <tr>
       <th>Date</th>
-      <th style="text-align:center">Score</th>
+      <th class="tc">Score</th>
       <th>Risk category</th>
       <th>Notes</th>
     </tr>
   </thead>
   <tbody>
     {% for w in site.data.clinical.waterlow %}
-    <tr{% if w.score >= 20 %} style="background:#FCE4D6"{% elsif w.score >= 15 %} style="background:#FFF2CC"{% endif %}>
+    <tr{% if w.score >= 20 %} class="red"{% elsif w.score >= 15 %} class="amber"{% endif %}>
       <td>{{ w.date }}</td>
-      <td style="text-align:center;font-weight:700;font-size:1.1rem;
-        {% if w.score >= 20 %}color:#C00000{% elsif w.score >= 15 %}color:#C55A11{% else %}color:#2e7d32{% endif %}">
-        {{ w.score }}
-      </td>
+      <td class="score-cell {% if w.score >= 20 %}sev-high{% elsif w.score >= 15 %}sev-medium{% else %}sev-ok{% endif %}">{{ w.score }}</td>
       <td>{{ w.category }}</td>
       <td><small>{{ w.notes }}</small></td>
     </tr>
@@ -150,17 +147,17 @@ permalink: /clinical/
   <thead>
     <tr>
       <th>Date</th>
-      <th style="text-align:center">Weight (kg)</th>
-      <th style="text-align:center">BMI</th>
+      <th class="tc">Weight (kg)</th>
+      <th class="tc">BMI</th>
       <th>Notes</th>
     </tr>
   </thead>
   <tbody>
     {% for w in site.data.clinical.weight %}
-    <tr{% if w.notes contains "error" %} style="background:#FFF2CC"{% endif %}>
+    <tr{% if w.notes contains "error" %} class="amber"{% endif %}>
       <td>{{ w.date }}</td>
-      <td style="text-align:center;font-weight:600">{{ w.kg }}</td>
-      <td style="text-align:center">{{ w.bmi }}</td>
+      <td class="tc-bold">{{ w.kg }}</td>
+      <td class="tc">{{ w.bmi }}</td>
       <td><small>{{ w.notes }}</small></td>
     </tr>
     {% endfor %}
@@ -202,15 +199,15 @@ permalink: /clinical/
   <thead>
     <tr>
       <th>Date</th>
-      <th style="text-align:center">Score</th>
+      <th class="tc">Score</th>
       <th>Category</th>
     </tr>
   </thead>
   <tbody>
     {% for a in site.data.clinical.anticholinergic-burden.scores %}
-    <tr style="background:#FFF2CC">
+    <tr class="amber">
       <td>{{ a.date }}</td>
-      <td style="text-align:center;font-weight:700;font-size:1.1rem;color:#C55A11">{{ a.score }}</td>
+      <td class="score-cell sev-medium">{{ a.score }}</td>
       <td>{{ a.category }}</td>
     </tr>
     {% endfor %}

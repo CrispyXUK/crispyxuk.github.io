@@ -1,53 +1,116 @@
+theme: jekyll-theme-chirpy
+theme_mode: light
+
+lang: en
+timezone: Europe/London
+
 title: "Bridget Walker — Evidential Record"
-description: "Private case record for LGSCO Ref 25 019 572 / Council Ref 30000912"
-case_ref_lgsco: "25 019 572"
-case_ref_council: "30000912"
-case_ref_icb: "BC70014"
-investigator: "Paul Gyan-Apenteng"
-version: "5"
-last_updated: "June 2026"
+tagline: "LGSCO Ref 25 019 572 / Council Ref 30000912"
+description: "Private case record for LGSCO investigation ref 25 019 572 into Southend-on-Sea City Council Adult Social Care"
+url: "https://crispyxuk.github.io"
+baseurl: ""
 
-# GitHub Pages / build
-markdown: kramdown
+github:
+  username: crispyxuk
+
+social:
+  name: Mark Walker
+  email: ""
+  links: []
+
+avatar: ""
+toc: false
+
+comments:
+  provider: ""
+
+paginate: 10
+
+analytics:
+  google:
+    id: ""
+
+pwa:
+  enabled: false
+
+# Case-specific data
+case_ref_lgsco:    "25 019 572"
+case_ref_council:  "30000912"
+case_ref_icb:      "BC70014"
+investigator:      "Paul Gyan-Apenteng"
+version:           "5"
+last_updated:      "June 2026"
+
+# Jekyll build
+markdown:    kramdown
 highlighter: rouge
-permalink: pretty
+permalink:   pretty
 
-# Exclude build/source files from the site output
+plugins:
+  - jekyll-include-cache
+
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
   - vendor
+  - node_modules
+  - "*.gem"
+  - claude.md
 
-# Tell Jekyll to process the pages folder
 include:
   - pages
 
-# Force posts to /emails/:title/ regardless of category
+collections:
+  tabs:
+    output: false
+    sort_by: order
+
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
+      layout: post
       permalink: /emails/:title/
+      comments: false
+  - scope:
+      path: "pages"
+    values:
+      comments: false
 
-# Navigation order
+# Navigation — used by sidebar override and cat-jump links
 nav:
   - title: "Summary"
     url: "/"
+    icon: "fas fa-home"
   - title: "Timeline"
     url: "/timeline/"
+    icon: "fas fa-clock"
   - title: "Issue Register"
     url: "/issues/"
+    icon: "fas fa-list-ul"
   - title: "Document Integrity"
     url: "/document-integrity/"
+    icon: "fas fa-file-alt"
   - title: "DST Analysis"
     url: "/dst/"
+    icon: "fas fa-clipboard-check"
+  - title: "About Bridget"
+    url: "/bio/"
+    icon: "fas fa-user"
   - title: "Key Parties"
     url: "/parties/"
+    icon: "fas fa-users"
   - title: "Evidence"
     url: "/evidence/"
+    icon: "fas fa-folder-open"
   - title: "Emails"
     url: "/emails/"
+    icon: "fas fa-envelope"
   - title: "Clinical"
     url: "/clinical/"
+    icon: "fas fa-heartbeat"
+  - title: "Health & Needs"
+    url: "/health-and-needs/"
+    icon: "fas fa-user-shield"

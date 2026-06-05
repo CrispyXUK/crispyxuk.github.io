@@ -1,0 +1,36 @@
+tabs:
+  home: Home
+
+panel:
+  lastmod: Recently Updated
+  trending_tags: Trending Tags
+  toc: Contents
+
+post:
+  written_by: By
+  posted: Posted
+  updated: Updated
+  words: words
+  read_time:
+    unit: min
+    prompt: read
+  share: Share
+  button:
+    next: Newer
+    previous: Older
+
+df:
+  post:
+    strftime: "%b %e, %Y"
+    dayjs: "ll"
+  archives:
+    strftime: "%b"
+    dayjs: "MMM"
+
+search:
+  hint: search
+  cancel: Cancel
+  no_results: No results found.
+
+not_found:
+  statement: Sorry, that page does not exist.

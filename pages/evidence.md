@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Evidence Overview"
 permalink: /evidence/
 ---
@@ -34,15 +34,15 @@ permalink: /evidence/
   <thead>
     <tr>
       <th>Item</th>
-      <th style="width:140px">Date</th>
+      <th class="col-date">Date</th>
       <th>Notes</th>
     </tr>
   </thead>
   <tbody>
     {% for e in obtained_items %}
-    <tr>
+    <tr{% if e.id %} id="ev-{{ e.id }}"{% endif %}>
       <td>{{ e.item }}</td>
-      <td style="white-space:nowrap"><small>{{ e.date }}</small></td>
+      <td class="nowrap"><small>{{ e.date }}</small></td>
       <td><small>{{ e.note }}</small></td>
     </tr>
     {% endfor %}
@@ -59,16 +59,16 @@ permalink: /evidence/
   <thead>
     <tr>
       <th>Item</th>
-      <th style="width:140px">Date / period</th>
+      <th class="col-date">Date / period</th>
       <th>Notes</th>
     </tr>
   </thead>
   <tbody>
     {% assign outstanding = site.data.evidence | where: "obtained", false %}
     {% for e in outstanding %}
-    <tr style="background:#FCE4D6">
+    <tr class="red">
       <td>{{ e.item }}</td>
-      <td style="white-space:nowrap"><small>{{ e.date }}</small></td>
+      <td class="nowrap"><small>{{ e.date }}</small></td>
       <td><small>{{ e.note }}</small></td>
     </tr>
     {% endfor %}

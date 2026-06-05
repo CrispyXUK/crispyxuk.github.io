@@ -40,24 +40,28 @@
   note: "Signed; confirms residential care home status"
 
 - item: "Westcliff Lodge manager letter (Nicky Bourouisa) — high-dependency warning"
+  id: westcliff-letter
   date: "15 Nov 2022"
   type: documentary
   obtained: true
   note: "Same month as CHC Checklist #1 finding threshold not met"
 
 - item: "Council Individual Placement Contract — Palmerston House"
+  id: palmerston-ipc
   date: "11 Apr 2023"
   type: documentary
   obtained: true
   note: "Word metadata: created 13 Apr 2023; shows £750/wk fully Council-funded, £0 from resident"
 
 - item: "5 × Council CHC Checklists (Oct 2022, Feb 2023, Sep 2023, May 2024, Jun 2025)"
+  id: chc-checklists
   date: "Oct 2022 – Jun 2025"
   type: documentary
   obtained: true
   note: "All withheld until 11 Mar 2026; all carry incorrect age and Palmerston address"
 
 - item: "2 × ASC Assessments (Nov 2022, Feb 2023)"
+  id: asc-assessments
   date: "Nov 2022 – Feb 2023"
   type: documentary
   obtained: true
@@ -69,12 +73,14 @@
   obtained: true
 
 - item: "NHS DST Section 2 — domain scoring only"
+  id: dst-section2
   date: "29 Aug 2025"
   type: documentary
   obtained: true
   note: "Section 1 and MDT narrative reasoning not yet disclosed"
 
 - item: "Lynne Gardiner email — FNC denial and reference to undisclosed 'Mercy' meeting"
+  id: gardiner-email
   date: "2 Sep 2025"
   type: documentary
   obtained: true
@@ -91,6 +97,7 @@
   obtained: true
 
 - item: "Palmerston House care plan"
+  id: care-plan-aug25
   date: "Aug 2025"
   type: documentary
   obtained: true
@@ -103,12 +110,14 @@
   note: "242 pages"
 
 - item: "DPA Application Form — declares dependent occupants at 84 Bellhouse Road"
+  id: dpa-application
   date: "16 Feb 2023"
   type: documentary
   obtained: true
   note: "Section 3c names Alex James Walker (dependent child); property value £425,000"
 
 - item: "Deferred Payment Agreement"
+  id: dpa-signed
   date: "19 May 2023"
   type: documentary
   obtained: true
@@ -135,11 +144,13 @@
   obtained: true
 
 - item: "Council complaint responses — first and final"
+  id: complaint-responses
   date: "30 Oct 2025 / 11 Mar 2026"
   type: documentary
   obtained: true
 
 - item: "First disclosure email — bundle of all withheld checklists and assessments"
+  id: first-disclosure
   date: "11 Mar 2026"
   type: documentary
   obtained: true

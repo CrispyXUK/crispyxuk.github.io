@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Emails"
 permalink: /emails/
 ---
@@ -21,7 +21,7 @@ permalink: /emails/
   <tbody>
     {% for post in posts_sorted %}
     <tr>
-      <td style="white-space:nowrap">{{ post.email-date }}</td>
+      <td>{{ post.email-date }}</td>
       <td><a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a></td>
       <td>{{ post.from }}</td>
       <td>{{ post.category }}</td>

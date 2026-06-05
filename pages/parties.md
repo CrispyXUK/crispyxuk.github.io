@@ -1,8 +1,13 @@
 ---
-layout: default
+layout: page
 title: "Key Parties"
 permalink: /parties/
 ---
+
+{% include bio-content.html %}
+
+<hr>
+<h2>Key parties in the investigation</h2>
 
 <table>
   <thead>
@@ -14,3 +19,12 @@ permalink: /parties/
     {% endfor %}
   </tbody>
 </table>
+
+<div class="cat-jump">
+  <a href="{{ '/' | relative_url }}">Summary</a>
+  <a href="{{ '/timeline/' | relative_url }}">Timeline</a>
+  <a href="{{ '/issues/' | relative_url }}">Issue Register</a>
+  <a href="{{ '/bio/' | relative_url }}">About Bridget</a>
+  <a href="{{ '/evidence/' | relative_url }}">Evidence</a>
+  <a href="{{ '/clinical/' | relative_url }}#status">Status</a>
+</div>

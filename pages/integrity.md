@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Document Integrity"
 permalink: /document-integrity/
 ---
@@ -21,38 +21,38 @@ permalink: /document-integrity/
   </thead>
   <tbody>
     {% for document in site.data.integrity %}
-    <tr{% if document.impossible == 'yes' %} style="background:#FCE4D6"{% elsif document.impossible == 'partial' %} style="background:#FFF2CC"{% endif %}>
+    <tr{% if document.impossible == 'yes' %} class="red"{% elsif document.impossible == 'partial' %} class="amber"{% endif %}>
       <td><strong>{{ document.document }}</strong></td>
-      <td style="white-space:nowrap">{{ document.stated }}</td>
+      <td class="nowrap">{{ document.stated }}</td>
       <td>{{ document.age }}</td>
       <td>{{ document.address }}</td>
       <td>
         {% assign doc_date = document.stated %}
         {% for home in site.data.placement %}
           {% if doc_date contains "2022" and home.home == "Westcliff Lodge" %}
-            <strong style="color:#1F4E79">{{ home.home }}</strong><br>
+            <strong class="text-navy">{{ home.home }}</strong><br>
             <small>{{ home.date-start }} to {{ home.date-end }}</small>
           {% elsif doc_date contains "Feb 2023" or doc_date contains "22 Feb" or doc_date contains "01 Feb" or doc_date contains "1 Feb" %}
             {% if home.home == "Westcliff Lodge" %}
-            <strong style="color:#1F4E79">{{ home.home }}</strong><br>
+            <strong class="text-navy">{{ home.home }}</strong><br>
             <small>{{ home.date-start }} to {{ home.date-end }}</small>
             {% endif %}
           {% elsif doc_date contains "2024" and home.home == "Palmerston House" %}
-            <strong style="color:#1F4E79">{{ home.home }}</strong><br>
+            <strong class="text-navy">{{ home.home }}</strong><br>
             <small>{{ home.date-start }} to {{ home.date-end }}</small>
           {% elsif doc_date contains "2025" and home.home == "Palmerston House" %}
-            <strong style="color:#1F4E79">{{ home.home }}</strong><br>
+            <strong class="text-navy">{{ home.home }}</strong><br>
             <small>{{ home.date-start }} to {{ home.date-end }}</small>
           {% endif %}
         {% endfor %}
       </td>
-      <td style="text-align:center;font-weight:bold">
+      <td class="tc-bold">
         {% if document.impossible == 'yes' %}
-          <span style="color:#C00000">YES</span>
+          <span class="flag-yes">YES</span>
         {% elsif document.impossible == 'partial' %}
-          <span style="color:#C55A11">AGE ONLY</span>
+          <span class="flag-partial">AGE ONLY</span>
         {% else %}
-          <span style="color:#2e7d32">No</span>
+          <span class="flag-no">No</span>
         {% endif %}
       </td>
     </tr>

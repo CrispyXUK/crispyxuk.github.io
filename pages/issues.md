@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Issue Register"
 permalink: /issues/
 ---
@@ -43,18 +43,18 @@ permalink: /issues/
 <table>
   <thead>
     <tr>
-      <th style="width:38px">#</th>
-      <th style="width:28px"></th>
+      <th class="col-num">#</th>
+      <th class="col-sev"></th>
       <th>Issue</th>
-      <th style="width:220px">Key evidence</th>
-      <th style="width:110px">Timeline</th>
+      <th class="col-evidence">Key evidence</th>
+      <th class="col-timeline">Timeline</th>
     </tr>
   </thead>
   <tbody>
     {% for issue in group.items %}
     <tr id="issue-{{ issue.num }}"{% if issue.severity == "high" %} class="sev-high-row"{% endif %}>
       <td class="num">{{ issue.num }}</td>
-      <td style="text-align:center"><span class="sev-dot sev-{{ issue.severity }}" title="{{ issue.severity }} priority">&#9679;</span></td>
+      <td class="tc"><span class="sev-dot sev-{{ issue.severity }}" title="{{ issue.severity }} priority">&#9679;</span></td>
       <td>{{ issue.issue }}</td>
       <td><small>{{ issue.evidence }}</small></td>
       <td>
