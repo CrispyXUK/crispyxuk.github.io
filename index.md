@@ -6,9 +6,59 @@ permalink: /
 
 Private evidential record supporting LGSCO investigation **{{ site.case_ref_lgsco }}** into Southend-on-Sea City Council Adult Social Care's handling of Mrs Bridget Penelope Walker's care, funding, and assessment. Investigator: {{ site.investigator }}. Case accepted 18 May 2026.
 
-| [Issue Register]({{ '/issues/' | relative_url }}) | [Timeline]({{ '/timeline/' | relative_url }}) | [Care Settings]({{ '/timeline/' | relative_url }}) |
-|---|---|---|
-| **{{ site.data.issues | size }}** issues across eight categories | **{{ site.data.timeline | size }}** events (Apr 2020 – Jun 2026) | **{{ site.data.placement | size }}** placements documented |
+<div class="row row-cols-1 row-cols-md-3 g-2 mb-4">
+  <div class="col">
+    <article class="card-wrapper card h-100">
+      <a href="{{ '/issues/' | relative_url }}" class="post-preview row g-0">
+        <div class="col-12">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">{{ site.data.issues | size }}</h1>
+            <div class="card-text content mt-0 mb-3">
+              <p>issues across eight categories</p>
+            </div>
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto"><i class="fas fa-list-ul fa-fw me-1"></i>Issue Register</div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </article>
+  </div>
+  <div class="col">
+    <article class="card-wrapper card h-100">
+      <a href="{{ '/timeline/' | relative_url }}" class="post-preview row g-0">
+        <div class="col-12">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">{{ site.data.timeline | size }}</h1>
+            <div class="card-text content mt-0 mb-3">
+              <p>timeline events (Apr 2020 – Jun 2026)</p>
+            </div>
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto"><i class="fas fa-clock fa-fw me-1"></i>Timeline</div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </article>
+  </div>
+  <div class="col">
+    <article class="card-wrapper card h-100">
+      <a href="{{ '/timeline/' | relative_url }}" class="post-preview row g-0">
+        <div class="col-12">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">{{ site.data.placement | size }}</h1>
+            <div class="card-text content mt-0 mb-3">
+              <p>care placements documented</p>
+            </div>
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto"><i class="fas fa-home fa-fw me-1"></i>Placements</div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </article>
+  </div>
+</div>
 
 ---
 
