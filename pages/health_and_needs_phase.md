@@ -82,9 +82,9 @@ permalink: /health-and-needs/
 
 <ul>
   <li>Active DoLS authorisation confirming complex needs and continuous supervision requirement — <a class="tl-ref" href="{{ '/timeline/' | relative_url }}#tl-checklist-1">see timeline</a></li>
-  <li>Registered nursing home placement triggering FNC obligations from day one <span class="issue-badge issue-badge-high" title="Issue 2">#2</span></li>
+  <li>Registered nursing home placement triggering FNC obligations from day one <a class="issue-badge issue-badge-high" href="{{ '/issues/' | relative_url }}#issue-2" title="Issue 2">#2</a></li>
   <li>Continuous professional oversight from dementia services and EPUT</li>
-  <li>Documented escape risks and supervision requirements following the September 2020 incident <span class="issue-badge issue-badge-high" title="Issue 1">#1</span> <span class="issue-badge issue-badge-high" title="Issue 3">#3</span></li>
+  <li>Documented escape risks and supervision requirements following the September 2020 incident <a class="issue-badge issue-badge-high" href="{{ '/issues/' | relative_url }}#issue-1" title="Issue 1">#1</a> <a class="issue-badge issue-badge-high" href="{{ '/issues/' | relative_url }}#issue-3" title="Issue 3">#3</a></li>
 </ul>
 
 <hr>
@@ -223,7 +223,7 @@ permalink: /health-and-needs/
 
 <p>The discharge letter existed and contained clinical instructions — but was never given to Palmerston or the family. The Calci-D and bone protection instructions were only known because the GP had received the letters.</p>
 
-<h3>No CHC Assessment at Discharge <span class="issue-badge issue-badge-high" title="Issue 9">#9</span></h3>
+<h3>No CHC Assessment at Discharge <a class="issue-badge issue-badge-high" href="{{ '/issues/' | relative_url }}#issue-9" title="Issue 9">#9</a></h3>
 
 <p>Neither the discharge summaries nor any surrounding clinical entry references a CHC checklist, CHC screening, or FNC assessment being initiated at the point of discharge. This is a direct breach of the National Framework for NHS Continuing Healthcare, paragraphs 63–64, which require that CHC consideration is initiated at the point of hospital discharge for patients with complex ongoing health needs. Bridget presented as:</p>
 <ul>
@@ -407,15 +407,15 @@ permalink: /health-and-needs/
   </tbody>
 </table>
 
-<p>Despite all of the above being on record, every CHC checklist produced between October 2022 and July 2025 screened Bridget <strong>out</strong> of full DST consideration. The Herbert Protocol entry of July 2025 records "no wandering risk" despite the entire documented history above <span class="issue-badge" title="Issue 13">#13</span>.</p>
+<p>Despite all of the above being on record, every CHC checklist produced between October 2022 and July 2025 screened Bridget <strong>out</strong> of full DST consideration. The Herbert Protocol entry of July 2025 records "no wandering risk" despite the entire documented history above <a class="issue-badge" href="{{ '/issues/' | relative_url }}#issue-13" title="Issue 13">#13</a>.</p>
 
 <h3>The Financial Incentive</h3>
 
 <p>By maintaining Bridget below the threshold for CHC referral, the Council avoided:</p>
 <ul>
   <li>Transfer of full funding liability to NHS England under CHC</li>
-  <li>NHS Funded Nursing Care payments during two years at a registered nursing home <span class="issue-badge issue-badge-high" title="Issue 2">#2</span></li>
-  <li>The need to fund more intensive, appropriately supervised care under the Care Act <span class="issue-badge issue-badge-high" title="Issue 5">#5</span></li>
+  <li>NHS Funded Nursing Care payments during two years at a registered nursing home <a class="issue-badge issue-badge-high" href="{{ '/issues/' | relative_url }}#issue-2" title="Issue 2">#2</a></li>
+  <li>The need to fund more intensive, appropriately supervised care under the Care Act <a class="issue-badge issue-badge-high" href="{{ '/issues/' | relative_url }}#issue-5" title="Issue 5">#5</a></li>
 </ul>
 
 <p>The pattern of evidence supports the family's position that Bridget's needs were systematically downplayed in order to avoid funding obligations — to the detriment of her safety, wellbeing, and health.</p>

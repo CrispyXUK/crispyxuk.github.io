@@ -1,0 +1,368 @@
+# Council income-contribution invoices — Mrs Bridget Walker, Customer C42983
+# These are CONTRIBUTION invoices: the resident's assessed income contribution billed directly to the family.
+# They do NOT represent the total care home fee. The balance between the care home fee and this contribution
+# is deferred under the DPA and accrues against 84 Bellhouse Road.
+# Source: Southend-on-Sea City Council, Adult Res Finance. Customer Number C42983.
+# Note: scans are incomplete — at least one invoice period is unaccounted for (see gap flag below).
+
+- invoice: "873892"
+  date: "16/03/2023"
+  lines:
+    - from: "27/09/2022"
+      to: "24/10/2022"
+      location: "Westcliff Lodge"
+      rate: 379.68
+      amount: 1518.72
+    - from: "25/10/2022"
+      to: "19/12/2022"
+      location: "Westcliff Lodge"
+      rate: 317.83
+      amount: 2542.63
+    - from: "20/12/2022"
+      to: "05/03/2023"
+      location: "Westcliff Lodge"
+      rate: 800.00
+      amount: 8685.71
+  total: 12747.06
+  flag: amber
+  note: "First invoice, covering the entire Westcliff Lodge period to date in one omnibus bill. Three different contribution rates: £379.68/wk (12-week disregard period), £317.83/wk (transitional — basis unclear), £800.00/wk from 20 Dec 2022 (DPA purportedly commences 19/20 Dec 2022). Issued 6 months after placement commenced. Late billing means charges accrued without the family receiving contemporaneous statements."
+
+- invoice: "876551"
+  date: "14/04/2023"
+  lines:
+    - from: "06/03/2023"
+      to: "02/04/2023"
+      location: "Westcliff Lodge"
+      rate: 800.00
+      amount: 3200.00
+  total: 3200.00
+  flag: ok
+  note: ""
+
+- invoice: "877892"
+  date: "17/05/2023"
+  lines:
+    - from: "03/04/2023"
+      to: "09/04/2023"
+      location: "Westcliff Lodge"
+      rate: 800.00
+      amount: 800.00
+    - from: "10/04/2023"
+      to: "10/04/2023"
+      location: "Westcliff Lodge"
+      rate: 877.59
+      amount: 125.37
+    - from: "11/04/2023"
+      to: "30/04/2023"
+      location: "Palmerston Care Home"
+      rate: 750.00
+      amount: 2142.85
+  total: 3068.22
+  flag: red
+  note: "ANOMALY — two: (1) Line 2 bills Westcliff Lodge at £877.59/wk on 10/04/2023 — one day before the Palmerston transfer. £877.59 is the Palmerston billed rate, not a Westcliff Lodge rate. This appears to be the Palmerston rate applied one day early, possibly a system error. (2) The Palmerston contribution for 11–30 April is billed at £750/wk — the full IPC rate, not an income-assessed contribution. A FA had not been completed at the point of transfer."
+
+- invoice: "880387"
+  date: "19/06/2023"
+  lines:
+    - from: "01/05/2023"
+      to: "04/06/2023"
+      location: "Palmerston Care Home"
+      rate: 416.38
+      amount: 2081.90
+  total: 2081.90
+  flag: amber
+  note: "Palmerston contribution rate drops from £750/wk (April) to £416.38/wk. This reflects a financial assessment completed shortly after the April 2023 transfer — the April invoice was billed at the full care home rate before the FA was done."
+
+- invoice: "883238"
+  date: "18/07/2023"
+  lines:
+    - from: "05/06/2023"
+      to: "02/07/2023"
+      location: "Palmerston Care Home"
+      rate: 416.38
+      amount: 1665.52
+  total: 1665.52
+  flag: ok
+  note: ""
+
+- invoice: "884969"
+  date: "16/08/2023"
+  lines:
+    - from: "03/07/2023"
+      to: "06/08/2023"
+      location: "Palmerston Care Home"
+      rate: 416.38
+      amount: 2081.90
+  total: 2081.90
+  flag: ok
+  note: ""
+
+- invoice: "886779"
+  date: "14/09/2023"
+  lines:
+    - from: "07/08/2023"
+      to: "03/09/2023"
+      location: "Palmerston Care Home"
+      rate: 416.38
+      amount: 1665.52
+  total: 1665.52
+  flag: ok
+  note: ""
+
+- invoice: "889049"
+  date: "17/10/2023"
+  lines:
+    - from: "04/09/2023"
+      to: "01/10/2023"
+      location: "Palmerston Care Home"
+      rate: 416.38
+      amount: 1665.52
+  total: 1665.52
+  flag: ok
+  note: ""
+
+- invoice: "891487"
+  date: "16/11/2023"
+  lines:
+    - from: "02/10/2023"
+      to: "05/11/2023"
+      location: "Palmerston Care Home"
+      rate: 416.38
+      amount: 2081.90
+  total: 2081.90
+  flag: ok
+  note: ""
+
+- invoice: "894011"
+  date: "13/12/2023"
+  lines:
+    - from: "06/11/2023"
+      to: "03/12/2023"
+      location: "Palmerston Care Home"
+      rate: 416.38
+      amount: 1665.52
+  total: 1665.52
+  flag: ok
+  note: ""
+
+- invoice: "895912"
+  date: "17/01/2024"
+  lines:
+    - from: "04/12/2023"
+      to: "31/12/2023"
+      location: "Palmerston Care Home"
+      rate: 416.38
+      amount: 1665.52
+  total: 1665.52
+  flag: ok
+  note: ""
+
+- invoice: "897361"
+  date: "14/02/2024"
+  lines:
+    - from: "01/01/2024"
+      to: "04/02/2024"
+      location: "Palmerston Care Home"
+      rate: 416.38
+      amount: 2081.90
+  total: 2081.90
+  flag: ok
+  note: ""
+
+- invoice: "899503"
+  date: "15/03/2024"
+  lines:
+    - from: "05/02/2024"
+      to: "03/03/2024"
+      location: "Palmerston Care Home"
+      rate: 363.70
+      amount: 1454.80
+  total: 1454.80
+  flag: amber
+  note: "Contribution rate drops from £416.38 to £363.70/wk — financial reassessment. No FA letter or assessment disclosed to family at this point. Rate reduction may reflect change in income (pension uprating or benefit change)."
+
+- invoice: "903225"
+  date: "15/04/2024"
+  lines:
+    - from: "04/03/2024"
+      to: "31/03/2024"
+      location: "Palmerston Care Home"
+      rate: 363.70
+      amount: 1454.80
+  total: 1454.80
+  flag: ok
+  note: ""
+
+- invoice: "905787"
+  date: "15/05/2024"
+  lines:
+    - from: "01/04/2024"
+      to: "07/04/2024"
+      location: "Palmerston Care Home"
+      rate: 363.70
+      amount: 363.70
+    - from: "08/04/2024"
+      to: "05/05/2024"
+      location: "Palmerston Care Home"
+      rate: 384.13
+      amount: 1536.52
+  total: 1900.22
+  flag: amber
+  note: "Contribution rate increases from £363.70 to £384.13/wk from 08/04/2024 — another financial reassessment. Rate change mid-period shown in a single invoice."
+
+- invoice: "907620"
+  date: "13/06/2024"
+  lines:
+    - from: "06/05/2024"
+      to: "02/06/2024"
+      location: "Palmerston Care Home"
+      rate: 384.13
+      amount: 1536.52
+  total: 1536.52
+  flag: ok
+  note: ""
+
+- invoice: "909504"
+  date: "15/07/2024"
+  lines:
+    - from: "03/06/2024"
+      to: "30/06/2024"
+      location: "Palmerston Care Home"
+      rate: 384.13
+      amount: 1536.52
+  total: 1536.52
+  flag: ok
+  note: ""
+
+- invoice: "911552"
+  date: "14/08/2024"
+  lines:
+    - from: "01/07/2024"
+      to: "04/08/2024"
+      location: "Palmerston Care Home"
+      rate: 384.13
+      amount: 1920.65
+  total: 1920.65
+  flag: ok
+  note: ""
+
+- invoice: "913919"
+  date: "13/09/2024"
+  lines:
+    - from: "05/08/2024"
+      to: "01/09/2024"
+      location: "Palmerston Care Home"
+      rate: 384.13
+      amount: 1536.52
+  total: 1536.52
+  flag: ok
+  note: ""
+
+- invoice: "916997"
+  date: "14/10/2024"
+  lines:
+    - from: "02/09/2024"
+      to: "06/10/2024"
+      location: "Palmerston Care Home"
+      rate: 384.13
+      amount: 1920.65
+  total: 1920.65
+  flag: ok
+  note: ""
+
+- invoice: "918886"
+  date: "13/11/2024"
+  lines:
+    - from: "07/10/2024"
+      to: "03/11/2024"
+      location: "Palmerston Care Home"
+      rate: 384.13
+      amount: 1536.52
+  total: 1536.52
+  flag: ok
+  note: ""
+
+- invoice: "921004"
+  date: "11/12/2024"
+  lines:
+    - from: "04/11/2024"
+      to: "01/12/2024"
+      location: "Palmerston Care Home"
+      rate: 384.13
+      amount: 1536.52
+  total: 1536.52
+  flag: ok
+  note: ""
+
+- invoice: "922873"
+  date: "15/01/2025"
+  lines:
+    - from: "02/12/2024"
+      to: "05/01/2025"
+      location: "Palmerston Care Home"
+      rate: 384.13
+      amount: 1920.65
+  total: 1920.65
+  flag: ok
+  note: ""
+
+- invoice: "924879"
+  date: "12/02/2025"
+  lines:
+    - from: "06/01/2025"
+      to: "02/02/2025"
+      location: "Palmerston Care Home"
+      rate: 384.13
+      amount: 1536.52
+  total: 1536.52
+  flag: ok
+  note: ""
+
+# GAP: no invoice in scans for period 03/02/2025 to 02/03/2025
+- invoice: "MISSING"
+  date: "~Mar 2025"
+  lines:
+    - from: "03/02/2025"
+      to: "02/03/2025"
+      location: "Palmerston Care Home"
+      rate: 0
+      amount: 0
+  total: 0
+  flag: red
+  note: "MISSING FROM SCANS — period 03/02/2025 to 02/03/2025 is unaccounted for in the invoice set provided. Invoice for this period has not been disclosed or scanned."
+
+- invoice: "930778"
+  date: "10/04/2025"
+  lines:
+    - from: "03/03/2025"
+      to: "06/04/2025"
+      location: "Palmerston Care Home"
+      rate: 384.13
+      amount: 1920.65
+  total: 1920.65
+  flag: ok
+  note: ""
+
+- invoice: "933244"
+  date: "14/05/2025"
+  lines:
+    - from: "07/04/2025"
+      to: "04/05/2025"
+      location: "Palmerston Care Home"
+      rate: 395.56
+      amount: 1582.24
+  total: 1582.24
+  flag: amber
+  note: "Rate increases from £384.13 to £395.56/wk from 07/04/2025 — financial reassessment."
+
+- invoice: "935683"
+  date: "11/06/2025"
+  lines:
+    - from: "05/05/2025"
+      to: "01/06/2025"
+      location: "Palmerston Care Home"
+      rate: 395.56
+      amount: 1582.24
+  total: 1582.24
+  flag: ok
+  note: "Last invoice in scans. Invoices after this date not provided — consistent with complaint and recovery action suspension."

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Clinical Record & Status"
+title: "Clinical Information"
 permalink: /clinical/
 ---
 

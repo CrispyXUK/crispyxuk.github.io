@@ -6,17 +6,55 @@
   event: "Kira Walker emails Council Dementia Community Support Team describing Bridget's wandering. Council sends activity pack only — no assessment, no safeguarding referral, no CHC consideration."
 - date: "27 Jul 2020"
   event: "Mark Walker submits Supported Self-Assessment (Service Request 6614531). Savings declared above £23,250."
+- date: "28 Jul 2020"
+  event: "DIST comprehensive assessment: word-finding difficulty, memory decline, medication refusal (12+ months), wandering, faecal placement outside, aggressive moods. DIST calls Kira (daughter, 28 min) confirming Bridget has not taken medication for over a year; family to place her in Sweyne Court respite with a view to permanent residence."
+- date: "2 Sep 2020"
+  event: "Bridget admitted to Sweyne Court (respite). No Council notification; no needs assessment initiated. Placement entirely self-funded — no Council care plan, eligibility determination, or contribution assessment produced."
+- date: "5 Sep 2020"
+  event: "Day 3 at Sweyne Court: cellulitis (left leg — swollen, red, hot from knee down); paramedic called; OOH doctor consulted; Flucloxacillin 500mg QID and paracetamol prescribed. Simultaneously: acute behavioural crisis — restlessness, agitation, refusal of personal care; found on top of bedridden resident; attempting to escape through window. Urine sample obtained (later rejected 11 Sep for insufficient labelling)."
+  key: true
 - date: "6 Sep 2020"
   event: "Bridget absconds from Sweyne Court, reaches Rayleigh High Street barefoot. CQC and safeguarding lead Jo Allen notified. 24-hour 1:1 care imposed; family told to fund it (£4,460.65). Jo Allen: Council not obliged as Bridget is private."
+- date: "9 Sep 2020"
+  event: "CMHT crisis briefing to DIST (30 min): Bridget has absconded twice; absconding risk assessed as high. CPN recommends Promethazine 25mg BD — no capacity assessment or family consultation documented; no MCA Best Interests record. Placed on 1:1 observation. ABC chart recommended to record behavioural incidents."
+  key: true
+- date: "10 Sep 2020"
+  event: "DIST calls Sweyne Court (Deputy Manager Maxine): Bridget slept well; ABC chart to be completed; Admiral Court to assess Bridget the following day. ABC chart subsequently absent from all records — behavioural pattern data lost."
+- date: "11 Sep 2020"
+  event: "Urine MC&S sample rejected — insufficient identifiers; no re-collection attempt documented. Lost opportunity for UTI screening during acute behavioural crisis."
+- date: "15 Sep 2020"
+  event: "Permanent transfer to Admiral Court (registered nursing home). DIST to discharge. No Council notification; no needs assessment initiated; no FNC assessment initiated; no DoLS application documented at admission. This is the Care Act s.13 triggering event — Council did not respond."
+  key: true
 - date: "11–16 Sep 2020"
   event: "Hallmark (Admiral Court — registered nursing home) admits Bridget c.16 Sep 2020 at £1,450/week. Placement begins as respite; becomes permanent due to Covid-19. Transfer care plan records her 'at low risk of leaving the home unnoticed' — 10 days after the absconding incident."
 - date: "16 Sep 2020"
   type: placement
   placement-name: "Admiral Court"
+- date: "22 Sep 2020"
+  event: "DIST discharges Bridget without formal MDT handover; no written care plan transferred to Admiral Court; contact details given verbally only. Continuity of care broken."
+- date: "14 Oct 2020"
+  event: "GP contacts Admiral Court (Irene, senior staff): unable to establish who prescribed Promethazine or whether dose was 10mg or 25mg; no transfer documentation found. DIST confirms no one knows who actioned the dose change from 10mg to 25mg. GP declines to prescribe without reviewing patient or receiving clinical history. Prescribing authority never established; medication history remains incomplete."
+  key: true
+- date: "27 Oct 2020"
+  event: "EPUT Integrated Adult Services: Waterlow score 11.0 (BMI 19.99; weight 46.2 kg); MUST nutritional assessment stable; skin and heel assessment (cracked heels noted, moisturising cream advised). District Nursing referral accepted then immediately marked 'Discharged From Care' — no clinical reason for discharge documented."
 - date: "10 Nov 2020"
   event: "DoLS Standard Authorisation granted at Admiral Court. Lack of capacity confirmed; continuous supervision; not free to leave. Kira Walker appointed RPR."
+- date: "10 Nov 2020"
+  event: "GP reviews Promethazine with Admiral Court (Irene): home not reporting behaviours of concern; Promethazine changed to PRN; not required for past 2 weeks. Plan: review in 3 months; stop if not being given."
+- date: "4 Dec 2020"
+  event: "Waterlow score 14.0 — up from 11.0 in 5 weeks (+27%); no intervention documented and no care plan update. Continence assessment: doubly incontinent; faecal smearing; wet bedding nightly; removing pads; Type 3–4 stools. Rapid deterioration; no Council involvement throughout."
+  key: true
+- date: "11 Dec 2020"
+  event: "GP home visit: patient uncooperative; cracked and broken skin on plantar and heel documented (images provided by care home); Fusidic acid cream prescribed. Wound first identified at 27 Oct assessment but not treated until now."
+- date: "29 Dec 2020"
+  event: "COVID-19 test result positive (Pall Mall Surgery)."
+  key: true
+- date: "30 Dec 2020"
+  event: "GP video consultation (COVID-19): poor appetite; no fever spikes; increased lethargy; alert and responsive; DNAR/PPC/PPD in place. SMS to carer: feet improving with soaking and cream — awaiting images. Medication review: no medications to hold during COVID. Lethargy increase documented but not investigated."
+- date: "31 Dec 2020"
+  event: "GP calls daughter: family aware Bridget is COVID positive; reassurance given; family confirm would not wish for hospital admission; advanced care plan and DNAR discussed; family satisfied with plans."
 - date: "2020–2022"
-  event: "Bridget privately funded at Admiral Court (nursing home) at £1,450/week. No FNC. No CHC referral. Capital depleted from above £23,250 to below £14,250. Overdue balance reaches £12,842.86; final account 5 Oct 2022."
+  event: "Bridget self-funded at Admiral Court (nursing home) at £1,450/week — no Council involvement, no subsidy, no FNC, no CHC referral. Capital depleted from above £23,250 to below £14,250 entirely through privately-paid fees. Overdue balance reaches £12,842.86; final account 5 Oct 2022."
 - date: "27–28 Sep 2022"
   event: "Transfer to Westcliff Lodge (residential care home). Westcliff Lodge resident contract signed 28 Sep 2022. Council formally involved under Care Act 2014. 12-week property disregard begins."
 - date: "27 Sep 2022"
@@ -30,7 +68,7 @@
 - date: "7 Nov 2022"
   id: asc-1
   evidence-refs: [asc-assessments]
-  event: "ASC Assessment #1. Incorrect age (75) and Palmerston address — impossible at this date."
+  event: "ASC Assessment #1. Incorrect age (75) and Palmerston address — impossible at this date. Family never informed this assessment existed; first seen by Mark Walker on 11 Mar 2026 as an attachment to the Council's second complaint response."
   key: true
 - date: "15 Nov 2022"
   id: westcliff-letter
@@ -39,7 +77,7 @@
 - date: "Dec 2022"
   id: dpa-commencement
   email-refs: [jacquie-deacon-deferred-payment]
-  event: "DPA purportedly commences 19/20 Dec 2022. Council charges £800/wk contributions AND defers £389.77/wk simultaneously — combined £1,189.77/wk against actual fee of £738.46/wk."
+  event: "DPA purportedly commences 19/20 Dec 2022. Full cost of care borne by Bridget's estate throughout — no Council subsidy. Council charges £800/wk income contributions AND defers £389.77/wk simultaneously — combined £1,189.77/wk against actual fee of £738.46/wk. Council acted as lender against 84 Bellhouse Road, not as funder."
 - date: "1 Feb 2023"
   id: checklist-2
   evidence-refs: [chc-checklists]
@@ -53,12 +91,14 @@
 - date: "22 Feb 2023"
   id: asc-2
   evidence-refs: [asc-assessments]
-  event: "ASC Assessment #2. Incorrect age and Palmerston address — impossible at this date."
+  event: "ASC Assessment #2. Incorrect age and Palmerston address — impossible at this date. Family never informed this assessment existed; first seen by Mark Walker on 11 Mar 2026 as an attachment to the Council's second complaint response."
   key: true
 - date: "11 Apr 2023"
   id: palmerston-transfer
   evidence-refs: [palmerston-ipc]
-  event: "Transfer to Palmerston House. Council Individual Placement Contract created (Word metadata: created 13 Apr 2023) showing Council fully funding £750/week, £0 from resident. Care Manager: Jacquie Deacon. Address stated as 23-25 Palmerston Road. No needs assessment, care plan or review at transfer."
+  event: "Transfer to Palmerston House. Council Individual Placement Contract created (Word metadata: created 13 Apr 2023) stating £750/week placement rate with resident contribution recorded as TBC — full cost to be borne by Bridget's estate under DPA, no Council subsidy. Care Manager: Jacquie Deacon. Address stated as 23-25 Palmerston Road. No needs assessment, care plan or review at transfer."
+- date: "Apr 2023"
+  event: "Care and Support Plan issued confirming 24-hour supervised residential care — confirmed in Council's complaint response 11 Mar 2026. No care needs re-assessment at the point of transfer documented in disclosed records."
 - date: "11 Apr 2023"
   type: placement
   placement-name: "Palmerston House"
@@ -80,6 +120,8 @@
   key: true
 - date: "18 Sep 2023"
   event: "Land Registry: 21 Palmerston Road changes ownership to Tekin & Gulhan; Lloyds Bank charge registered (building Bridget resides in changes hands 5 months into her stay)."
+- date: "Oct 2023"
+  event: "Long-term Care Plan issued (October 2023 – June 2025) confirming ongoing residential care requirements — confirmed in Council's complaint response 11 Mar 2026."
 - date: "Nov–Dec 2023"
   event: "Hospital attendances. Ward round entry 10 Nov 2023 wrongly records no admissions in preceding 7 days — contradicted by WhatsApp."
 - date: "21 Dec 2023"
@@ -93,8 +135,19 @@
   key: true
 - date: "29 May 2024"
   event: "DoLS/LPS authorisations granted across 9 domains at Palmerston."
+- date: "Jul 2024"
+  event: "PCN pharmacist structured medication review: Paracetamol dose reduced to 1g TDS (weight 44.9kg — below 50kg threshold). Promethazine nighttime dose stopped (bedbound, excessively drowsy). Anticholinergic Cognitive Burden score: 3 (moderate to high). Full medication list confirmed by pharmacist and GP."
+  key: true
+- date: "Jul 2024"
+  event: "First formal MCA assessment for covert medication. GP home visit: Bridget unable to understand, retain, weigh up or decide. Best Interest meeting held: doctor, pharmacist, care home manager, Kira Walker (LPA) by telephone. All agreed to crush medications in food and drink. MCA1 form completed. GP subsequently left the practice without ensuring the care home received a copy — a CQC inspection finding resulted. Covert administration had been ongoing from May 2023 — a gap of over 13 months without a completed MCA process."
+  key: true
+- date: "Aug 2024"
+  event: "Surgery calls care home to remind them to collect unsigned covert administration MCA paperwork. Forms remain unsigned months after the July 2024 MCA meeting — CQC inspection finding."
+- date: "Mar 2025"
+  event: "Scabies outbreak at Palmerston House. Permethrin 5% cream prescribed — whole body application including face, scalp and ears, repeated after 7 days. Relevant to CQC Regulation 12 (Safe Care and Treatment)."
+  key: true
 - date: "3 Jun 2025"
-  event: "CHC Checklist #5 (Lynne Gardiner) — threshold MET. First ICB referral in five years."
+  event: "CHC Checklist #5 (Lynne Gardiner) — threshold MET. First ICB referral in five years. Checklist ID 126611. Referral submitted to NHS Mid & South Essex ICB."
 - date: "18 Jun 2025"
   event: "CHC Checklist #6 (Lynne Gardiner). Threshold not met. Family recorded as 'aware but did not wish to attend' — disputed."
 - date: "9 Jul 2025"
@@ -103,6 +156,9 @@
   event: "NHS ICB CHC Checklist (Mid & South Essex ICB, Ref BC70014)."
 - date: "11 Aug 2025"
   event: "Mark Walker emails Lynne Gardiner raising FNC, absconding records, transfer care plan error, cancer, skin integrity, and funding position."
+- date: "29 Jul 2025"
+  event: "Second formal MCA assessment completed by new GP following CQC inspection finding. Bridget non-verbal, unresponsive to GP and carer during assessment. Kira Walker (LPA) agrees by telephone. MCA form completed and DNACPR formalised and attached to records. Second MCA required because of failures with the first: GP left, paperwork never received by care home."
+  key: true
 - date: "29 Aug 2025"
   id: dst-meeting
   evidence-refs: [dst-section2, care-plan-aug25]
@@ -131,7 +187,7 @@
 - date: "11 Mar 2026"
   id: first-disclosure
   evidence-refs: [first-disclosure, chc-checklists, asc-assessments]
-  event: "FIRST DISCLOSURE: family first receive ALL five CHC checklists, both ASC assessments and the ICB CHC letters — as attachments to the Council's second complaint response (email 11 Mar 2026, 14:02). The June 2025 checklist PDF carries creation metadata of 5 Mar 2026 — six days before this disclosure. Documents withheld until after both complaint responses and the LGSCO referral."
+  event: "FIRST DISCLOSURE: family first receive ALL six CHC checklists, both ASC assessments and the ICB CHC letters — as attachments to the Council's second complaint response (email 11 Mar 2026, 14:02). The June 2025 checklist PDF carries creation metadata of 5 Mar 2026 — six days before this disclosure. Documents withheld until after both complaint responses and the LGSCO referral."
   key: true
 - date: "11 Mar 2026"
   event: "Council final response #2 (Helen Cummings / Michael Barrett). Complaint exhausted; directed to LGSCO. Issued with the document bundle above."

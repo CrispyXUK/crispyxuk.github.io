@@ -53,19 +53,19 @@
   obtained: true
   note: "Word metadata: created 13 Apr 2023; shows £750/wk fully Council-funded, £0 from resident"
 
-- item: "5 × Council CHC Checklists (Oct 2022, Feb 2023, Sep 2023, May 2024, Jun 2025)"
+- item: "6 × Council CHC Checklists (Oct 2022, Feb 2023, Sep 2023, May 2024, Jun 2025 ×2)"
   id: chc-checklists
   date: "Oct 2022 – Jun 2025"
   type: documentary
   obtained: true
-  note: "All withheld until 11 Mar 2026; all carry incorrect age and Palmerston address"
+  note: "All withheld until 11 Mar 2026; all carry incorrect age and Palmerston address. Council's 11 Mar 2026 letter lists six dates: 26/10/2022, 01/02/2023, 11/09/2023, 22/05/2024, 18/06/2025 (not met), 03/06/2025 (met threshold, Checklist ID 126611). Letter refers to 'five checklists' but lists six — and the two June 2025 dates are listed in reverse chronological order, suggesting either a transcription error or an additional checklist not previously disclosed."
 
 - item: "2 × ASC Assessments (Nov 2022, Feb 2023)"
   id: asc-assessments
   date: "Nov 2022 – Feb 2023"
   type: documentary
   obtained: true
-  note: "Both carry incorrect age and Palmerston address"
+  note: "Both carry incorrect age and Palmerston address. Neither disclosed to family until 11 Mar 2026 — over 3 years after the earlier assessment and over 1 year after the later one. First seen by Mark Walker as attachments to the Council's second complaint response email (Lauren, Corporate Service Complaints, 11 Mar 2026 14:02)."
 
 - item: "NHS ICB CHC Checklist (Mid & South Essex ICB, Ref BC70014)"
   date: "23 Jul 2025"
@@ -133,6 +133,13 @@
   type: documentary
   obtained: true
 
+- item: "Council income-contribution invoices — 27 invoices (Sep 2022 – Jun 2025)"
+  id: council-invoices
+  date: "Sep 2022 – Jun 2025"
+  type: documentary
+  obtained: true
+  note: "Customer C42983. Invoices 873892–935683. Scans incomplete — period 03/02/2025–02/03/2025 unaccounted for; invoices after Jun 2025 not provided. Key anomaly: invoice 877892 (17/05/2023) bills Westcliff Lodge at £877.59/wk on 10/04/2023 — Palmerston rate applied to last Westcliff Lodge day."
+
 - item: "Financial assessment letters"
   date: "2022, 2024, 2025"
   type: documentary
@@ -159,6 +166,12 @@
   date: "13 May 2026 / 18 May 2026"
   type: documentary
   obtained: true
+
+- item: "Care home public websites — Admiral Court, Westcliff Lodge, Palmerston, Sweyne Court"
+  date: "Jun 2026"
+  type: public
+  obtained: true
+  note: "Admiral Court (hallmarkcarehomes.co.uk): lists Nursing Care as service type — confirms registered nursing home status during Bridget's placement. Westcliff Lodge (westclifflodge.co.uk): advertises 'complex medical needs care'. Palmerston (palmerstoncarehome.com): confirms 21 Palmerston Road address; copyright shows 'Odam Lviran' (not CQC-registered provider E&F Enterprises Ltd). Sweyne Court (excelcareholdings.com): Hockley Road, Rayleigh SS6 8EB — residential and dementia care only."
 
 - item: "CQC location registration — Palmerston House Care Home (loc 1-156343233)"
   date: ""

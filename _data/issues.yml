@@ -104,13 +104,13 @@
   category: financial-dpa
   severity: high
   timeline-refs: [palmerston-transfer]
-  issue: "Council's own Individual Placement Contract (11 Apr 2023) shows it contracted to pay Palmerston House £750/week, fully funded by the Council with £0 from the resident — yet it invoiced the family £877.59/week. Overcharge of £127.59/week (£6,600+/year) proven from the Council's own contract."
+  issue: "Council's own Individual Placement Contract (11 Apr 2023) states the placement rate as £750/week, with the resident contribution recorded as TBC. The family was billed £877.59/week — an overcharge of £127.59/week (£6,600+/year) against the Council's own contracted rate. Under the DPA the full cost falls on Bridget's estate; there was no Council subsidy. The overcharge is proved against the Council's own document."
   evidence: "Council IPC 11 Apr 2023; FA letter 27 Mar 2023; Lynn Hyam email 28 Aug 2025"
 - num: 20
   category: financial-dpa
   severity: high
-  issue: "Capital above £23,250 (Jul 2020) was depleted through private nursing home fees at Admiral Court (£1,450/wk). By Sep 2022 capital was below £14,250 — Council funding obligations should have applied from the outset; the DPA was issued against a person already below the lower threshold."
-  evidence: "Hallmark invoices; self-assessment Jul 2020; FA letter 2022"
+  issue: "Both Sweyne Court (Sep 2020) and Admiral Court (Sep 2020 – Sep 2022) were self-funded because the Council did not engage with the family during this period. No needs assessment, financial assessment, or care planning was conducted. Capital above £23,250 (Jul 2020) was depleted at £1,450/wk in a registered nursing home with no Council involvement. By Sep 2022 capital was below the lower threshold (£14,250) — the DPA was then issued against a person already below the threshold, without the preceding statutory assessments ever having been carried out."
+  evidence: "Hallmark invoices; self-assessment Jul 2020; FA letter 2022; absence of any Council care records 2020–2022"
 - num: 21
   category: financial-dpa
   severity: high
@@ -223,9 +223,9 @@
   evidence: "Council Tax exemption records"
 - num: 41
   category: doc-integrity
-  severity: low
-  issue: "Address inconsistency in Council's own records: IPC names Palmerston House at 23-25 Palmerston Road; CQC/ICB give 21 Palmerston Road. Land Registry shows these are separately-owned titles."
-  evidence: "Council IPC; CQC registration; ICB letter; Land Registry EX240310/EX298329"
+  severity: medium
+  issue: "The Council's IPC (11 Apr 2023) names the service provider as 'Palmerston House, 23-25 Palmerston Road, SS0 7TA'. However, CQC registration 1-156343233 is at 21 Palmerston Road, recorded as 'Interchurch Care Centre'. Land Registry confirms these are separately-owned freehold titles: 23-25 Palmerston Road is owned by Higgins Property Investments Limited (since 2011); 21 Palmerston Road is owned by Aysen Tekin and Erbil Gulhan (from Sept 2023, with a Lloyds Bank charge). The IPC therefore names the address of a different legal entity from the CQC-registered provider. No explanation for this discrepancy has been provided. If the contract is with the owner of 23-25, it may not bind the registered care home operator at No. 21 — raising questions about contractual accountability and whether the correct regulated entity was party to the placement agreement."
+  evidence: "Council IPC (Contract_-_Palmerston_2023.doc); CQC registration 1-156343233; Land Registry EX240310 (21 Palmerston Road, accessed 18 Feb 2026); Land Registry EX298329 (23-25 Palmerston Road, accessed 3 Apr 2026)"
 - num: 42
   category: complaint-handling
   severity: medium
@@ -257,3 +257,33 @@
   severity: medium
   issue: "NHS and EPUT confirmed to Mark Walker that they hold no records relating to Bridget prior to 2025, despite documented Dementia Crisis Team involvement in 2020 — corroborating a systemic failure to assess and document from 2020 and contradicting the suggestion that 2020 crisis involvement was properly recorded."
   evidence: "Mark Walker email 17 Feb 2026; NHS/EPUT enquiries"
+- num: 48
+  category: doc-integrity
+  severity: medium
+  issue: "NHS laboratory reports from April 2023, February 2024 and August 2025 record an 'eGFR Ethnicity Correction Factor – African-Caribbean' despite Bridget being White British. The Council's second complaint response (11 Mar 2026) confirms Council records correctly list ethnicity as White British and deflects to NHS provider systems. An incorrect protected characteristic has been recorded in NHS clinical systems and has influenced blood test calculations across a two-year period."
+  evidence: "GP SAR lab reports (Apr 2023, Feb 2024, Aug 2025); Council complaint response 11 Mar 2026"
+- num: 49
+  category: chc-fnc
+  severity: medium
+  issue: "Bridget spent 10 days without Memantine during her May 2023 hip fracture hospitalisation. The hospital did not administer the titration pack brought in by the care home, citing unclear dosing. Promethazine was also lost in hospital. On discharge, the GP had to restart the titration from scratch. No hospital discharge care plan or medication reconciliation has been disclosed. The medication gap during an acute post-operative admission in a patient with advanced Alzheimer's represents a serious patient safety failure."
+  evidence: "GP SAR 26 May 2023 (surgery note); Valkyrie Surgery 26 May 2023; GP SAR discharge summaries"
+- num: 50
+  category: chc-fnc
+  severity: medium
+  issue: "East of England Ambulance falls notification (27 May 2023) records a further fall at Palmerston House just days after discharge from hip fracture surgery. The notification describes 'injury fall — small skin tear to right wrist' and notes the patient had 'recent NOF surgery.' This second fall occurred within approximately 12 days of the hip fracture (15 May 2023). No post-discharge rehabilitation plan, falls risk assessment, or CHC consideration at discharge has been disclosed."
+  evidence: "GP SAR — East of England Ambulance falls notification 27 May 2023"
+- num: 51
+  category: chc-fnc
+  severity: high
+  issue: "Rapid and documented mobility deterioration between December 2023 and February 2024 occurred entirely within the CHC Checklist #4 gap (assigned 11 Dec 2023, not completed until 22 May 2024 — 5 months). The GP SAR records: 21 Dec 2023 — chairbound, palm-to-palm transfer; 9 Jan 2024 — mobilising palm-to-palm with a rotundar introduced for safety; mid-January 2024 — staff started hoisting into wheelchair; 5 Feb 2024 — bedbound (staff keeping her in bed due to pain when seated). Despite this progression, weekly PCN ward rounds throughout January 2024 recorded 'no concerns and no hospital admissions.' The May 2024 completed checklist does not account for the mobility deterioration that occurred during the gap."
+  evidence: "GP SAR: EPUT Bladder & Bowel 21 Dec 2023; PCN ward rounds Jan 2024; PCN 5 Feb 2024 clinical examination"
+- num: 52
+  category: regulatory
+  severity: medium
+  issue: "DATIX incident report E259548 (18 Jan 2024) was completed by EPUT District Nursing following identification of a Deep Tissue Injury to Bridget's left buttock. The incident is confirmed in the GP SAR but the DATIX report itself has not been disclosed. A DATIX report for a pressure damage incident in a residential care home is a Regulation 17 (Good Governance) document and should form part of the evidential record."
+  evidence: "GP SAR 18 Jan 2024 — EPUT Integrated Adult Services: 'DATIX completed: The reference number is E259548'"
+- num: 53
+  category: dols-mca
+  severity: high
+  issue: "CQC inspection identified that the MCA1 form completed by Dr Khopkar in July 2024 was never received by the care home — a failure the GP record attributes to the GP leaving the practice without ensuring paperwork was transferred. The care home had been administering covert medication from May 2023 without any signed MCA documentation. The 23 Jul 2025 SCR note confirms: 'care home did not receive copies of this which marked them down in CQC inspection.' A second MCA had to be completed by a new GP on 29 Jul 2025 as a result."
+  evidence: "GP SAR 23 Jul 2025 (SCR note); GP SAR 29 Jul 2025 (MCA completed by Dr Win Aung); CQC inspection finding referenced in SAR"

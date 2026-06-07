@@ -4,119 +4,106 @@ title: "Executive Summary"
 permalink: /
 ---
 
-<p class="lead">Private evidential record supporting the LGSCO investigation into Southend-on-Sea City Council's Adult Social Care handling of {{ site.data.resident.name.full }}'s care, funding, and assessment.</p>
+Private evidential record supporting LGSCO investigation **{{ site.case_ref_lgsco }}** into Southend-on-Sea City Council Adult Social Care's handling of Mrs Bridget Penelope Walker's care, funding, and assessment. Investigator: {{ site.investigator }}. Case accepted 18 May 2026.
 
+| [Issue Register]({{ '/issues/' | relative_url }}) | [Timeline]({{ '/timeline/' | relative_url }}) | [Care Settings]({{ '/timeline/' | relative_url }}) |
+|---|---|---|
+| **{{ site.data.issues | size }}** issues across eight categories | **{{ site.data.timeline | size }}** events (Apr 2020 – Jun 2026) | **{{ site.data.placement | size }}** placements documented |
 
-<div class="row">
-  <article class="col">
-    <a href="/issues/" class="post-preview card h-100">
-        <div class="card-body">
-            <h4 class="pt-0 my-2">{{ site.data.issues | size }}</h4>
-            <div class="text-muted">
-                <p>issues catalogued across eight categories</p>
-            </div>
-        </div>
-    </a>
-  </article>
-  <article class="col">
-    <a href="/timeline/" class="post-preview card h-100">
-        <div class="card-body">
-            <h4 class="pt-0 my-2">{{ site.data.timeline | size }}</h4>
-            <div class="text-muted">
-                <p>timeline events (Apr 2020 – May 2026)</p>
-            </div>
-        </div>
-    </a>
-  </article>
-  <article class="col">
-    <a href="/timeline/" class="post-preview card h-100">
-        <div class="card-body">
-            <h4 class="pt-0 my-2">{{ site.data.placement | size }}</h4>
-            <div class="text-muted">
-                <p>placements recorded</p>
-            </div>
-        </div>
-    </a>
-  </article>
-</div>
+---
 
-<h2>{{ site.data.resident.name.title }} {{ site.data.resident.name.full }}</h2>
+## Mrs {{ site.data.resident.name.full }}
 
-<table>
-  <tbody>
-    <tr><td><strong>Date of birth</strong></td><td>{{ site.data.resident.dob }}</td></tr>
-    <tr><td><strong>NHS number</strong></td><td>{{ site.data.resident.nhs-number }}</td></tr>
-    <tr><td><strong>Person ID</strong></td><td>{{ site.data.resident.person-id }}</td></tr>
-    <tr><td><strong>Current address</strong></td><td>{{ site.data.resident.address.home }}, {{ site.data.resident.address.road }}, {{ site.data.resident.address.town }}, {{ site.data.resident.address.postcode }}</td></tr>
-    <tr><td><strong>Diagnosis</strong></td><td>{{ site.data.resident.diagnosis.primary }}<br>{{ site.data.resident.diagnosis.secondary }}</td></tr>
-    <tr><td><strong>Capacity</strong></td><td>{{ site.data.resident.capacity }}</td></tr>
-    <tr><td><strong>DoLS status</strong></td><td>{{ site.data.resident.dols.status }}</td></tr>
-  </tbody>
-</table>
+| | |
+|---|---|
+| **Date of birth** | {{ site.data.resident.dob }} |
+| **NHS number** | {{ site.data.resident.nhs-number }} |
+| **Person ID** | {{ site.data.resident.person-id }} |
+| **Current address** | {{ site.data.resident.address.home }}, {{ site.data.resident.address.road }}, {{ site.data.resident.address.town }}, {{ site.data.resident.address.postcode }} |
+| **Diagnosis** | {{ site.data.resident.diagnosis.primary }}; {{ site.data.resident.diagnosis.secondary }} |
+| **Capacity** | {{ site.data.resident.capacity }} |
+| **DoLS status** | {{ site.data.resident.dols.status }} |
 
-<h2>Attorneys (joint LPA — both domains)</h2>
+## Attorneys — joint LPA, both domains
 
-<table>
-  <thead>
-    <tr><th>Name</th><th>Relationship</th><th>LPA</th><th>Role</th></tr>
-  </thead>
-  <tbody>
-    {% for attorney in site.data.resident.attorneys %}
-    <tr>
-      <td><strong style="color:#1F4E79">{{ attorney.name }}</strong></td>
-      <td>{{ attorney.relationship }}</td>
-      <td>{{ attorney.lpa }}</td>
-      <td>{{ attorney.role }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-<h2>Current condition</h2>
+| Name | Relationship | Role |
+|---|---|---|
+{% for attorney in site.data.resident.attorneys %}| **{{ attorney.name }}** | {{ attorney.relationship }} | {{ attorney.role }} |
+{% endfor %}
 
-<table>
-  <tbody>
-    <tr><td><strong>Mobility</strong></td><td>{{ site.data.resident.current-condition.mobility }}</td></tr>
-    <tr><td><strong>Communication</strong></td><td>{{ site.data.resident.current-condition.communication }}</td></tr>
-    <tr><td><strong>Continence</strong></td><td>{{ site.data.resident.current-condition.continence }}</td></tr>
-    <tr><td><strong>Nutrition</strong></td><td>{{ site.data.resident.current-condition.nutrition }}</td></tr>
-    <tr><td><strong>Skin</strong></td><td>{{ site.data.resident.current-condition.skin }}</td></tr>
-    <tr><td><strong>Medication</strong></td><td>{{ site.data.resident.current-condition.medication }}</td></tr>
-    <tr><td><strong>Resuscitation</strong></td><td>{{ site.data.resident.current-condition.resuscitation }}</td></tr>
-      </tbody>
-</table>
+## Current condition
 
-<h2>Case references</h2>
+| | |
+|---|---|
+| **Mobility** | {{ site.data.resident.current-condition.mobility }} |
+| **Communication** | {{ site.data.resident.current-condition.communication }} |
+| **Continence** | {{ site.data.resident.current-condition.continence }} |
+| **Nutrition** | {{ site.data.resident.current-condition.nutrition }} |
+| **Skin** | {{ site.data.resident.current-condition.skin }} |
+| **Medication** | {{ site.data.resident.current-condition.medication }} |
+| **Resuscitation** | {{ site.data.resident.current-condition.resuscitation }} |
 
-<table>
-  <tbody>
-    <tr><td><strong>Council ref</strong></td><td>{{ site.data.resident.case-references.council }}</td></tr>
-    <tr><td><strong>LGSCO ref</strong></td><td>{{ site.data.resident.case-references.lgsco }}</td></tr>
-    <tr><td><strong>ICB ref</strong></td><td>{{ site.data.resident.case-references.icb }}</td></tr>
-    <tr><td><strong>LGSCO investigator</strong></td><td>{{ site.data.resident.case-references.lgsco-investigator }}</td></tr>
-    <tr><td><strong>LGSCO accepted</strong></td><td>{{ site.data.resident.case-references.lgsco-accepted }}</td></tr>
-  </tbody>
-</table>
+## Case references
 
-<h2>Council Tax exemption</h2>
+| | |
+|---|---|
+| **Council ref** | {{ site.data.resident.case-references.council }} |
+| **LGSCO ref** | {{ site.data.resident.case-references.lgsco }} |
+| **ICB ref** | {{ site.data.resident.case-references.icb }} |
+| **LGSCO investigator** | {{ site.data.resident.case-references.lgsco-investigator }} |
+| **LGSCO accepted** | {{ site.data.resident.case-references.lgsco-accepted }} |
 
-<p>Class U (Severe Mental Impairment) exemption granted by Southend-on-Sea City Council on <strong>{{ site.data.resident.council-tax.granted }}</strong>. {{ site.data.resident.council-tax.significance }}</p>
+## Council Tax exemption
 
-<h2>Strongest evidential strands</h2>
-<ul>
-  <li><strong>Document integrity</strong> — CHC checklists and assessments record a future care home address as current; logically impossible unless created later and backdated. <a href="{{ '/document-integrity/' | relative_url }}">See analysis →</a></li>
-  <li><strong>Proven overcharge</strong> — Council contracted £750/week with Palmerston House but invoiced the family £877.59/week; contracted £738.46/week with Westcliff Lodge but invoiced £800/week.</li>
-  <li><strong>Property disregard</strong> — DPA application form (Feb 2023) declares dependent occupants, rebutting the Council's later refusal.</li>
-  <li><strong>FNC failure</strong> — no NHS-Funded Nursing Care assessment during two years at Admiral Court (registered nursing home).</li>
-  <li><strong>Placement appropriateness</strong> — nursing-level needs at a residential home CQC-prohibited from providing nursing care.</li>
-</ul>
+Class U (Severe Mental Impairment) exemption granted by Southend-on-Sea City Council on **{{ site.data.resident.council-tax.granted }}**. {{ site.data.resident.council-tax.significance }}
 
-<h2>Navigate</h2>
-<div class="cat-jump">
-  <a href="{{ '/timeline/' | relative_url }}">Timeline</a>
-  <a href="{{ '/issues/' | relative_url }}">Issue Register</a>
-  <a href="{{ '/document-integrity/' | relative_url }}">Document Integrity</a>
-  <a href="{{ '/dst/' | relative_url }}">DST Analysis</a>
-  <a href="{{ '/parties/' | relative_url }}">Key Parties</a>
-  <a href="{{ '/evidence/' | relative_url }}">Evidence</a>
-  <a href="{{ '/clinical/' | relative_url }}#status">Status</a>
-</div>
+## Key parties
+
+| Name | Details |
+|---|---|
+{% for p in site.data.parties %}| **{{ p.name }}** | {{ p.detail }} |
+{% endfor %}
+
+---
+
+## Major incidents and events
+
+| Date | Incident |
+|---|---|
+| **5 Sep 2020** | Day 3 at Sweyne Court: acute behavioural crisis — found on top of a bedridden resident; attempting to escape through a window. Cellulitis of left leg. Paramedic called. |
+| **6 Sep 2020** | Absconds from Sweyne Court; walks barefoot to Rayleigh High Street. CQC and safeguarding lead Jo Allen notified. 24-hour 1:1 care imposed at family's cost (£4,460.65). Council's position: not obliged to assist as Bridget is privately funded. |
+| **9 Sep 2020** | CMHT crisis briefing: absconded twice; absconding risk assessed as **high**. 1:1 observation. ABC behaviour chart recommended — subsequently absent from all records. |
+| **10 Nov 2020** | DoLS Standard Authorisation granted at Admiral Court. Lack of capacity formally confirmed; continuous supervision; not free to leave. |
+| **Dec 2020** | COVID-19 positive. Waterlow score rises from 11 to 14 in five weeks; cracked and broken skin on feet not treated until GP home visit 11 Dec 2020. |
+| **4 Dec 2020** | Continence assessment: doubly incontinent; faecal smearing; wet bedding nightly; removing pads. Waterlow +27% in 5 weeks. No Council involvement throughout this period. |
+| **11 May 2023** | Unwitnessed fall at Palmerston House — right hip and knee bruising; vomited twice. X-rays requested. DNAR signed. |
+| **15 May 2023** | Admitted to Shopland Ward, Southend Hospital. X-ray: displaced subcapital fracture of right neck of femur. Emergency hemiarthroplasty (cemented Zimmer/Mueller). |
+| **26 May 2023** | Discovered hospital did not administer Memantine during 10-day admission — titration pack brought in but not given, citing unclear dosing. Medication restarts from zero. |
+| **27 May 2023** | Second fall at Palmerston House — skin tear right wrist. East of England Ambulance called. Falls notification records "recent NOF surgery" and two or more falls in the past six months. |
+| **21 Dec 2023** | Cancer of cells of cervix diagnosed (confirmed via hysteroscopy biopsy 9 Nov 2023). EPUT bladder and bowel nurse records Bridget as chairbound, needing prompting for diet and fluids, Waterlow 19. CHC Checklist #4 was already overdue at this point, assigned 10 days earlier. |
+| **18 Jan 2024** | Deep Tissue Injury identified on left buttock by District Nurse (DATIX ref E259548). Previously on a static mattress; dynamic mattress ordered same day. |
+| **Jan–Feb 2024** | Rapid mobility collapse: chairbound (21 Dec 2023) → wheelchair with rotundar (c. 9 Jan 2024) → bedbound (c. 25 Jan 2024). CRP raised, hypernatraemia. Palliative care referral made 23 Feb 2024. Weekly PCN ward rounds recorded "no concerns" throughout. |
+| **Mar 2025** | Scabies outbreak at Palmerston House. Permethrin 5% cream prescribed — whole-body application including face, scalp and ears, repeated after 7 days. Relevant to CQC Regulation 12. |
+| **18 Dec 2025** | CQC serves two warning notices on E&F Enterprises Ltd (Palmerston House operator): breach of Regulation 12 (Safe Care and Treatment) and Regulation 17 (Good Governance). Home rated Requires Improvement. |
+
+---
+
+## Strongest evidential strands
+
+- **Document integrity** — CHC checklists and ASC assessments record a future care home address as current; logically impossible unless created later and backdated. [See analysis →]({{ '/document-integrity/' | relative_url }})
+- **Assessment non-disclosure** — both ASC assessments (Nov 2022, Feb 2023) were withheld from the family and first seen by Mark Walker on 11 Mar 2026 — over three years after the earlier one was created — as attachments to the Council's second complaint response. Both carry the same integrity errors as the CHC checklists.
+- **No Care Act framework** — no s.9 Needs Assessment, s.13 Eligibility Determination, or s.25 Care & Support Plan has ever been provided at any stage, despite DoLS authorisation confirming lack of capacity from November 2020.
+- **Proven overcharge** — Council contracted £750/week with Palmerston House but invoiced £877.59/week; contracted £738.46/week with Westcliff Lodge but invoiced £800/week.
+- **Property disregard** — DPA application form (Feb 2023) declares dependent occupants, directly rebutting the Council's later refusal of the disregard.
+- **FNC failure** — no NHS-Funded Nursing Care assessment during two years at Admiral Court (a registered nursing home, CQC Outstanding).
+- **Placement appropriateness** — nursing-level needs managed at a residential home CQC-prohibited from providing nursing care.
+- **Covert medication without MCA** — covert administration began May 2023; first MCA not completed until July 2024 — a gap of over 13 months. [See GP SAR →]({{ '/sar/' | relative_url }})
+- **Ethnicity misclassification** — EGFR results from Apr 2023, Feb 2024 and Aug 2025 all carry an African-Caribbean correction flag. Mrs Walker is White British. No correction confirmed. [See GP SAR →]({{ '/sar/' | relative_url }})
+
+---
+
+{% include bio-content.html %}
+
+---
+
+[Timeline]({{ '/timeline/' | relative_url }}) · [Issue Register]({{ '/issues/' | relative_url }}) · [Document Integrity]({{ '/document-integrity/' | relative_url }}) · [DST Analysis]({{ '/dst/' | relative_url }}) · [Evidence]({{ '/evidence/' | relative_url }}) · [Clinical]({{ '/clinical/' | relative_url }}#status) · [GP SAR]({{ '/sar/' | relative_url }})
