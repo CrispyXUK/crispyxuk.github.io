@@ -13,8 +13,9 @@ permalink: /invoices/
   <a href="#register">Invoice Register</a>
 </div>
 
-<hr>
-<h2 id="rates">Contribution Rate History</h2>
+---
+
+## Contribution Rate History {#rates}
 
 <p>The income contribution (the amount billed directly from income) changed five times across the placement period. Each change reflects a financial reassessment. No FA letter or assessment document has been disclosed to the family for any of these changes.</p>
 
@@ -85,8 +86,9 @@ permalink: /invoices/
   </tbody>
 </table>
 
-<hr>
-<h2 id="register">Invoice Register</h2>
+---
+
+## Invoice Register {#register}
 
 <p>Rows in <strong style="background:#FCE4D6;padding:0 4px;">red</strong> contain anomalies requiring explanation. Rows in <strong style="background:#FFF2CC;padding:0 4px;">amber</strong> show rate changes or unexplained billing. A missing invoice period is flagged in red.</p>
 
@@ -104,12 +106,15 @@ permalink: /invoices/
     </tr>
   </thead>
   <tbody>
-    {% for inv in site.data.invoices %}
+    {% assign all_invoices = site.invoices | sort: "date" %}
+    {% for inv in all_invoices %}
     {% for line in inv.lines %}
     <tr{% if inv.flag == 'red' %} class="red"{% elsif inv.flag == 'amber' %} class="amber"{% endif %}>
       {% if forloop.first %}
-      <td rowspan="{{ inv.lines.size }}"><strong>{{ inv.invoice }}</strong></td>
-      <td rowspan="{{ inv.lines.size }}" class="nowrap">{{ inv.date }}</td>
+      <td rowspan="{{ inv.lines.size }}">
+        <strong><a href="{{ inv.url | relative_url }}">{{ inv.invoice-number }}</a></strong>
+      </td>
+      <td rowspan="{{ inv.lines.size }}" class="nowrap">{{ inv.invoice-date }}</td>
       {% endif %}
       <td class="nowrap">{{ line.from }}</td>
       <td class="nowrap">{{ line.to }}</td>
@@ -117,7 +122,20 @@ permalink: /invoices/
       <td class="tc">{% if line.rate > 0 %}£{{ line.rate }}{% endif %}</td>
       <td class="tc">{% if line.amount > 0 %}£{{ line.amount }}{% endif %}</td>
       {% if forloop.first %}
-      <td rowspan="{{ inv.lines.size }}"><small>{% if inv.note != "" %}<strong>{{ inv.note }}</strong>{% endif %}</small></td>
+      <td rowspan="{{ inv.lines.size }}">
+        <small>
+          {% if inv.flag == 'red' or inv.flag == 'amber' %}
+            <a href="{{ inv.url | relative_url }}">
+              {% if inv.flag == 'red' %}<span class="flag-yes">Anomaly</span>{% else %}<span class="flag-partial">Note</span>{% endif %}
+            </a>
+          {% endif %}
+          {% if inv.related-issues %}
+            {% for issue_num in inv.related-issues %}
+              <a href="{{ '/issues/' | relative_url }}#issue-{{ issue_num }}" class="issue-badge">#{{ issue_num }}</a>
+            {% endfor %}
+          {% endif %}
+        </small>
+      </td>
       {% endif %}
     </tr>
     {% endfor %}

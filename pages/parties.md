@@ -6,8 +6,9 @@ permalink: /parties/
 
 {% include bio-content.html %}
 
-<hr>
-<h2>Key parties in the investigation</h2>
+---
+
+## Key parties in the investigation
 
 <table>
   <thead>

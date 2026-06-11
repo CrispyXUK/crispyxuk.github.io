@@ -60,7 +60,7 @@ permalink: /document-integrity/
   </tbody>
 </table>
 
-<h2>The proof</h2>
+## The proof
 
 <p><strong>Address:</strong> Bridget moved to Palmerston House on 11 April 2023, confirmed by the Council's own Individual Placement Contract (created 13 April 2023). Every document above dated before that date records Palmerston House as her current address — which is logically impossible for a contemporaneous record.</p>
 
@@ -72,7 +72,7 @@ permalink: /document-integrity/
 
 <p>The IPC formalising Bridget's placement at Palmerston House was generated on <strong>13 April 2023</strong>, two days after the stated placement date of 11 April 2023. Metadata extracted from the OLE2 compound document reveals automated creation and two distinct council staff accounts.</p>
 
-<h3>Document metadata</h3>
+### Document metadata
 
 <table>
   <thead>
@@ -92,7 +92,7 @@ permalink: /document-integrity/
   </tbody>
 </table>
 
-<h3>Document content</h3>
+### Document content
 
 <table>
   <thead>
@@ -111,7 +111,7 @@ permalink: /document-integrity/
   </tbody>
 </table>
 
-<h3>Forensic findings</h3>
+### Forensic findings
 
 <p><strong>Automated generation, zero edit time.</strong> Create time and Last Saved time are identical to the second. With a revision count of 2 and 0 minutes total edit time, both saves occurred within a single automated operation — consistent with the council's template-population system (<code>res_ind_place.dot</code>) rather than manual drafting. There is no recorded human revision after generation.</p>
 
@@ -121,7 +121,7 @@ permalink: /document-integrity/
 
 <p><strong>Address discrepancy — wrong legal entity (<a href="{{ '/issues/' | relative_url }}#issue-41">Issue 41</a>).</strong> The IPC records the service provider as <strong>Palmerston House, 23–25 Palmerston Road</strong>. CQC registration 1-156343233 is at <strong>21 Palmerston Road</strong>, recorded as <em>Interchurch Care Centre</em>. Land Registry confirms these are separately-owned freeholds: 23–25 is owned by Higgins Property Investments Limited (since 2011); No. 21 by Aysen Tekin &amp; Erbil Gulhan (from September 2023, with Lloyds Bank charge). The IPC therefore names the address of a different legal entity from the CQC-registered provider. No explanation has been given. If the contract binds only the owner of 23–25, the registered care home operator at No. 21 may not be party to the placement agreement at all.</p>
 
-<h3>Cross-references</h3>
+### Cross-references
 
 <table>
   <thead>
@@ -136,7 +136,7 @@ permalink: /document-integrity/
   </tbody>
 </table>
 
-<h2>Property title: Palmerston Road</h2>
+## Property title: Palmerston Road
 
 <p>HM Land Registry searches on the freehold titles covering the care home site establish the legal ownership position and flag a name discrepancy: Land Registry records the building at No. 21 as <em>Interchurch Care Centre</em>, not "Palmerston House" — the name used in every Council and ICB document.</p>
 

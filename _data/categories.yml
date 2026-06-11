@@ -1,0 +1,32 @@
+# Issue register category metadata — slug must match issues.yml category field
+- slug: chc-fnc
+  label: "CHC / FNC"
+  description: "No CHC referral for two years despite active DoLS and nursing home placement; FNC never assessed; all six checklists carry factual errors and clinical omissions; CHC referral 18 months overdue; EPUT's independent duty to refer (NF para 6.4) unexercised despite continuous clinical involvement 2020–2025; MDT composition not disclosed"
+
+- slug: dst-challenge
+  label: "DST Challenge"
+  description: "Communication and Skin domains scored below the level supported by contemporaneous clinical records; overall no-PHN conclusion unexplained; full Section 1 reasoning not disclosed"
+
+- slug: financial-dpa
+  label: "Financial / DPA"
+  description: "DPA names Westcliff Lodge 38 days after Palmerston transfer; family billed above Council's own contracted rate; capital depleted without any lawful needs or financial assessment"
+
+- slug: care-act
+  label: "Care Act"
+  description: "No needs assessment, eligibility determination, or written care plan at permanent placement (2020), Westcliff Lodge transfer (2022), or Palmerston transfer (2023) — Care Act s.9, s.13, s.25, and s.27 all engaged"
+
+- slug: dols-mca
+  label: "DoLS / MCA"
+  description: "DoLS expired May 2025 without documented renewal; covert medication from May 2023 for 13+ months without completed MCA; RPR changed without family notice; CQC deduction"
+
+- slug: doc-integrity
+  label: "Document Integrity"
+  description: "Future Palmerston address embedded in documents predating the move; wrong age (75 instead of 71–74) across all checklists; PDF metadata contradicts stated dates; all documents withheld until March 2026"
+
+- slug: complaint-handling
+  label: "Complaint Handling"
+  description: "First final response incomplete — omits Care Act, finance, property disregard, and MCA; joint LPA attorneys communicated with selectively by role"
+
+- slug: regulatory
+  label: "Regulatory"
+  description: "Palmerston House rated Requires Improvement by CQC; two warning notices Dec 2025; DATIX pressure injury report E259548 referenced in GP records but not disclosed"

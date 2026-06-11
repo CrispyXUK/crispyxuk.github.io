@@ -4,7 +4,8 @@ title: "GP Subject Access Request"
 permalink: /sar/
 ---
 
-<p class="lead">GP record (iGPR) for Bridget Walker — Jan 2020 to 4 Sep 2025, 242 pages. Covers Scott Park Surgery, The Pall Mall Surgery and The Valkyrie Surgery. Obtained by Kira Walker (daughter, LPA for Health and Welfare).</p>
+GP record (iGPR) for Bridget Walker — Jan 2020 to 4 Sep 2025, 242 pages. Covers Scott Park Surgery, The Pall Mall Surgery and The Valkyrie Surgery. Obtained by Kira Walker (daughter, LPA for Health and Welfare).
+{: .lead}
 
 <div class="strand-note"><strong>Issues evidenced here:</strong> Issue <a href="{{ '/issues/' | relative_url }}#issue-30">30</a> (ethnicity misclassification in lab records); Issue <a href="{{ '/issues/' | relative_url }}#issue-26">26</a> (covert medication without completed MCA — 13-month gap); Issue <a href="{{ '/issues/' | relative_url }}#issue-5">5</a> (nursing-level need confirmed throughout).</div>
 

@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div class="post-meta">
+  <div class="post-meta-grid">
+    <div class="post-meta-row">
+      <span class="post-meta-label">Date</span>
+      <span class="post-meta-value">{{ page.incident-date }}</span>
+    </div>
+    <div class="post-meta-row">
+      <span class="post-meta-label">Location</span>
+      <span class="post-meta-value">{{ page.location }}</span>
+    </div>
+    <div class="post-meta-row">
+      <span class="post-meta-label">Type</span>
+      <span class="post-meta-value">{{ page.incident-type }}</span>
+    </div>
+    <div class="post-meta-row">
+      <span class="post-meta-label">Notified to attorneys</span>
+      <span class="post-meta-value">
+        {% if page.notified == "yes" %}
+          <span class="flag-no">Yes</span>
+        {% elsif page.notified == "not-notified" %}
+          <span class="flag-yes">Not notified</span>
+        {% else %}
+          <span class="flag-partial">Unknown</span>
+        {% endif %}
+      </span>
+    </div>
+    {% if page.datix-ref %}
+    <div class="post-meta-row">
+      <span class="post-meta-label">DATIX ref</span>
+      <span class="post-meta-value">{{ page.datix-ref }}</span>
+    </div>
+    {% endif %}
+    {% if page.related-issues %}
+    <div class="post-meta-row">
+      <span class="post-meta-label">Related issues</span>
+      <span class="post-meta-value">
+        {% for issue_num in page.related-issues %}
+          <a href="{{ '/issues/' | relative_url }}#issue-{{ issue_num }}" class="issue-badge">#{{ issue_num }}</a>
+        {% endfor %}
+      </span>
+    </div>
+    {% endif %}
+    {% if page.related-timeline %}
+    <div class="post-meta-row">
+      <span class="post-meta-label">Timeline</span>
+      <span class="post-meta-value"><a href="{{ '/timeline/' | relative_url }}#{{ page.related-timeline }}">&#8599; View in timeline</a></span>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="post-content">
+{{ content }}
+</div>
+
+<div class="post-nav">
+  <div class="post-nav-links"></div>
+  <a href="{{ '/incidents/' | relative_url }}" class="post-nav-index">All incidents &uarr;</a>
+</div>

@@ -4,7 +4,8 @@ title: "Emails"
 permalink: /emails/
 ---
 
-<p class="lead">Contemporaneous email evidence, annotated with significance and cross-referenced to the issue register and timeline. Oldest first.</p>
+Contemporaneous email evidence, annotated with significance and cross-referenced to the issue register and timeline. Oldest first.
+{: .lead}
 
 {% assign posts_sorted = site.posts | sort: 'date' %}
 

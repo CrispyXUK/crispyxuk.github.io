@@ -4,7 +4,8 @@ title: "Health, Needs & Hip Fracture Analysis"
 permalink: /health-and-needs/
 ---
 
-<p class="lead">Documented evidence of Bridget's complex supervision and behavioural needs across three care placements (2020–2023), the Council's knowledge of those needs, the systematic downplaying of those needs in subsequent CHC assessments, and the full clinical and evidential record of the May 2023 hip fracture — including the cascade of failures surrounding it that directly caused her transition from fully mobile to permanently bedbound.</p>
+Documented evidence of Bridget's complex supervision and behavioural needs across three care placements (2020–2023), the Council's knowledge of those needs, the systematic downplaying of those needs in subsequent CHC assessments, and the full clinical and evidential record of the May 2023 hip fracture — including the cascade of failures surrounding it that directly caused her transition from fully mobile to permanently bedbound.
+{: .lead}
 
 <div class="strand-note"><strong>Issues evidenced here:</strong>
 <a href="{{ '/issues/' | relative_url }}#issue-1">#1</a>
@@ -41,10 +42,11 @@ permalink: /health-and-needs/
   <a href="#issues">Issues</a>
 </div>
 
-<hr>
-<h2 id="phase-1">Phase 1 — Sweyne Court (2020)</h2>
+---
 
-<h3>September 2020: Absconding Incident and Safeguarding Crisis</h3>
+## Phase 1 — Sweyne Court (2020) {#phase-1}
+
+### September 2020: Absconding Incident and Safeguarding Crisis
 
 <ul>
   <li><strong>6 September 2020:</strong> Bridget absconds from Sweyne Court, located on Rayleigh High Street barefoot and unsupervised.</li>
@@ -55,10 +57,11 @@ permalink: /health-and-needs/
 
 <p>Two separate escape attempts are documented at Sweyne Court. Bridget presented a clear, evidenced wandering and elopement risk requiring continuous supervision — known to the Council from at least September 2020 onwards.</p>
 
-<hr>
-<h2 id="phase-2">Phase 2 — Admiral Court (September 2020 – September 2022)</h2>
+---
 
-<h3>Placement Context</h3>
+## Phase 2 — Admiral Court (September 2020 – September 2022) {#phase-2}
+
+### Placement Context
 
 <p>Bridget was admitted to Admiral Court (Hallmark) on approximately 16 September 2020 following the Sweyne Court absconding incident. Admiral Court is a <strong>registered nursing home</strong>, establishing an NHS-Funded Nursing Care obligation from the outset of this placement. The placement began as respite but became permanent due to Covid-19.</p>
 
@@ -66,7 +69,7 @@ permalink: /health-and-needs/
   <strong>Transfer care plan error (Issue <a href="{{ '/issues/' | relative_url }}#issue-12">#12</a>):</strong> The transfer care plan from Sweyne Court to Admiral Court (16 Sep 2020) recorded Bridget as "at low risk of leaving the home unnoticed" — written just 10 days after she had absconded barefoot to Rayleigh High Street. This incorrect risk recording fed into later care planning and funding assessments across the entire period.
 </div>
 
-<h3>Behavioural and Supervision Needs</h3>
+### Behavioural and Supervision Needs
 
 <ul>
   <li>Behavioural issues documented upon admission to Admiral Court.</li>
@@ -76,7 +79,7 @@ permalink: /health-and-needs/
   <li>All records on file with the Council.</li>
 </ul>
 
-<h3>No CHC Referral Despite Mandatory Triggers</h3>
+### No CHC Referral Despite Mandatory Triggers
 
 <p>Capital was depleted from above £23,250 (July 2020) to below £14,250 by October 2022 through private nursing care fees of approximately £1,450 per week. Despite this, no CHC referral was initiated across the entire two-year placement, notwithstanding:</p>
 
@@ -87,10 +90,11 @@ permalink: /health-and-needs/
   <li>Documented escape risks and supervision requirements following the September 2020 incident <a class="issue-badge issue-badge-high" href="{{ '/issues/' | relative_url }}#issue-1" title="Issue 1">#1</a> <a class="issue-badge issue-badge-high" href="{{ '/issues/' | relative_url }}#issue-3" title="Issue 3">#3</a></li>
 </ul>
 
-<hr>
-<h2 id="phase-3">Phase 3 — Westcliff Lodge (September 2022 – April 2023)</h2>
+---
 
-<h3>Placement Rationale</h3>
+## Phase 3 — Westcliff Lodge (September 2022 – April 2023) {#phase-3}
+
+### Placement Rationale
 
 <p>Bridget was transferred to Westcliff Lodge on 27–28 September 2022 following the Council's formal involvement under the Care Act 2014. The reason for the move was documented behavioural issues, escape risks, and the need for a specialist placement — the same risks that had been present since September 2020.</p>
 
@@ -102,8 +106,9 @@ permalink: /health-and-needs/
 
 <p>Documented risks at this stage included: wandering behaviour requiring one-to-one supervision; active escape attempts and elopement risk; conduct affecting the safety of other residents; and complex supervision needs explicitly flagged by a registered care professional.</p>
 
-<hr>
-<h2 id="phase-4">Phase 4 — Transfer to Palmerston House (April 2023)</h2>
+---
+
+## Phase 4 — Transfer to Palmerston House (April 2023) {#phase-4}
 
 <h3>Transfer Without Lawful Care Planning <a class="tl-ref" href="{{ '/timeline/' | relative_url }}#tl-palmerston-transfer">11 Apr 2023</a></h3>
 
@@ -124,10 +129,11 @@ permalink: /health-and-needs/
   </tbody>
 </table>
 
-<hr>
-<h2 id="pre-fall">Pre-Fall Context (April–May 2023)</h2>
+---
 
-<h3>What the Care Home and Clinicians Knew</h3>
+## Pre-Fall Context (April–May 2023) {#pre-fall}
+
+### What the Care Home and Clinicians Knew
 
 <p>Bridget had been at Palmerston House since <strong>11 April 2023</strong>, transferred from Westcliff Lodge due to unmanageable behaviour. Within days of arrival, the clinical picture was clearly documented.</p>
 
@@ -144,12 +150,13 @@ permalink: /health-and-needs/
 
 <p>The Council had produced no care plan at the point of Palmerston transfer specifying her supervision requirements. Palmerston's request to EPUT for help confirms they were struggling without that guidance. The hospital that would admit her 12 days later had none of this information.</p>
 
-<h3>DNAR Signed Just Before the Fall</h3>
+### DNAR Signed Just Before the Fall
 
 <p><strong>11 May 2023</strong> — DNACPR form completed by Dr Valliattu. <strong>12 May 2023</strong> — Care home collects the DNAR from the surgery. The DNAR was signed <strong>three days before the fall</strong>: Bridget's frailty and dementia severity were recognised at the highest level by her clinical team just days before the injury occurred.</p>
 
-<hr>
-<h2 id="the-fall">The Fall — 10 May 2023</h2>
+---
+
+## The Fall — 10 May 2023 {#the-fall}
 
 <p>The fall occurred on the evening of <strong>10 May 2023</strong> — an unwitnessed fall within Palmerston House. The care home manager reviewed camera footage after the event.</p>
 
@@ -162,16 +169,17 @@ permalink: /health-and-needs/
 <blockquote><em>"Patient has a fall last night... she was able to move her legs, patient's leg lengths were equal. Patient had nil pain — carers stood her up. Patient complained of knee pain but was still able to mobilise... Patient is saying her right leg hurts when it is touched."</em></blockquote>
 <blockquote><em>"Patient has vomited 2x this morning... Advised carer for now monitor vomiting, administer regular paracetamol as tolerated."</em></blockquote>
 
-<h3>The Critical Four-Day Delay</h3>
+### The Critical Four-Day Delay
 
 <div style="background:#FCE4D6;border-left:4px solid #C00000;padding:12px 16px;border-radius:0 6px 6px 0;margin:1em 0">
   <strong>Patient safety failure:</strong> On 11 May 2023, Bridget had a swollen, bruised, tender right hip; was not consistently weight-bearing; had vomited twice and was in pain. The GP recommended X-rays but sent her home with paracetamol pending the X-ray form. The X-ray did not happen until <strong>15 May 2023 — four days later</strong>. During those four days, Bridget had a displaced subcapital fracture of the right neck of femur that was not identified. The GP records show <strong>no entry for 12, 13, or 14 May 2023</strong> other than DNAR-related notes. Bridget spent four days with an undiagnosed fractured hip.
 </div>
 
-<hr>
-<h2 id="admission">The Admission — 15 May 2023</h2>
+---
 
-<h3>X-Ray and Immediate Admission</h3>
+## The Admission — 15 May 2023 {#admission}
+
+### X-Ray and Immediate Admission
 
 <p><strong>15 May 2023 — Radiology report:</strong></p>
 <blockquote><em>"XR Pelvis: There is a displaced subcapital fracture of the right neck of femur. Right knee: No fractures seen... The patient was taken to A and E after the examination."</em></blockquote>
@@ -179,25 +187,26 @@ permalink: /health-and-needs/
 <p><strong>15 May 2023 at 16:27 — EPUT DIST inpatient admission alert:</strong></p>
 <blockquote><em>"INPATIENT ADMISSION. Admission Datetime: 15/05/2023 16:27. Ward code: SH40. Ward desc: Shopland Ward, 7th Floor, Tower Block. Admitting consultant: Mr [redacted] Packer."</em></blockquote>
 
-<h3>What the Hospital Did Not Know</h3>
+### What the Hospital Did Not Know
 
 <p>At the point of admission, the hospital had no documented knowledge of: Bridget's continuous wandering and elopement history; her 1:1 supervision requirement (documented since September 2020); her physical aggression (DIST April–May 2023); her complete lack of capacity; or her DNAR (signed 3 days earlier, held at the care home, not communicated to the hospital). No care plan from the Council, no supervision requirements document, no risk assessment had been communicated to Palmerston on transfer — so there was nothing to pass to the hospital.</p>
 
-<h3>The Operation</h3>
+### The Operation
 
 <p><strong>25 May 2023 — GP record confirms surgical procedure:</strong></p>
 <blockquote><em>"Prosthetic total arthroplasty of the hip. Emergency right hip cemented Zimmer/Mueller hemiarthroplasty. Fracture of femur right neck."</em></blockquote>
 
 <p>The operation was an emergency cemented hemiarthroplasty — a partial hip replacement. Duration of inpatient stay: <strong>10 days</strong> (admitted 15 May, discharged c.25 May 2023).</p>
 
-<hr>
-<h2 id="inpatient">In-Patient Failures</h2>
+---
 
-<h3>In-Patient Fall</h3>
+## In-Patient Failures {#inpatient}
+
+### In-Patient Fall
 
 <p>During the 10-day inpatient stay, Bridget <strong>fell out of bed</strong> due to lack of monitoring. This is documented in the family's WhatsApp messages. The hospital moved her to a monitored ward only after the fall — consistent with the absence of any supervision information from the care home or Council at the point of admission.</p>
 
-<h3>Medication Failure During Admission</h3>
+### Medication Failure During Admission
 
 <p><strong>26 May 2023 — GP note records care home's report:</strong></p>
 <blockquote><em>"This patient went to hospital on 15/5/2023 and took her Memantine titration pack in with her. The hospital elected not to give any as they claim the dose was not clear so she has spent 10 days without any Memantine. The home have requesting further supply of Memantine and Promethazine, as the hospital also lost both of those along with some essential paperwork prior to her being discharged."</em></blockquote>
@@ -208,14 +217,15 @@ permalink: /health-and-needs/
   <li><strong>Medication and essential paperwork lost</strong> — the hospital lost both Memantine and Promethazine, along with paperwork, before discharge.</li>
 </ol>
 
-<hr>
-<h2 id="discharge">Discharge Failures — c.25 May 2023</h2>
+---
 
-<h3>Discharge Summaries Sent to GP Only</h3>
+## Discharge Failures — c.25 May 2023 {#discharge}
+
+### Discharge Summaries Sent to GP Only
 
 <p>The GP SAR records two discharge summary attachments (25 and 26 May 2023), both directed to Dr A Valkyrie Surgery only. No discharge letter was provided to Palmerston House or to the family.</p>
 
-<h3>Discharge Instructions That Existed but Were Not Shared</h3>
+### Discharge Instructions That Existed but Were Not Shared
 
 <p>The July 2025 structured medication review references the discharge letter's content:</p>
 <blockquote><em>"As per May 2023 discharge letter, patient received a single dose of Zoledronic acid for bone protection as inpatient and was not booked for further infusions due to frailty. There is no need to prescribe oral bisphosphonate."</em></blockquote>
@@ -247,10 +257,11 @@ permalink: /health-and-needs/
   </tbody>
 </table>
 
-<hr>
-<h2 id="post-discharge">Immediate Post-Discharge Period</h2>
+---
 
-<h3>29–30 May 2023 — Care Home in Crisis</h3>
+## Immediate Post-Discharge Period {#post-discharge}
+
+### 29–30 May 2023 — Care Home in Crisis
 
 <p><strong>30 May 2023 — Care home emails GP:</strong></p>
 <blockquote><em>"Hello, could we please request permission to crush medication for Bridget Walker. We are having great difficulty encouraging her to take tablets, she spits them out... The only way we can encourage Bridget to take her medication is by crushing and covertly giving it to her."</em></blockquote>
@@ -259,22 +270,23 @@ permalink: /health-and-needs/
 
 <p><strong>29 May 2023 — EPUT DIST:</strong> <em>"This patient has been discharged. Plan: Make follow up contact."</em> / <em>"Discharge from DIST. Plan: Add to care home hospital discharges."</em></p>
 
-<h3>2 June 2023 — EPUT Follow-Up Call</h3>
+### 2 June 2023 — EPUT Follow-Up Call
 
 <p><strong>2 June 2023 — EPUT DIST telephone call to Palmerston:</strong></p>
 <blockquote><em>"Follow up telephone call to Palmerston after Bridget's discharge from hospital. Staff are managing her well. She sleeps on and off and she mobilises with two staff. She is on Promethazine 20mg three times a day."</em></blockquote>
 
 <p>Two-person mobilisation confirmed by EPUT as standard post-discharge. This is clinically significant for the CHC DST Mobility domain — the September 2023 CHC checklist (checklist 3) records Mobility B but does not frame this in the context of a permanent functional decline from a previously independently-ambulant patient.</p>
 
-<h3>5 June 2023 — Post-Discharge Fall at Palmerston</h3>
+### 5 June 2023 — Post-Discharge Fall at Palmerston
 
 <p><strong>5 June 2023 — PCN visit to Palmerston:</strong></p>
 <blockquote><em>"Recent stay in hospital with # right NOF. Had a fall last week. No head injury, witnessed, ambulance called and left at home, mobilising with assistance as normal."</em></blockquote>
 
 <p>A further fall occurred at Palmerston approximately <strong>29 May 2023</strong> — just days after discharge from hip fracture surgery. An ambulance was called but she remained at the care home. <strong>There was no formal post-discharge risk assessment, no falls prevention plan, and no CHC review following this second fall.</strong></p>
 
-<hr>
-<h2 id="mobility">Post-Operative Mobility Trajectory</h2>
+---
+
+## Post-Operative Mobility Trajectory {#mobility}
 
 <p>The GP SAR documents a clear and progressive mobility decline following the May 2023 hip fracture:</p>
 
@@ -296,23 +308,25 @@ permalink: /health-and-needs/
 <p><strong>Within nine months of the hip fracture, Bridget was permanently bedbound.</strong> The GP record of 23 February 2024:</p>
 <blockquote><em>"Rapid deterioration. Patient taken to bed. Used to be able to sit in chair, self feed and drink, but requiring complete assistance now. No longer safe to sit up in chair as falls forward."</em></blockquote>
 
-<hr>
-<h2 id="pain">Pain Management Following the Fracture</h2>
+---
 
-<h3>Inadequate Post-Operative Pain Management</h3>
+## Pain Management Following the Fracture {#pain}
+
+### Inadequate Post-Operative Pain Management
 
 <p>The medication review of <strong>August 2023</strong> (3 months post-discharge) records:</p>
 <blockquote><em>"Bridget was prescribed four weeks of co-codamol following the hip surgery but [care home manager] confirms this has now been stopped on the MAR chart. Bridget's pain seems settled and paracetamol is given when required."</em></blockquote>
 
-<h3>Escalating Pain — December 2023 to February 2024</h3>
+### Escalating Pain — December 2023 to February 2024
 
 <p>By <strong>December 2023</strong>, pain from the hip replacement was documented alongside cancerous cells found during tests. By <strong>February 2024</strong>, the palliative care team had initiated a 10mcg Buprenorphine patch for hip pain, escalated to 15mcg due to ongoing pain on movement. By mid-2024, paracetamol was still administered 3–4 times daily in addition to the patch. The July 2025 structured medication review notes:</p>
 <blockquote><em>"Patient non-communicative about pain but displays physical signs when in pain. Currently comfortable, not to reduce buprenorphine patch strength yet as patient is still using paracetamol 3–4 times a day."</em></blockquote>
 
 <p>Bridget could not communicate pain verbally — all pain assessment relied on carers' observation of behaviour, facial expression, and resistance to movement. The GP SAR consistently notes she becomes <em>"very vocal during personal care"</em> — a recognised pain indicator in non-verbal dementia patients.</p>
 
-<hr>
-<h2 id="chc-error">CHC Checklist Date Error — Evidential Significance</h2>
+---
+
+## CHC Checklist Date Error — Evidential Significance {#chc-error}
 
 <p>CHC checklist 4 (completed 22 May 2024) states:</p>
 <blockquote><em>"Bridget suffered a fall in June 2023 which resulted in a fractured hip."</em></blockquote>
@@ -321,14 +335,15 @@ permalink: /health-and-needs/
 
 <p>This is not a minor error. It suggests the assessor was working from memory or unreliable sources rather than clinical records — a basic check of the GP records would have shown the correct date immediately. It implies the assessor had not reviewed the GP SAR or hospital records when completing the checklist in May 2024, twelve months after the event. This is additional evidence that the May 2024 checklist was not supported by clinical evidence review.</p>
 
-<hr>
-<h2 id="chc-failures">CHC Assessment Failures — Hip Fracture as Trigger</h2>
+---
 
-<h3>National Framework Requirements</h3>
+## CHC Assessment Failures — Hip Fracture as Trigger {#chc-failures}
+
+### National Framework Requirements
 
 <p>The National Framework for NHS Continuing Healthcare (paragraphs 63–64) requires that CHC consideration is initiated: at the point of hospital discharge for patients with complex health needs; and whenever there is a significant change in the individual's needs. The hip fracture represented both.</p>
 
-<h3>What Should Have Happened</h3>
+### What Should Have Happened
 
 <p>At the point of discharge from Southend Hospital (c.25 May 2023), the following should have occurred:</p>
 <ol>
@@ -338,7 +353,7 @@ permalink: /health-and-needs/
   <li>A formal risk assessment addressing increased falls risk post hip fracture in a patient with advanced dementia</li>
 </ol>
 
-<h3>What Actually Happened</h3>
+### What Actually Happened
 
 <ul>
   <li>No CHC checklist at discharge</li>
@@ -349,25 +364,27 @@ permalink: /health-and-needs/
 
 <p>When checklist 3 was completed in September 2023, it: scored Continence as C (downgraded from February 2023 B), noting the prolapsed womb "appears to be improving as Bridget does not walk around as often as she used to" — using the post-fracture mobility reduction as evidence of improvement; scored Mobility as B (correct — the first accurate mobility score); made no reference to the post-discharge fall or the medication failures during admission; and did not trigger a CHC referral.</p>
 
-<hr>
-<h2 id="dst-domains">Impact on DST Domains</h2>
+---
+
+## Impact on DST Domains {#dst-domains}
 
 <p>The hip fracture and its aftermath are directly relevant to the following DST domains in any assessment:</p>
 
-<h3>Mobility (currently A in checklists 5 and 6)</h3>
+### Mobility (currently A in checklists 5 and 6)
 <p>The fracture caused the transition from fully mobile to bedbound. Post-fracture: two-person palm-to-palm (Jun–Jul 2023) → hoist × 2 (Feb 2024 onwards) → permanently bedbound (Feb 2024). The trajectory is documented in full in the GP SAR.</p>
 
-<h3>Drug Therapies and Medication (currently C in checklists 5 and 6)</h3>
+### Drug Therapies and Medication (currently C in checklists 5 and 6)
 <p>Post-fracture medication complexity includes: Calci-D for bone protection (5-year course per discharge letter), Buprenorphine 15mcg/hr patch for hip and cancer pain, paracetamol PRN 3–4 times daily, covert administration for all medications due to non-compliance. This is a B or potentially A-level drug therapies profile. The Buprenorphine is a controlled drug requiring careful monitoring; the covert administration involves non-compliance; the pain management complexity relates directly to the fracture sequelae.</p>
 
-<h3>Pain (cross-domain)</h3>
+### Pain (cross-domain)
 <p>The fracture caused chronic hip pain requiring escalating opioid analgesia over 18 months. Bridget cannot communicate pain verbally. Pain on movement remains documented into 2025 despite a Buprenorphine patch. This affects the Skin Integrity, Mobility, and Drug Therapies domains and should have been explicitly addressed in DST scoring.</p>
 
-<h3>Psychological/Emotional</h3>
+### Psychological/Emotional
 <p>The fracture caused a profound change in Bridget's lived experience — from ambulatory, active, and exploratory to bedbound and entirely dependent. The psychological impact on a person with advanced dementia of this level of functional loss is not assessed anywhere in the Council's records.</p>
 
-<hr>
-<h2 id="summary-table">Summary of Failures — Hip Fracture Chronology</h2>
+---
+
+## Summary of Failures — Hip Fracture Chronology {#summary-table}
 
 <table>
   <thead><tr><th>Date</th><th>Event</th><th>Failure</th></tr></thead>
@@ -390,10 +407,11 @@ permalink: /health-and-needs/
   </tbody>
 </table>
 
-<hr>
-<h2 id="pattern">Systemic Pattern: Downplaying of Documented Needs</h2>
+---
 
-<h3>The Council's Knowledge at the Time of First CHC Checklist (26 October 2022)</h3>
+## Systemic Pattern: Downplaying of Documented Needs {#pattern}
+
+### The Council's Knowledge at the Time of First CHC Checklist (26 October 2022)
 
 <table>
   <thead><tr><th>Evidence on Council's record</th><th>Source</th></tr></thead>
@@ -409,7 +427,7 @@ permalink: /health-and-needs/
 
 <p>Despite all of the above being on record, every CHC checklist produced between October 2022 and July 2025 screened Bridget <strong>out</strong> of full DST consideration. The Herbert Protocol entry of July 2025 records "no wandering risk" despite the entire documented history above <a class="issue-badge" href="{{ '/issues/' | relative_url }}#issue-13" title="Issue 13">#13</a>.</p>
 
-<h3>The Financial Incentive</h3>
+### The Financial Incentive
 
 <p>By maintaining Bridget below the threshold for CHC referral, the Council avoided:</p>
 <ul>
@@ -420,8 +438,9 @@ permalink: /health-and-needs/
 
 <p>The pattern of evidence supports the family's position that Bridget's needs were systematically downplayed in order to avoid funding obligations — to the detriment of her safety, wellbeing, and health.</p>
 
-<hr>
-<h2 id="impact">Cumulative Impact on Bridget's Health and Wellbeing</h2>
+---
+
+## Cumulative Impact on Bridget's Health and Wellbeing {#impact}
 
 <p>The cascade of failures documented above — no care plan at transfer, no supervision guidance to hospital, in-patient fall, no discharge documentation, no CHC assessment, no aftercare — contributed directly to Bridget's deterioration over the period 2022 to 2025.</p>
 
@@ -439,7 +458,7 @@ permalink: /health-and-needs/
 
 <p>These were not inevitable features of her illness. They were preventable failures in care planning, communication, and statutory compliance — failures that compounded over years and contributed materially to her deterioration and suffering.</p>
 
-<h3>Requests for Further Evidence</h3>
+### Requests for Further Evidence
 
 <p>The following documents have been identified as existing but not yet obtained:</p>
 <ol>
@@ -450,8 +469,9 @@ permalink: /health-and-needs/
   <li><strong>Post-discharge risk assessment or falls plan</strong> — if one exists at Palmerston, it should be in their records; if not, its absence is itself evidential.</li>
 </ol>
 
-<hr>
-<h2 id="issues">Issues for LGSCO Reference 25 019 572</h2>
+---
+
+## Issues for LGSCO Reference 25 019 572 {#issues}
 
 <table>
   <thead>

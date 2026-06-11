@@ -27,7 +27,8 @@ permalink: /evidence/
     {% if parts[0] == type_slug %}{% assign label = parts[1] %}{% endif %}
   {% endfor %}
 
-<hr>
+---
+
 <h2 id="{{ type_slug }}">{{ label }}</h2>
 
 <table>
@@ -52,8 +53,9 @@ permalink: /evidence/
   {% endif %}
 {% endfor %}
 
-<hr>
-<h2 id="outstanding">Documents Still to Obtain</h2>
+---
+
+## Documents Still to Obtain {#outstanding}
 
 <table>
   <thead>

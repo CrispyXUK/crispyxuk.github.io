@@ -7,57 +7,38 @@ permalink: /
 Private evidential record supporting LGSCO investigation **{{ site.case_ref_lgsco }}** into Southend-on-Sea City Council Adult Social Care's handling of Mrs Bridget Penelope Walker's care, funding, and assessment. Investigator: {{ site.investigator }}. Case accepted 18 May 2026.
 
 <div class="row row-cols-1 row-cols-md-3 g-2 mb-4">
-  <div class="col">
-    <article class="card-wrapper card h-100">
-      <a href="{{ '/issues/' | relative_url }}" class="post-preview row g-0">
-        <div class="col-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">{{ site.data.issues | size }}</h1>
-            <div class="card-text content mt-0 mb-3">
-              <p>issues across eight categories</p>
-            </div>
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto"><i class="fas fa-list-ul fa-fw me-1"></i>Issue Register</div>
-            </div>
-          </div>
+
+<div class="col">
+    <a href="{{ '/timeline/' | relative_url }}" class="post-preview card h-100">
+      <div class="card-body">
+      <h1 class="card-title my-2 mt-md-0">{{ site.data.issues | size }}</h1>
+      <div class="card-text content mt-0 mb-3">
+          <p>issues across eight categories</p>
+      </div>
+    </div>
+    </a>
+</div>
+<div class="col">
+    <a href="{{ '/timeline/' | relative_url }}" class="post-preview card h-100">
+          <div class="card-body">
+    <h1 class="card-title my-2 mt-md-0">{{ site.data.timeline | size }}</h1>
+    <div class="card-text content mt-0 mb-3">
+        <p>timeline events (Apr 2020 – Jun 2026).</p>
+    </div>
+    </div>
+    </a>
+</div>
+<div class="col">
+    <a href="{{ '/timeline/' | relative_url }}" class="post-preview card h-100">
+          <div class="card-body">
+    <h1 class="card-title my-2 mt-md-0">{{ site.data.placement | size }}</h1>
+    <div class="card-text content mt-0 mb-3">
+        <p>care placements documented</p>
         </div>
-      </a>
-    </article>
-  </div>
-  <div class="col">
-    <article class="card-wrapper card h-100">
-      <a href="{{ '/timeline/' | relative_url }}" class="post-preview row g-0">
-        <div class="col-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">{{ site.data.timeline | size }}</h1>
-            <div class="card-text content mt-0 mb-3">
-              <p>timeline events (Apr 2020 – Jun 2026)</p>
-            </div>
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto"><i class="fas fa-clock fa-fw me-1"></i>Timeline</div>
-            </div>
-          </div>
-        </div>
-      </a>
-    </article>
-  </div>
-  <div class="col">
-    <article class="card-wrapper card h-100">
-      <a href="{{ '/timeline/' | relative_url }}" class="post-preview row g-0">
-        <div class="col-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">{{ site.data.placement | size }}</h1>
-            <div class="card-text content mt-0 mb-3">
-              <p>care placements documented</p>
-            </div>
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto"><i class="fas fa-home fa-fw me-1"></i>Placements</div>
-            </div>
-          </div>
-        </div>
-      </a>
-    </article>
-  </div>
+    </div>
+    </a>
+</div>
+
 </div>
 
 ---
@@ -81,17 +62,28 @@ Private evidential record supporting LGSCO investigation **{{ site.case_ref_lgsc
 {% for attorney in site.data.resident.attorneys %}| **{{ attorney.name }}** | {{ attorney.relationship }} | {{ attorney.role }} |
 {% endfor %}
 
-## Current condition
+## Major incidents and events
 
-| | |
+| Date | Incident |
 |---|---|
-| **Mobility** | {{ site.data.resident.current-condition.mobility }} |
-| **Communication** | {{ site.data.resident.current-condition.communication }} |
-| **Continence** | {{ site.data.resident.current-condition.continence }} |
-| **Nutrition** | {{ site.data.resident.current-condition.nutrition }} |
-| **Skin** | {{ site.data.resident.current-condition.skin }} |
-| **Medication** | {{ site.data.resident.current-condition.medication }} |
-| **Resuscitation** | {{ site.data.resident.current-condition.resuscitation }} |
+| **5 Sep 2020** | Day 3 at Sweyne Court: acute behavioural crisis — found on top of a bedridden resident; attempting to escape through a window. Cellulitis of left leg. Paramedic called. |
+| **6 Sep 2020** | Absconds from Sweyne Court; walks barefoot to Rayleigh High Street. CQC and safeguarding lead Jo Allen notified. 24-hour 1:1 care imposed at family's cost (£4,460.65). Council's position: not obliged to assist as Bridget is privately funded. |
+| **9 Sep 2020** | CMHT crisis briefing: absconded twice; absconding risk assessed as **high**. 1:1 observation. ABC behaviour chart recommended — subsequently absent from all records. |
+| **10 Nov 2020** | DoLS Standard Authorisation granted at Admiral Court. Lack of capacity formally confirmed; continuous supervision; not free to leave. |
+| **Dec 2020** | COVID-19 positive. Waterlow score rises from 11 to 14 in five weeks; cracked and broken skin on feet not treated until GP home visit 11 Dec 2020. |
+| **4 Dec 2020** | Continence assessment: doubly incontinent; faecal smearing; wet bedding nightly; removing pads. Waterlow +27% in 5 weeks. No Council involvement throughout this period. |
+| **11 May 2023** | Unwitnessed fall at Palmerston House — right hip and knee bruising; vomited twice. X-rays requested. DNAR signed. |
+| **15 May 2023** | Admitted to Shopland Ward, Southend Hospital. X-ray: displaced subcapital fracture of right neck of femur. Emergency hemiarthroplasty (cemented Zimmer/Mueller). |
+| **26 May 2023** | Discovered hospital did not administer Memantine during 10-day admission — titration pack brought in but not given, citing unclear dosing. Medication restarts from zero. |
+| **27 May 2023** | Second fall at Palmerston House — skin tear right wrist. East of England Ambulance called. Falls notification records "recent NOF surgery" and two or more falls in the past six months. |
+| **21 Dec 2023** | Cancer of cells of cervix diagnosed (confirmed via hysteroscopy biopsy 9 Nov 2023). EPUT bladder and bowel nurse records Bridget as chairbound, needing prompting for diet and fluids, Waterlow 19. CHC Checklist #4 was already overdue at this point, assigned 10 days earlier. |
+| **18 Jan 2024** | Deep Tissue Injury identified on left buttock by District Nurse (DATIX ref E259548). Previously on a static mattress; dynamic mattress ordered same day. |
+| **Jan–Feb 2024** | Rapid mobility collapse: chairbound (21 Dec 2023) → wheelchair with rotundar (c. 9 Jan 2024) → bedbound (c. 25 Jan 2024). CRP raised, hypernatraemia. Palliative care referral made 23 Feb 2024. Weekly PCN ward rounds recorded "no concerns" throughout. |
+| **Mar 2025** | Scabies outbreak at Palmerston House. Permethrin 5% cream prescribed — whole-body application including face, scalp and ears, repeated after 7 days. Relevant to CQC Regulation 12. |
+| **18 Dec 2025** | CQC serves two warning notices on E&F Enterprises Ltd (Palmerston House operator): breach of Regulation 12 (Safe Care and Treatment) and Regulation 17 (Good Governance). Home rated Requires Improvement. |
+
+---
+
 
 ## Case references
 
@@ -116,27 +108,6 @@ Class U (Severe Mental Impairment) exemption granted by Southend-on-Sea City Cou
 
 ---
 
-## Major incidents and events
-
-| Date | Incident |
-|---|---|
-| **5 Sep 2020** | Day 3 at Sweyne Court: acute behavioural crisis — found on top of a bedridden resident; attempting to escape through a window. Cellulitis of left leg. Paramedic called. |
-| **6 Sep 2020** | Absconds from Sweyne Court; walks barefoot to Rayleigh High Street. CQC and safeguarding lead Jo Allen notified. 24-hour 1:1 care imposed at family's cost (£4,460.65). Council's position: not obliged to assist as Bridget is privately funded. |
-| **9 Sep 2020** | CMHT crisis briefing: absconded twice; absconding risk assessed as **high**. 1:1 observation. ABC behaviour chart recommended — subsequently absent from all records. |
-| **10 Nov 2020** | DoLS Standard Authorisation granted at Admiral Court. Lack of capacity formally confirmed; continuous supervision; not free to leave. |
-| **Dec 2020** | COVID-19 positive. Waterlow score rises from 11 to 14 in five weeks; cracked and broken skin on feet not treated until GP home visit 11 Dec 2020. |
-| **4 Dec 2020** | Continence assessment: doubly incontinent; faecal smearing; wet bedding nightly; removing pads. Waterlow +27% in 5 weeks. No Council involvement throughout this period. |
-| **11 May 2023** | Unwitnessed fall at Palmerston House — right hip and knee bruising; vomited twice. X-rays requested. DNAR signed. |
-| **15 May 2023** | Admitted to Shopland Ward, Southend Hospital. X-ray: displaced subcapital fracture of right neck of femur. Emergency hemiarthroplasty (cemented Zimmer/Mueller). |
-| **26 May 2023** | Discovered hospital did not administer Memantine during 10-day admission — titration pack brought in but not given, citing unclear dosing. Medication restarts from zero. |
-| **27 May 2023** | Second fall at Palmerston House — skin tear right wrist. East of England Ambulance called. Falls notification records "recent NOF surgery" and two or more falls in the past six months. |
-| **21 Dec 2023** | Cancer of cells of cervix diagnosed (confirmed via hysteroscopy biopsy 9 Nov 2023). EPUT bladder and bowel nurse records Bridget as chairbound, needing prompting for diet and fluids, Waterlow 19. CHC Checklist #4 was already overdue at this point, assigned 10 days earlier. |
-| **18 Jan 2024** | Deep Tissue Injury identified on left buttock by District Nurse (DATIX ref E259548). Previously on a static mattress; dynamic mattress ordered same day. |
-| **Jan–Feb 2024** | Rapid mobility collapse: chairbound (21 Dec 2023) → wheelchair with rotundar (c. 9 Jan 2024) → bedbound (c. 25 Jan 2024). CRP raised, hypernatraemia. Palliative care referral made 23 Feb 2024. Weekly PCN ward rounds recorded "no concerns" throughout. |
-| **Mar 2025** | Scabies outbreak at Palmerston House. Permethrin 5% cream prescribed — whole-body application including face, scalp and ears, repeated after 7 days. Relevant to CQC Regulation 12. |
-| **18 Dec 2025** | CQC serves two warning notices on E&F Enterprises Ltd (Palmerston House operator): breach of Regulation 12 (Safe Care and Treatment) and Regulation 17 (Good Governance). Home rated Requires Improvement. |
-
----
 
 ## Strongest evidential strands
 

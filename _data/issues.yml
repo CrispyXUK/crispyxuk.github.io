@@ -287,3 +287,19 @@
   severity: high
   issue: "CQC inspection identified that the MCA1 form completed by Dr Khopkar in July 2024 was never received by the care home — a failure the GP record attributes to the GP leaving the practice without ensuring paperwork was transferred. The care home had been administering covert medication from May 2023 without any signed MCA documentation. The 23 Jul 2025 SCR note confirms: 'care home did not receive copies of this which marked them down in CQC inspection.' A second MCA had to be completed by a new GP on 29 Jul 2025 as a result."
   evidence: "GP SAR 23 Jul 2025 (SCR note); GP SAR 29 Jul 2025 (MCA completed by Dr Win Aung); CQC inspection finding referenced in SAR"
+- num: 54
+  category: chc-fnc
+  severity: high
+  issue: "EPUT held an independent duty under National Framework para 6.4 to refer Bridget for CHC consideration. Any practitioner in any setting who considers a person may be CHC-eligible must refer to the responsible NHS body. EPUT's DIST, Bladder & Bowel, IAS, Tissue Viability, and Palliative Care teams documented nursing-level need continuously from 2020 to 2025 — Waterlow 27 (extreme pressure risk), bedbound status, covert medication under MCA Best Interest, Buprenorphine opioid regime, double incontinence, palliative care input — yet no EPUT professional ever made a CHC referral. EPUT operates under a joint partnership with Southend-on-Sea City Council within the Mid and South Essex Integrated Care System, creating shared governance responsibilities for the continuing care pathway. The failure to refer is a multi-agency governance failure, not solely a Council failure."
+  evidence: "National Framework para 6.4; GP SAR EPUT records 2020–2025; EPUT Bladder & Bowel Waterlow assessments 2020–2025; EPUT Palliative Care referral Feb 2024"
+- num: 56
+  category: care-act
+  severity: high
+  timeline-refs: [fall-jun23]
+  issue: "A fall requiring ambulance attendance occurred at Palmerston House on 5 Jun 2023 — only 10 days after hospital discharge following a neck-of-femur fracture. The event was recorded by the PCN clinician during a care home visit. The attorneys (Mark Walker and Kira Walker, holding joint LPA for both domains) were not notified of this incident at the time and were unaware of it until the GP SAR was reviewed. CQC Regulation 16 (Receiving and Acting on Complaints) and the care home's own duty of candour require notification to a resident's legal representative of significant safety incidents. A fall requiring emergency ambulance attendance 10 days post-NOF-fracture is a significant incident. Failure to notify the attorneys is a governance failure and raises questions about what other incidents went unreported."
+  evidence: "GP SAR — PCN care home visit note 5 Jun 2023; CQC Regulation 16; Duty of Candour (Regulation 20)"
+- num: 55
+  category: chc-fnc
+  severity: high
+  issue: "The composition of the August 2025 CHC MDT has not been disclosed. Under National Framework para 113, the MDT must include all professionals from health and social care services currently involved in the person's care. At the time of the MDT (29 Aug 2025): EPUT Bladder & Bowel had attended 16 days earlier (13 Aug 2025, Waterlow 27); EPUT Palliative Care was actively involved (established Feb 2024); the GP practice held the most recent clinical record. Whether EPUT clinicians were invited to or participated in the MDT is unknown — it has not been confirmed in any disclosed document. If EPUT clinicians were excluded, the MDT was not properly constituted under the National Framework. If they were present and endorsed the reversal from eligible to ineligible, their reasoning has not been shared. Either way, the absence of disclosure is a procedural failure."
+  evidence: "National Framework para 113; GP SAR EPUT Bladder & Bowel 13 Aug 2025; EPUT Palliative Care involvement 2024–2025; ICB outcome letter 11 Sep 2025 (no MDT composition disclosed)"

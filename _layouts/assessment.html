@@ -1,0 +1,152 @@
+---
+layout: default
+---
+
+<div class="post-meta">
+  <div class="post-meta-grid">
+    <div class="post-meta-row">
+      <span class="post-meta-label">Date</span>
+      <span class="post-meta-value">{{ page.stated }}</span>
+    </div>
+    <div class="post-meta-row">
+      <span class="post-meta-label">Assessor</span>
+      <span class="post-meta-value">{{ page.assessor }}</span>
+    </div>
+    <div class="post-meta-row">
+      <span class="post-meta-label">Department</span>
+      <span class="post-meta-value">{{ page.department }}</span>
+    </div>
+    <div class="post-meta-row">
+      <span class="post-meta-label">Outcome</span>
+      <span class="post-meta-value">
+        {% if page.outcome contains "MET" or page.outcome contains "Eligible" or page.outcome contains "eligible" %}
+          <span class="outcome-met">{{ page.outcome }}</span>
+        {% elsif page.outcome contains "not met" or page.outcome contains "NOT" or page.outcome contains "Not eligible" %}
+          <span class="outcome-fail">{{ page.outcome }}</span>
+        {% else %}
+          {{ page.outcome }}
+        {% endif %}
+      </span>
+    </div>
+    {% if page.totals.a or page.totals.a == 0 %}
+    <div class="post-meta-row">
+      <span class="post-meta-label">Scores</span>
+      <span class="post-meta-value">
+        {% if page.totals.a-star and page.totals.a-star > 0 %}<strong>A* {{ page.totals.a-star }}</strong> &nbsp;{% endif %}
+        A&nbsp;{{ page.totals.a }} &nbsp; B&nbsp;{{ page.totals.b }} &nbsp; C&nbsp;{{ page.totals.c }}
+      </span>
+    </div>
+    {% endif %}
+    {% if page.integrity %}
+    <div class="post-meta-row">
+      <span class="post-meta-label">Integrity</span>
+      <span class="post-meta-value">
+        {% if page.integrity == "yes" %}<span class="flag-yes">Impossible date/address</span>
+        {% elsif page.integrity == "partial" %}<span class="flag-partial">Age error</span>
+        {% elsif page.integrity == "confirm" %}<span class="text-navy">To confirm</span>
+        {% else %}<span class="flag-no">OK</span>{% endif %}
+      </span>
+    </div>
+    {% endif %}
+    {% if page.related-issues %}
+    <div class="post-meta-row">
+      <span class="post-meta-label">Related issues</span>
+      <span class="post-meta-value">
+        {% for issue_num in page.related-issues %}
+          <a href="{{ '/issues/' | relative_url }}#issue-{{ issue_num }}" class="issue-badge">#{{ issue_num }}</a>
+        {% endfor %}
+      </span>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="post-content">
+
+{% if page.domains and page.domains.size > 0 %}
+<p>Score key: <strong>A*</strong> = Priority &nbsp;|&nbsp; <strong>A</strong> = Severe &nbsp;|&nbsp; <strong>B</strong> = Moderate &nbsp;|&nbsp; <strong>C</strong> = Low/No needs<br>
+Rows in <strong style="background:#FCE4D6;padding:0 3px;">red</strong> indicate a mismatch between the assessor's recorded description and the selected score.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th class="col-domain">Domain</th>
+      <th class="col-score tc">Scored</th>
+      <th class="col-score tc">Should be</th>
+      <th>Assessor's recorded description</th>
+      <th>Challenge / significance</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for domain in page.domains %}
+    {% assign mismatch = false %}
+    {% if domain.score-based-on-description != domain.score and domain.score-based-on-description != "" and domain.score-based-on-description != nil %}
+      {% assign mismatch = true %}
+    {% endif %}
+    <tr{% if mismatch %} class="red"{% elsif domain.challenge != "" and domain.challenge != nil %} class="row-note"{% endif %}>
+      <td><strong>{{ domain.name }}</strong></td>
+      <td class="score-cell {% if domain.score == 'A*' %}score-Priority{% elsif domain.score == 'A' %}score-Severe{% elsif domain.score == 'B' %}score-Moderate{% else %}score-Low{% endif %}">{{ domain.score }}</td>
+      <td class="score-cell{% if mismatch %} {% if domain.score-based-on-description == 'A*' %}score-Priority{% elsif domain.score-based-on-description == 'A' %}score-Severe{% elsif domain.score-based-on-description == 'B' %}score-Moderate{% else %}score-Low{% endif %}{% endif %}">
+        {% if mismatch %}{{ domain.score-based-on-description }}{% else %}&mdash;{% endif %}
+      </td>
+      <td>{{ domain.recorded }}</td>
+      <td class="sev-high">{{ domain.challenge }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{% if page.dst-domains and page.dst-domains.size > 0 %}
+<p>Rows in <strong style="background:#FFF2CC;padding:2px 5px;">amber</strong> may be understated. Rows in <strong style="background:#FCE4D6;padding:2px 5px;">red</strong> are directly contradicted by contemporaneous evidence.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Domain</th>
+      <th>Awarded</th>
+      <th>Correct?</th>
+      <th>Challenge basis</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for d in page.dst-domains %}
+    <tr{% if d.flag == 'red' %} class="red"{% elsif d.flag == 'amber' %} class="amber"{% endif %}>
+      <td><strong>{{ d.domain }}</strong></td>
+      <td>{{ d.awarded }}</td>
+      <td>{{ d.correct }}</td>
+      <td><em>{{ d.challenge }}</em></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{{ content }}
+
+{% if page.notes and page.notes != "" %}
+<p style="background:#F2F2F2;padding:10px 14px;border-left:4px solid #2E75B6;border-radius:0 4px 4px 0;margin-top:8px"><strong>Notes:</strong> {{ page.notes }}</p>
+{% endif %}
+
+</div>
+
+<div class="post-nav">
+  <div class="post-nav-links">
+    {% assign all_assessments = site.assessments | sort: "date" %}
+    {% for a in all_assessments %}
+      {% if a.url == page.url %}
+        {% assign current_index = forloop.index0 %}
+      {% endif %}
+    {% endfor %}
+    {% if current_index > 0 %}
+      {% assign prev_index = current_index | minus: 1 %}
+      {% assign prev_a = all_assessments[prev_index] %}
+      <a href="{{ prev_a.url | relative_url }}" class="post-nav-prev">&larr; {{ prev_a.title }}</a>
+    {% endif %}
+    {% assign next_index = current_index | plus: 1 %}
+    {% assign next_a = all_assessments[next_index] %}
+    {% if next_a %}
+      <a href="{{ next_a.url | relative_url }}" class="post-nav-next">{{ next_a.title }} &rarr;</a>
+    {% endif %}
+  </div>
+  <a href="{{ '/dst/' | relative_url }}" class="post-nav-index">All assessments &uarr;</a>
+</div>
